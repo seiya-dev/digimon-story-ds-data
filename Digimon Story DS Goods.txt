@@ -1,0 +1,113 @@
+-------------------------------------------
+| Good          | Price | Effect          |
+-------------------------------------------
+| Scale         |   200 | HP              |
+| Belt Machine  |  2400 | HP              |
+| Treadmill     | 20000 | HP              |
+-------------------------------------------
+| Crystal Ball  |   200 | MP              |
+| Tarot Cards   |  2400 | MP              |
+| Pyramid       | 20000 | MP              |
+-------------------------------------------
+| Sandbag       |   250 | Attack          |
+| Log           |  3000 | Attack          |
+| Big Boulder   | 17500 | Attack          |
+-------------------------------------------
+| AutoPuncher   |   250 | Defense         |
+| Cannon        |  3000 | Defense         |
+| Iron Ball     | 17500 | Defense         |
+-------------------------------------------
+| Bookshelf     |   250 | Spirit          |
+| Study Desk    |  3000 | Spirit          |
+| Magic Square  | 17500 | Spirit          |
+-------------------------------------------
+| SideStepper   |   300 | Speed           |
+| Trampoline    |  3600 | Speed           |
+| RunningWheel  | 30000 | Speed           |
+-------------------------------------------
+| Keychain      |   200 | Friendship      |
+| Cellphone     |  2400 | Friendship      |
+| DigiCam       | 14000 | Friendship      |
+-------------------------------------------
+| Potty         |   200 | Stress          |
+| Toilet        |  2400 | Stress          |
+| Restroom      | 14000 | Stress          |
+-------------------------------------------
+| TinyField     |   570 | Food            |
+| Strawberry    |  3120 | Food            |
+| Fruit Tree    |  6500 | Food            |
+| Big Tree      | 18200 | Food            |
+| Huge Tree     | 26000 | Food            |
+-------------------------------------------
+| Digimonopedia |   550 | All EXP         |
+| Holy Spring   | 17500 | All EXP         |
+| Digimon Lab   | ----- | --------------- |
+-------------------------------------------
+| MiniCrystal   |   630 | All Growth Rate |
+| Crystal       | 20300 | All Growth Rate |
+| G. Statue     | ----- | All Growth Rate |
+-------------------------------------------
+| Fire Ring     |   180 | Dragon EXP      |
+| Fire Road     |  2160 | Dragon EXP      |
+| Fireworks     | 12600 | Dragon EXP      |
+-------------------------------------------
+| Bonfire       |   480 | Dragon Growth   |
+| Campfire      |  5500 | Dragon Growth   |
+| Miracle Fire  | 15400 | Dragon Growth   |
+-------------------------------------------
+| Ball          |   180 | Beast EXP       |
+| Tightrope     |  2160 | Beast EXP       |
+| Circus Tent   | 12600 | Beast EXP       |
+-------------------------------------------
+| Sandbox       |   480 | Beast Growth    |
+| SandStorm     |  5500 | Beast Growth    |
+| Statue        | 15400 | Beast Growth    |
+-------------------------------------------
+| Phonograph    |   180 | Holy EXP        |
+| Holybell      |  2160 | Holy EXP        |
+| Stonehenge    | 12600 | Holy EXP        |
+-------------------------------------------
+| Church        |   480 | Holy Growth     |
+| Cathedral     |  5500 | Holy Growth     |
+| Holy Temple   | 15400 | Holy Growth     |
+-------------------------------------------
+| Odd Pot       |   180 | Dark EXP        |
+| Cursed Box    |  2160 | Dark EXP        |
+| Dark Tower    | 12600 | Dark EXP        |
+-------------------------------------------
+| Graveyard     |   480 | Dark Growth     |
+| Spook House   |  5500 | Dark Growth     |
+| Castle        | 15400 | Dark Growth     |
+-------------------------------------------
+| Computer      |   180 | Machine EXP     |
+| SolarPanel    |  2160 | Machine EXP     |
+| Pinball       | 12600 | Machine EXP     |
+-------------------------------------------
+| Sat. Ant.     |   480 | Machine Growth  |
+| Radio Ant.    |  5500 | Machine Growth  |
+| Radio Tower   | 15400 | Machine Growth  |
+-------------------------------------------
+| MiniShower    |   180 | Aquan EXP       |
+| Fishinghole   |  2160 | Aquan EXP       |
+| Waterfall     | 12600 | Aquan EXP       |
+-------------------------------------------
+| WaterFntn     |   480 | Aquan Growth    |
+| Sprinklers    |  5500 | Aquan Growth    |
+| NiceFountain  | 15400 | Aquan Growth    |
+-------------------------------------------
+| Birdhouse     |   180 | Bird EXP        |
+| Highjump      |  2160 | Bird EXP        |
+| DivingBoard   | 12600 | Bird EXP        |
+-------------------------------------------
+| WeatherCock   |   480 | Bird Growth     |
+| Fan           |  5500 | Bird Growth     |
+| Windmill      | 15400 | Bird Growth     |
+-------------------------------------------
+| Flowers       |   180 | Insect EXP      |
+| Yummysap      |  2160 | Insect EXP      |
+| Tree House    | 12600 | Insect EXP      |
+-------------------------------------------
+| Streetlight   |   480 | Insect Growth   |
+| Night Lights  |  5500 | Insect Growth   |
+| Fake Sun      | 15400 | Insect Growth   |
+-------------------------------------------

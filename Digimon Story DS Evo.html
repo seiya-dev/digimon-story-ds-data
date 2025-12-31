@@ -1,0 +1,4051 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<title>Digimon Story DS Evolution Checklist</title>
+	<link rel="stylesheet" href="./cssjs/style.css">
+</head>
+<body>
+	<h1>Digimon Story DS Evolution Checklist</h1>
+
+	<div class="panel">
+		<input id="q" type="search" placeholder="Search (name or #ID)..." />
+		<label class="view-toggle" title="Click to switch view">
+			<input id="toggleView" type="checkbox">
+			<span id="viewLabel">View: by Lines</span>
+		</label>
+		<button id="exportBtn">Export checks</button>
+		<button id="importBtn">Import checks</button>
+		<input id="importFile" type="file" accept="application/json" style="display:none" />
+		<button onclick="expandAll()">Expand all</button>
+		<button onclick="collapseAll()">Collapse all</button>
+		<button onclick="setAll(true)">Check all</button>
+		<button onclick="setAll(false)">Uncheck all</button>
+		<button onclick="clearState()">Clear saved state</button>
+		<span class="small" id="count"></span>
+	</div>
+
+	<div id="viewByLine">
+		<div class="section root" id="root-1">
+			<h2><span>Koromon <span class='meta'>#001</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-1')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="koromon #001 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#001">
+					<span class="stage stage-I">I</span>
+					<span class="name">Koromon</span>
+					<span class="meta">#001</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="agumon #013 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#013">
+					<span class="stage stage-R">R</span>
+					<span class="name">Agumon</span>
+					<span class="meta">#013</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="greymon #062 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#062">
+					<span class="stage stage-C">C</span>
+					<span class="name">Greymon</span>
+					<span class="meta">#062</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="metalgreymon #130 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#130">
+					<span class="stage stage-U">U</span>
+					<span class="name">MetalGreymon</span>
+					<span class="meta">#130</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="wargreymon #194 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#194">
+					<span class="stage stage-M">M</span>
+					<span class="name">WarGreymon</span>
+					<span class="meta">#194</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="blackwargreymon #233 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#233">
+					<span class="stage stage-M">M</span>
+					<span class="name">BlackWarGreymon</span>
+					<span class="meta">#233</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="omnimon #198 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#198">
+					<span class="stage stage-M">M</span>
+					<span class="name">Omnimon</span>
+					<span class="meta">#198</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="geogreymon #114 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#114">
+					<span class="stage stage-C">C</span>
+					<span class="name">GeoGreymon</span>
+					<span class="meta">#114</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="risegreymon #177 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#177">
+					<span class="stage stage-U">U</span>
+					<span class="name">RiseGreymon</span>
+					<span class="meta">#177</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="toyagumon #028 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#028">
+					<span class="stage stage-R">R</span>
+					<span class="name">ToyAgumon</span>
+					<span class="meta">#028</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="starmon #102 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#102">
+					<span class="stage stage-C">C</span>
+					<span class="name">Starmon</span>
+					<span class="meta">#102</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="superstarmon #170 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#170">
+					<span class="stage stage-U">U</span>
+					<span class="name">SuperStarmon</span>
+					<span class="meta">#170</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="justimon #231 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#231">
+					<span class="stage stage-M">M</span>
+					<span class="name">Justimon</span>
+					<span class="meta">#231</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="flarerizamon #113 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#113">
+					<span class="stage stage-C">C</span>
+					<span class="name">Flarerizamon</span>
+					<span class="meta">#113</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="dotagumon #061 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#061">
+					<span class="stage stage-R">R</span>
+					<span class="name">DotAgumon</span>
+					<span class="meta">#061</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-2">
+			<h2><span>Tsunomon <span class='meta'>#002</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-2')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="tsunomon #002 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#002">
+					<span class="stage stage-I">I</span>
+					<span class="name">Tsunomon</span>
+					<span class="meta">#002</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="gabumon #018 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#018">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gabumon</span>
+					<span class="meta">#018</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="garurumon #069 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#069">
+					<span class="stage stage-C">C</span>
+					<span class="name">Garurumon</span>
+					<span class="meta">#069</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="weregarurumon #144 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#144">
+					<span class="stage stage-U">U</span>
+					<span class="name">WereGarurumon</span>
+					<span class="meta">#144</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="metalgarurumon #195 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#195">
+					<span class="stage stage-M">M</span>
+					<span class="name">MetalGarurumon</span>
+					<span class="meta">#195</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="darkdramon #225 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#225">
+					<span class="stage stage-M">M</span>
+					<span class="name">Darkdramon</span>
+					<span class="meta">#225</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="gaomon #055 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#055">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gaomon</span>
+					<span class="meta">#055</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="gaogamon #115 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#115">
+					<span class="stage stage-C">C</span>
+					<span class="name">Gaogamon</span>
+					<span class="meta">#115</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="machgaogamon #178 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#178">
+					<span class="stage stage-U">U</span>
+					<span class="name">MachGaogamon</span>
+					<span class="meta">#178</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="dracmon #059 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#059">
+					<span class="stage stage-R">R</span>
+					<span class="name">Dracmon</span>
+					<span class="meta">#059</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="sangloupmon #120 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#120">
+					<span class="stage stage-C">C</span>
+					<span class="name">Sangloupmon</span>
+					<span class="meta">#120</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="matadormon #182 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#182">
+					<span class="stage stage-U">U</span>
+					<span class="name">Matadormon</span>
+					<span class="meta">#182</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-3">
+			<h2><span>Poyomon <span class='meta'>#003</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-3')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="poyomon #003 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#003">
+					<span class="stage stage-I">I</span>
+					<span class="name">Poyomon</span>
+					<span class="meta">#003</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="gomamon #025 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#025">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gomamon</span>
+					<span class="meta">#025</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="ikkakumon #109 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#109">
+					<span class="stage stage-C">C</span>
+					<span class="name">Ikkakumon</span>
+					<span class="meta">#109</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="zudomon #172 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#172">
+					<span class="stage stage-U">U</span>
+					<span class="name">Zudomon</span>
+					<span class="meta">#172</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="vikemon #232 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#232">
+					<span class="stage stage-M">M</span>
+					<span class="name">Vikemon</span>
+					<span class="meta">#232</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="neptunemon #238 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#238">
+					<span class="stage stage-M">M</span>
+					<span class="name">Neptunemon</span>
+					<span class="meta">#238</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="crabmon #047 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#047">
+					<span class="stage stage-R">R</span>
+					<span class="name">Crabmon</span>
+					<span class="meta">#047</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="seasarmon #092 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#092">
+					<span class="stage stage-C">C</span>
+					<span class="name">Seasarmon</span>
+					<span class="meta">#092</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="kamemon #058 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#058">
+					<span class="stage stage-R">R</span>
+					<span class="name">Kamemon</span>
+					<span class="meta">#058</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="guappamon #119 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#119">
+					<span class="stage stage-C">C</span>
+					<span class="name">Guappamon</span>
+					<span class="meta">#119</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-4">
+			<h2><span>Tokomon <span class='meta'>#004</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-4')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="tokomon #004 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#004">
+					<span class="stage stage-I">I</span>
+					<span class="name">Tokomon</span>
+					<span class="meta">#004</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="falcomon #039 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#039">
+					<span class="stage stage-R">R</span>
+					<span class="name">Falcomon</span>
+					<span class="meta">#039</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="peckmon #121 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#121">
+					<span class="stage stage-C">C</span>
+					<span class="name">Peckmon</span>
+					<span class="meta">#121</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="yatakaramon #179 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#179">
+					<span class="stage stage-U">U</span>
+					<span class="name">Yatakaramon</span>
+					<span class="meta">#179</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="varodurumon #237 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#237">
+					<span class="stage stage-M">M</span>
+					<span class="name">Varodurumon</span>
+					<span class="meta">#237</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="patamon #019 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#019">
+					<span class="stage stage-R">R</span>
+					<span class="name">Patamon</span>
+					<span class="meta">#019</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="angemon #070 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#070">
+					<span class="stage stage-C">C</span>
+					<span class="name">Angemon</span>
+					<span class="meta">#070</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="magnaangemon #152 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#152">
+					<span class="stage stage-U">U</span>
+					<span class="name">MagnaAngemon</span>
+					<span class="meta">#152</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="seraphimon #203 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#203">
+					<span class="stage stage-M">M</span>
+					<span class="name">Seraphimon</span>
+					<span class="meta">#203</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="dotfalcomon #056 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#056">
+					<span class="stage stage-R">R</span>
+					<span class="name">DotFalcomon</span>
+					<span class="meta">#056</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-5">
+			<h2><span>Tanemon <span class='meta'>#005</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-5')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="tanemon #005 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#005">
+					<span class="stage stage-I">I</span>
+					<span class="name">Tanemon</span>
+					<span class="meta">#005</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="palmon #021 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#021">
+					<span class="stage stage-R">R</span>
+					<span class="name">Palmon</span>
+					<span class="meta">#021</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="togemon #082 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#082">
+					<span class="stage stage-C">C</span>
+					<span class="name">Togemon</span>
+					<span class="meta">#082</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="lillymon #149 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#149">
+					<span class="stage stage-U">U</span>
+					<span class="name">Lillymon</span>
+					<span class="meta">#149</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="rosemon #193 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#193">
+					<span class="stage stage-M">M</span>
+					<span class="name">Rosemon</span>
+					<span class="meta">#193</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="raramon #050 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#050">
+					<span class="stage stage-R">R</span>
+					<span class="name">Raramon</span>
+					<span class="meta">#050</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="sunflowmon #118 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#118">
+					<span class="stage stage-C">C</span>
+					<span class="name">Sunflowmon</span>
+					<span class="meta">#118</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="lilamon #181 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#181">
+					<span class="stage stage-U">U</span>
+					<span class="name">Lilamon</span>
+					<span class="meta">#181</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="renamon #036 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#036">
+					<span class="stage stage-R">R</span>
+					<span class="name">Renamon</span>
+					<span class="meta">#036</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="kyubimon #090 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#090">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kyubimon</span>
+					<span class="meta">#090</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="taomon #160 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#160">
+					<span class="stage stage-U">U</span>
+					<span class="name">Taomon</span>
+					<span class="meta">#160</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="kuzuhamon #227 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#227">
+					<span class="stage stage-M">M</span>
+					<span class="name">Kuzuhamon</span>
+					<span class="meta">#227</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="sakuyamon #210 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#210">
+					<span class="stage stage-M">M</span>
+					<span class="name">Sakuyamon</span>
+					<span class="meta">#210</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-6">
+			<h2><span>Pagumon <span class='meta'>#006</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-6')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="pagumon #006 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#006">
+					<span class="stage stage-I">I</span>
+					<span class="name">Pagumon</span>
+					<span class="meta">#006</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="lopmon #035 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#035">
+					<span class="stage stage-R">R</span>
+					<span class="name">Lopmon</span>
+					<span class="meta">#035</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="wizardmon #081 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#081">
+					<span class="stage stage-C">C</span>
+					<span class="name">Wizardmon</span>
+					<span class="meta">#081</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="antylamon #155 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#155">
+					<span class="stage stage-U">U</span>
+					<span class="name">Antylamon</span>
+					<span class="meta">#155</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="cherubimon good #205 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#205">
+					<span class="stage stage-M">M</span>
+					<span class="name">Cherubimon Good</span>
+					<span class="meta">#205</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="cherubimon evil #206 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#206">
+					<span class="stage stage-M">M</span>
+					<span class="name">Cherubimon Evil</span>
+					<span class="meta">#206</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="chaosgallantmon #228 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#228">
+					<span class="stage stage-M">M</span>
+					<span class="name">ChaosGallantmon</span>
+					<span class="meta">#228</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="ponchomon #129 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#129">
+					<span class="stage stage-U">U</span>
+					<span class="name">Ponchomon</span>
+					<span class="meta">#129</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="tsukaimon #053 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#053">
+					<span class="stage stage-R">R</span>
+					<span class="name">Tsukaimon</span>
+					<span class="meta">#053</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="blackagumon #045 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#045">
+					<span class="stage stage-R">R</span>
+					<span class="name">BlackAgumon</span>
+					<span class="meta">#045</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="darktyrannomon #106 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#106">
+					<span class="stage stage-C">C</span>
+					<span class="name">DarkTyrannomon</span>
+					<span class="meta">#106</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-7">
+			<h2><span>Kapurimon <span class='meta'>#007</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-7')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="kapurimon #007 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#007">
+					<span class="stage stage-I">I</span>
+					<span class="name">Kapurimon</span>
+					<span class="meta">#007</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="kotemon #043 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#043">
+					<span class="stage stage-R">R</span>
+					<span class="name">Kotemon</span>
+					<span class="meta">#043</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="dinohumon #096 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#096">
+					<span class="stage stage-C">C</span>
+					<span class="name">Dinohumon</span>
+					<span class="meta">#096</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="kyukimon #164 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#164">
+					<span class="stage stage-U">U</span>
+					<span class="name">Kyukimon</span>
+					<span class="meta">#164</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="slash angemon #221 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#221">
+					<span class="stage stage-M">M</span>
+					<span class="name">Slash Angemon</span>
+					<span class="meta">#221</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="darklizardmon #112 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#112">
+					<span class="stage stage-C">C</span>
+					<span class="name">DarkLizardmon</span>
+					<span class="meta">#112</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="pawnchessmon black #054 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#054">
+					<span class="stage stage-R">R</span>
+					<span class="name">PawnChessmon Black</span>
+					<span class="meta">#054</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="platinum sukamon #108 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#108">
+					<span class="stage stage-C">C</span>
+					<span class="name">Platinum Sukamon</span>
+					<span class="meta">#108</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="metalmamemon #132 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#132">
+					<span class="stage stage-U">U</span>
+					<span class="name">MetalMamemon</span>
+					<span class="meta">#132</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="prince mamemon #215 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#215">
+					<span class="stage stage-M">M</span>
+					<span class="name">Prince Mamemon</span>
+					<span class="meta">#215</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="hookmon #097 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#097">
+					<span class="stage stage-C">C</span>
+					<span class="name">Hookmon</span>
+					<span class="meta">#097</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="meteormon #175 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#175">
+					<span class="stage stage-U">U</span>
+					<span class="name">Meteormon</span>
+					<span class="meta">#175</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="hagurumon #029 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#029">
+					<span class="stage stage-R">R</span>
+					<span class="name">Hagurumon</span>
+					<span class="meta">#029</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="guardromon #083 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#083">
+					<span class="stage stage-C">C</span>
+					<span class="name">Guardromon</span>
+					<span class="meta">#083</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="andromon #133 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#133">
+					<span class="stage stage-U">U</span>
+					<span class="name">Andromon</span>
+					<span class="meta">#133</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="hiandromon #204 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#204">
+					<span class="stage stage-M">M</span>
+					<span class="name">HiAndromon</span>
+					<span class="meta">#204</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="kenkimon #128 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#128">
+					<span class="stage stage-U">U</span>
+					<span class="name">Kenkimon</span>
+					<span class="meta">#128</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-8">
+			<h2><span>Kuramon <span class='meta'>#008</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-8')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="kuramon #008 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#008">
+					<span class="stage stage-I">I</span>
+					<span class="name">Kuramon</span>
+					<span class="meta">#008</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="keramon #038 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#038">
+					<span class="stage stage-R">R</span>
+					<span class="name">Keramon</span>
+					<span class="meta">#038</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="kurisarimon #091 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#091">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kurisarimon</span>
+					<span class="meta">#091</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="infermon #162 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#162">
+					<span class="stage stage-U">U</span>
+					<span class="name">Infermon</span>
+					<span class="meta">#162</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="diaboromon #211 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#211">
+					<span class="stage stage-M">M</span>
+					<span class="name">Diaboromon</span>
+					<span class="meta">#211</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="beelzemon #236 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#236">
+					<span class="stage stage-M">M</span>
+					<span class="name">Beelzemon</span>
+					<span class="meta">#236</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="guilmon #015 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#015">
+					<span class="stage stage-R">R</span>
+					<span class="name">Guilmon</span>
+					<span class="meta">#015</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="growlmon #089 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#089">
+					<span class="stage stage-C">C</span>
+					<span class="name">Growlmon</span>
+					<span class="meta">#089</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="wargrowlmon #158 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#158">
+					<span class="stage stage-U">U</span>
+					<span class="name">WarGrowlmon</span>
+					<span class="meta">#158</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="gallantmon #207 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#207">
+					<span class="stage stage-M">M</span>
+					<span class="name">Gallantmon</span>
+					<span class="meta">#207</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="blackwargrowlmon #171 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#171">
+					<span class="stage stage-U">U</span>
+					<span class="name">BlackWarGrowlmon</span>
+					<span class="meta">#171</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="muchomon #046 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#046">
+					<span class="stage stage-R">R</span>
+					<span class="name">Muchomon</span>
+					<span class="meta">#046</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="akatorimon #107 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#107">
+					<span class="stage stage-C">C</span>
+					<span class="name">Akatorimon</span>
+					<span class="meta">#107</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-9">
+			<h2><span>Puttimon <span class='meta'>#009</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-9')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="puttimon #009 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#009">
+					<span class="stage stage-I">I</span>
+					<span class="name">Puttimon</span>
+					<span class="meta">#009</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="salamon #030 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#030">
+					<span class="stage stage-R">R</span>
+					<span class="name">Salamon</span>
+					<span class="meta">#030</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="gatomon #080 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#080">
+					<span class="stage stage-C">C</span>
+					<span class="name">Gatomon</span>
+					<span class="meta">#080</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="angewomon #140 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#140">
+					<span class="stage stage-U">U</span>
+					<span class="name">Angewomon</span>
+					<span class="meta">#140</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="marineangemon #187 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#187">
+					<span class="stage stage-M">M</span>
+					<span class="name">MarineAngemon</span>
+					<span class="meta">#187</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="ladydevimon #146 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#146">
+					<span class="stage stage-U">U</span>
+					<span class="name">LadyDevimon</span>
+					<span class="meta">#146</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="kudamon #057 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#057">
+					<span class="stage stage-R">R</span>
+					<span class="name">Kudamon</span>
+					<span class="meta">#057</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="reppamon #117 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#117">
+					<span class="stage stage-C">C</span>
+					<span class="name">Reppamon</span>
+					<span class="meta">#117</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="tyilinmon #180 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#180">
+					<span class="stage stage-U">U</span>
+					<span class="name">Tyilinmon</span>
+					<span class="meta">#180</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="sleipmon #235 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#235">
+					<span class="stage stage-M">M</span>
+					<span class="name">Sleipmon</span>
+					<span class="meta">#235</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="pawnchessmon white #060 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#060">
+					<span class="stage stage-R">R</span>
+					<span class="name">PawnChessmon White</span>
+					<span class="meta">#060</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-10">
+			<h2><span>Chibomon <span class='meta'>#010</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-10')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="chibomon #010 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#010">
+					<span class="stage stage-I">I</span>
+					<span class="name">Chibomon</span>
+					<span class="meta">#010</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="veemon #014 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#014">
+					<span class="stage stage-R">R</span>
+					<span class="name">Veemon</span>
+					<span class="meta">#014</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="exveemon #084 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#084">
+					<span class="stage stage-C">C</span>
+					<span class="name">ExVeemon</span>
+					<span class="meta">#084</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="paildramon #153 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#153">
+					<span class="stage stage-U">U</span>
+					<span class="name">Paildramon</span>
+					<span class="meta">#153</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="imperialdramon dragon mode #199 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#199">
+					<span class="stage stage-M">M</span>
+					<span class="name">Imperialdramon Dragon Mode</span>
+					<span class="meta">#199</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="imperialdramon fighter mode #200 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#200">
+					<span class="stage stage-M">M</span>
+					<span class="name">Imperialdramon Fighter Mode</span>
+					<span class="meta">#200</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="flamedramon #122 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#122">
+					<span class="stage stage-U">U</span>
+					<span class="name">Flamedramon</span>
+					<span class="meta">#122</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="magnamon #123 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#123">
+					<span class="stage stage-U">U</span>
+					<span class="name">Magnamon</span>
+					<span class="meta">#123</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="snowagumon #044 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#044">
+					<span class="stage stage-R">R</span>
+					<span class="name">SnowAgumon</span>
+					<span class="meta">#044</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-11">
+			<h2><span>Dorimon <span class='meta'>#011</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-11')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="dorimon #011 i" data-lvl="I">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#011">
+					<span class="stage stage-I">I</span>
+					<span class="name">Dorimon</span>
+					<span class="meta">#011</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="dorumon #016 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#016">
+					<span class="stage stage-R">R</span>
+					<span class="name">Dorumon</span>
+					<span class="meta">#016</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="dorugamon #099 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#099">
+					<span class="stage stage-C">C</span>
+					<span class="name">Dorugamon</span>
+					<span class="meta">#099</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="dorugreymon #165 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#165">
+					<span class="stage stage-U">U</span>
+					<span class="name">DoruGreymon</span>
+					<span class="meta">#165</span>
+					</label>
+				</li>
+				<li class="node lvl-4" data-text="dorugoramon #223 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#223">
+					<span class="stage stage-M">M</span>
+					<span class="name">DORUgoramon</span>
+					<span class="meta">#223</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="armadillomon #033 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#033">
+					<span class="stage stage-R">R</span>
+					<span class="name">Armadillomon</span>
+					<span class="meta">#033</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="ankylomon #087 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#087">
+					<span class="stage stage-C">C</span>
+					<span class="name">Ankylomon</span>
+					<span class="meta">#087</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="seahomon #126 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#126">
+					<span class="stage stage-U">U</span>
+					<span class="name">Seahomon</span>
+					<span class="meta">#126</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="aruraumon #051 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#051">
+					<span class="stage stage-R">R</span>
+					<span class="name">Aruraumon</span>
+					<span class="meta">#051</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section" id="solo-12">
+			<h2><span>Calumon <span class='meta'>#012</span></span><span class="right"><span class="badge">No digivolution</span></span></h2>
+			<ul class="tree">
+				<li class="node" data-text="calumon #012 i" data-lvl="I">
+					<label class="item">
+						<input type="checkbox" class="cb" data-key="#012">
+						<span class="stage stage-I">I</span>
+						<span class="name">Calumon</span>
+						<span class="meta">#012</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-13">
+			<h2><span>Betamon <span class='meta'>#017</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-13')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="betamon #017 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#017">
+					<span class="stage stage-R">R</span>
+					<span class="name">Betamon</span>
+					<span class="meta">#017</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="seadramon #066 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#066">
+					<span class="stage stage-C">C</span>
+					<span class="name">Seadramon</span>
+					<span class="meta">#066</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="megaseadramon #141 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#141">
+					<span class="stage stage-U">U</span>
+					<span class="name">MegaSeadramon</span>
+					<span class="meta">#141</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="gigaseadramon #188 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#188">
+					<span class="stage stage-M">M</span>
+					<span class="name">GigaSeadramon</span>
+					<span class="meta">#188</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="metalseadramon #229 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#229">
+					<span class="stage stage-M">M</span>
+					<span class="name">MetalSeadramon</span>
+					<span class="meta">#229</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="sukamon #074 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#074">
+					<span class="stage stage-C">C</span>
+					<span class="name">Sukamon</span>
+					<span class="meta">#074</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="dragomon #142 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#142">
+					<span class="stage stage-U">U</span>
+					<span class="name">Dragomon</span>
+					<span class="meta">#142</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="garbagemon #183 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#183">
+					<span class="stage stage-U">U</span>
+					<span class="name">Garbagemon</span>
+					<span class="meta">#183</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-14">
+			<h2><span>Biyomon <span class='meta'>#020</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-14')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="biyomon #020 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#020">
+					<span class="stage stage-R">R</span>
+					<span class="name">Biyomon</span>
+					<span class="meta">#020</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="birdramon #086 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#086">
+					<span class="stage stage-C">C</span>
+					<span class="name">Birdramon</span>
+					<span class="meta">#086</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="garudamon #147 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#147">
+					<span class="stage stage-U">U</span>
+					<span class="name">Garudamon</span>
+					<span class="meta">#147</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="phoenixmon #191 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#191">
+					<span class="stage stage-M">M</span>
+					<span class="name">Phoenixmon</span>
+					<span class="meta">#191</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-15">
+			<h2><span>Tentomon <span class='meta'>#022</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-15')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="tentomon #022 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#022">
+					<span class="stage stage-R">R</span>
+					<span class="name">Tentomon</span>
+					<span class="meta">#022</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="kabuterimon #068 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#068">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kabuterimon</span>
+					<span class="meta">#068</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="megakabuterimon red #150 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#150">
+					<span class="stage stage-U">U</span>
+					<span class="name">MegaKabuterimon Red</span>
+					<span class="meta">#150</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="herculeskabuterimon #184 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#184">
+					<span class="stage stage-M">M</span>
+					<span class="name">HerculesKabuterimon</span>
+					<span class="meta">#184</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="kuwagamon #077 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#077">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kuwagamon</span>
+					<span class="meta">#077</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="okuwamon #139 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#139">
+					<span class="stage stage-U">U</span>
+					<span class="name">Okuwamon</span>
+					<span class="meta">#139</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="grankuwagamon #234 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#234">
+					<span class="stage stage-M">M</span>
+					<span class="name">GranKuwagamon</span>
+					<span class="meta">#234</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-16">
+			<h2><span>Gotsumon <span class='meta'>#023</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-16')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="gotsumon #023 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#023">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gotsumon</span>
+					<span class="meta">#023</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="minotarumon #110 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#110">
+					<span class="stage stage-C">C</span>
+					<span class="name">Minotarumon</span>
+					<span class="meta">#110</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="cyberdramon #151 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#151">
+					<span class="stage stage-U">U</span>
+					<span class="name">Cyberdramon</span>
+					<span class="meta">#151</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="ghoulmon black #226 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#226">
+					<span class="stage stage-M">M</span>
+					<span class="name">Ghoulmon Black</span>
+					<span class="meta">#226</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="airdramon #065 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#065">
+					<span class="stage stage-C">C</span>
+					<span class="name">Airdramon</span>
+					<span class="meta">#065</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="icemon #111 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#111">
+					<span class="stage stage-C">C</span>
+					<span class="name">Icemon</span>
+					<span class="meta">#111</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-17">
+			<h2><span>Otamamon <span class='meta'>#024</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-17')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="otamamon #024 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#024">
+					<span class="stage stage-R">R</span>
+					<span class="name">Otamamon</span>
+					<span class="meta">#024</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="gekomon #079 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#079">
+					<span class="stage stage-C">C</span>
+					<span class="name">Gekomon</span>
+					<span class="meta">#079</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="whamon #173 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#173">
+					<span class="stage stage-U">U</span>
+					<span class="name">Whamon</span>
+					<span class="meta">#173</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="plesiomon #212 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#212">
+					<span class="stage stage-M">M</span>
+					<span class="name">Plesiomon</span>
+					<span class="meta">#212</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="raremon #078 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#078">
+					<span class="stage stage-C">C</span>
+					<span class="name">Raremon</span>
+					<span class="meta">#078</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-18">
+			<h2><span>Tapirmon <span class='meta'>#026</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-18')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="tapirmon #026 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#026">
+					<span class="stage stage-R">R</span>
+					<span class="name">Tapirmon</span>
+					<span class="meta">#026</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="unimon #104 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#104">
+					<span class="stage stage-C">C</span>
+					<span class="name">Unimon</span>
+					<span class="meta">#104</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="piximon #136 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#136">
+					<span class="stage stage-U">U</span>
+					<span class="name">Piximon</span>
+					<span class="meta">#136</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="babamon #218 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#218">
+					<span class="stage stage-M">M</span>
+					<span class="name">Babamon</span>
+					<span class="meta">#218</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="jijimon #217 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#217">
+					<span class="stage stage-M">M</span>
+					<span class="name">Jijimon</span>
+					<span class="meta">#217</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-19">
+			<h2><span>DemiDevimon <span class='meta'>#027</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-19')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="demidevimon #027 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#027">
+					<span class="stage stage-R">R</span>
+					<span class="name">DemiDevimon</span>
+					<span class="meta">#027</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="devimon #064 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#064">
+					<span class="stage stage-C">C</span>
+					<span class="name">Devimon</span>
+					<span class="meta">#064</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="myotismon #145 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#145">
+					<span class="stage stage-U">U</span>
+					<span class="name">Myotismon</span>
+					<span class="meta">#145</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="malomyotismon #213 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#213">
+					<span class="stage stage-M">M</span>
+					<span class="name">MaloMyotismon</span>
+					<span class="meta">#213</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="venommyotismon #197 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#197">
+					<span class="stage stage-M">M</span>
+					<span class="name">VenomMyotismon</span>
+					<span class="meta">#197</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-20">
+			<h2><span>Wormon <span class='meta'>#031</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-20')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="wormon #031 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#031">
+					<span class="stage stage-R">R</span>
+					<span class="name">Wormon</span>
+					<span class="meta">#031</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="stingmon #085 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#085">
+					<span class="stage stage-C">C</span>
+					<span class="name">Stingmon</span>
+					<span class="meta">#085</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="dinobeemon #154 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#154">
+					<span class="stage stage-U">U</span>
+					<span class="name">Dinobeemon</span>
+					<span class="meta">#154</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="grankuwagamon #234 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#234">
+					<span class="stage stage-M">M</span>
+					<span class="name">GranKuwagamon</span>
+					<span class="meta">#234</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="megadramon #135 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#135">
+					<span class="stage stage-U">U</span>
+					<span class="name">Megadramon</span>
+					<span class="meta">#135</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="machinedramon #196 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#196">
+					<span class="stage stage-M">M</span>
+					<span class="name">Machinedramon</span>
+					<span class="meta">#196</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="kongoumon #125 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#125">
+					<span class="stage stage-U">U</span>
+					<span class="name">Kongoumon</span>
+					<span class="meta">#125</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-21">
+			<h2><span>Hawkmon <span class='meta'>#032</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-21')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="hawkmon #032 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#032">
+					<span class="stage stage-R">R</span>
+					<span class="name">Hawkmon</span>
+					<span class="meta">#032</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="aquilamon #094 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#094">
+					<span class="stage stage-C">C</span>
+					<span class="name">Aquilamon</span>
+					<span class="meta">#094</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="silphymon #169 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#169">
+					<span class="stage stage-U">U</span>
+					<span class="name">Silphymon</span>
+					<span class="meta">#169</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="valkyrimon #230 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#230">
+					<span class="stage stage-M">M</span>
+					<span class="name">Valkyrimon</span>
+					<span class="meta">#230</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="gigadramon #176 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#176">
+					<span class="stage stage-U">U</span>
+					<span class="name">Gigadramon</span>
+					<span class="meta">#176</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="shurimon #127 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#127">
+					<span class="stage stage-U">U</span>
+					<span class="name">Shurimon</span>
+					<span class="meta">#127</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-22">
+			<h2><span>Terriermon <span class='meta'>#034</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-22')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="terriermon #034 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#034">
+					<span class="stage stage-R">R</span>
+					<span class="name">Terriermon</span>
+					<span class="meta">#034</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="gargomon #088 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#088">
+					<span class="stage stage-C">C</span>
+					<span class="name">Gargomon</span>
+					<span class="meta">#088</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="rapidmon #159 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#159">
+					<span class="stage stage-U">U</span>
+					<span class="name">Rapidmon</span>
+					<span class="meta">#159</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="megagargomon #209 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#209">
+					<span class="stage stage-M">M</span>
+					<span class="name">MegaGargomon</span>
+					<span class="meta">#209</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="saberleomon #185 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#185">
+					<span class="stage stage-M">M</span>
+					<span class="name">SaberLeomon</span>
+					<span class="meta">#185</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="blackrapidmon #163 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#163">
+					<span class="stage stage-U">U</span>
+					<span class="name">BlackRapidmon</span>
+					<span class="meta">#163</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="blackmegagargomon #216 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#216">
+					<span class="stage stage-M">M</span>
+					<span class="name">BlackMegaGargomon</span>
+					<span class="meta">#216</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="prairiemon #124 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#124">
+					<span class="stage stage-U">U</span>
+					<span class="name">Prairiemon</span>
+					<span class="meta">#124</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-23">
+			<h2><span>Impmon <span class='meta'>#037</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-23')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="impmon #037 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#037">
+					<span class="stage stage-R">R</span>
+					<span class="name">Impmon</span>
+					<span class="meta">#037</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="roachmon #095 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#095">
+					<span class="stage stage-C">C</span>
+					<span class="name">Roachmon</span>
+					<span class="meta">#095</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="megakabuterimon blue #138 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#138">
+					<span class="stage stage-U">U</span>
+					<span class="name">MegaKabuterimon Blue</span>
+					<span class="meta">#138</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="vilemon #093 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#093">
+					<span class="stage stage-C">C</span>
+					<span class="name">Vilemon</span>
+					<span class="meta">#093</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="mummymon #157 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#157">
+					<span class="stage stage-U">U</span>
+					<span class="name">Mummymon</span>
+					<span class="meta">#157</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="creepymon #190 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#190">
+					<span class="stage stage-M">M</span>
+					<span class="name">Creepymon</span>
+					<span class="meta">#190</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="ghoulmon gray #202 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#202">
+					<span class="stage stage-M">M</span>
+					<span class="name">Ghoulmon Gray</span>
+					<span class="meta">#202</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="sorcerymon #105 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#105">
+					<span class="stage stage-C">C</span>
+					<span class="name">Sorcerymon</span>
+					<span class="meta">#105</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-24">
+			<h2><span>Penguinmon <span class='meta'>#040</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-24')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="penguinmon #040 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#040">
+					<span class="stage stage-R">R</span>
+					<span class="name">Penguinmon</span>
+					<span class="meta">#040</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="kiwimon #103 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#103">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kiwimon</span>
+					<span class="meta">#103</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="deramon #168 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#168">
+					<span class="stage stage-U">U</span>
+					<span class="name">Deramon</span>
+					<span class="meta">#168</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="kokatorimon #075 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#075">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kokatorimon</span>
+					<span class="meta">#075</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="diatrymon #116 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#116">
+					<span class="stage stage-C">C</span>
+					<span class="name">Diatrymon</span>
+					<span class="meta">#116</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-25">
+			<h2><span>Goburimon <span class='meta'>#041</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-25')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="goburimon #041 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#041">
+					<span class="stage stage-R">R</span>
+					<span class="name">Goburimon</span>
+					<span class="meta">#041</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="tyrannomon #063 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#063">
+					<span class="stage stage-C">C</span>
+					<span class="name">Tyrannomon</span>
+					<span class="meta">#063</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="triceramon #167 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#167">
+					<span class="stage stage-U">U</span>
+					<span class="name">Triceramon</span>
+					<span class="meta">#167</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="cannondramon #220 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#220">
+					<span class="stage stage-M">M</span>
+					<span class="name">Cannondramon</span>
+					<span class="meta">#220</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="ogremon #072 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#072">
+					<span class="stage stage-C">C</span>
+					<span class="name">Ogremon</span>
+					<span class="meta">#072</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="arukenimon #156 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#156">
+					<span class="stage stage-U">U</span>
+					<span class="name">Arukenimon</span>
+					<span class="meta">#156</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="parasimon #219 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#219">
+					<span class="stage stage-M">M</span>
+					<span class="name">Parasimon</span>
+					<span class="meta">#219</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="etemon #134 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#134">
+					<span class="stage stage-U">U</span>
+					<span class="name">Etemon</span>
+					<span class="meta">#134</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="metaletemon #186 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#186">
+					<span class="stage stage-M">M</span>
+					<span class="name">MetalEtemon</span>
+					<span class="meta">#186</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="piedmon #189 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#189">
+					<span class="stage stage-M">M</span>
+					<span class="name">Piedmon</span>
+					<span class="meta">#189</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="bakemon #073 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#073">
+					<span class="stage stage-C">C</span>
+					<span class="name">Bakemon</span>
+					<span class="meta">#073</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-26">
+			<h2><span>Kumamon <span class='meta'>#042</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-26')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="kumamon #042 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#042">
+					<span class="stage stage-R">R</span>
+					<span class="name">Kumamon</span>
+					<span class="meta">#042</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="leomon #076 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#076">
+					<span class="stage stage-C">C</span>
+					<span class="name">Leomon</span>
+					<span class="meta">#076</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="monzaemon #131 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#131">
+					<span class="stage stage-U">U</span>
+					<span class="name">Monzaemon</span>
+					<span class="meta">#131</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="bantyoleomon #224 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#224">
+					<span class="stage stage-M">M</span>
+					<span class="name">BantyoLeomon</span>
+					<span class="meta">#224</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="grizzmon #098 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#098">
+					<span class="stage stage-C">C</span>
+					<span class="name">Grizzmon</span>
+					<span class="meta">#098</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="weregarurumon black #143 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#143">
+					<span class="stage stage-U">U</span>
+					<span class="name">WereGarurumon Black</span>
+					<span class="meta">#143</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-27">
+			<h2><span>Floramon <span class='meta'>#048</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-27')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="floramon #048 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#048">
+					<span class="stage stage-R">R</span>
+					<span class="name">Floramon</span>
+					<span class="meta">#048</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="veggiemon #071 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#071">
+					<span class="stage stage-C">C</span>
+					<span class="name">Veggiemon</span>
+					<span class="meta">#071</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="blossomon #148 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#148">
+					<span class="stage stage-U">U</span>
+					<span class="name">Blossomon</span>
+					<span class="meta">#148</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-28">
+			<h2><span>Gizamon <span class='meta'>#049</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-28')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="gizamon #049 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#049">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gizamon</span>
+					<span class="meta">#049</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="apemon #101 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#101">
+					<span class="stage stage-C">C</span>
+					<span class="name">Apemon</span>
+					<span class="meta">#101</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="divermon #166 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#166">
+					<span class="stage stage-U">U</span>
+					<span class="name">Divermon</span>
+					<span class="meta">#166</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-29">
+			<h2><span>ToyAgumon Black <span class='meta'>#052</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-29')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="toyagumon black #052 r" data-lvl="R">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#052">
+					<span class="stage stage-R">R</span>
+					<span class="name">ToyAgumon Black</span>
+					<span class="meta">#052</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="reptiledramon #100 c" data-lvl="C">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#100">
+					<span class="stage stage-C">C</span>
+					<span class="name">Reptiledramon</span>
+					<span class="meta">#100</span>
+					</label>
+				</li>
+				<li class="node lvl-2" data-text="mamemon #174 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#174">
+					<span class="stage stage-U">U</span>
+					<span class="name">Mamemon</span>
+					<span class="meta">#174</span>
+					</label>
+				</li>
+				<li class="node lvl-3" data-text="puppetmon #192 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#192">
+					<span class="stage stage-M">M</span>
+					<span class="name">Puppetmon</span>
+					<span class="meta">#192</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section" id="solo-30">
+			<h2><span>Numemon <span class='meta'>#067</span></span><span class="right"><span class="badge">No digivolution</span></span></h2>
+			<ul class="tree">
+				<li class="node" data-text="numemon #067 c" data-lvl="C">
+					<label class="item">
+						<input type="checkbox" class="cb" data-key="#067">
+						<span class="stage stage-C">C</span>
+						<span class="name">Numemon</span>
+						<span class="meta">#067</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-31">
+			<h2><span>Digitamamon <span class='meta'>#137</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-31')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="digitamamon #137 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#137">
+					<span class="stage stage-U">U</span>
+					<span class="name">Digitamamon</span>
+					<span class="meta">#137</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="imperialdramon dark mode #214 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#214">
+					<span class="stage stage-M">M</span>
+					<span class="name">Imperialdramon Dark Mode</span>
+					<span class="meta">#214</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section root" id="root-32">
+			<h2><span>Parrotmon <span class='meta'>#161</span></span><span class="right"><span class="badge">Line</span><button class="toggle" onclick="toggleRoot('root-32')">Toggle</button></span></h2>
+			<ul class="tree">
+				<li class="node lvl-0" data-text="parrotmon #161 u" data-lvl="U">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#161">
+					<span class="stage stage-U">U</span>
+					<span class="name">Parrotmon</span>
+					<span class="meta">#161</span>
+					</label>
+				</li>
+				<li class="node lvl-1" data-text="eaglemon #222 m" data-lvl="M">
+					<label class="item">
+					<input type="checkbox" class="cb" data-key="#222">
+					<span class="stage stage-M">M</span>
+					<span class="name">Eaglemon</span>
+					<span class="meta">#222</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section" id="solo-33">
+			<h2><span>Imperialdramon Paladin Mode <span class='meta'>#201</span></span><span class="right"><span class="badge">No digivolution</span></span></h2>
+			<ul class="tree">
+				<li class="node" data-text="imperialdramon paladin mode #201 m" data-lvl="M">
+					<label class="item">
+						<input type="checkbox" class="cb" data-key="#201">
+						<span class="stage stage-M">M</span>
+						<span class="name">Imperialdramon Paladin Mode</span>
+						<span class="meta">#201</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section" id="solo-34">
+			<h2><span>Gallantmon Crimson Mode <span class='meta'>#208</span></span><span class="right"><span class="badge">No digivolution</span></span></h2>
+			<ul class="tree">
+				<li class="node" data-text="gallantmon crimson mode #208 m" data-lvl="M">
+					<label class="item">
+						<input type="checkbox" class="cb" data-key="#208">
+						<span class="stage stage-M">M</span>
+						<span class="name">Gallantmon Crimson Mode</span>
+						<span class="meta">#208</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="section" id="solo-35">
+			<h2><span>Chronomon Holy Mode <span class='meta'>#239</span></span><span class="right"><span class="badge">No digivolution</span></span></h2>
+			<ul class="tree">
+				<li class="node" data-text="chronomon holy mode #239 m" data-lvl="M">
+					<label class="item">
+						<input type="checkbox" class="cb" data-key="#239">
+						<span class="stage stage-M">M</span>
+						<span class="name">Chronomon Holy Mode</span>
+						<span class="meta">#239</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+	</div><!-- /viewByLine -->
+	<div id="viewById" class="hidden">
+		<div class="idlist">
+			<div class="small" style="margin-bottom:8px;">All Digimon sorted by #ID.</div>
+			<div class="idrow node" data-text="koromon #001 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#001">
+					<span class="stage stage-I">I</span>
+					<span class="name">Koromon</span>
+					<span class="meta">#001</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="tsunomon #002 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#002">
+					<span class="stage stage-I">I</span>
+					<span class="name">Tsunomon</span>
+					<span class="meta">#002</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="poyomon #003 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#003">
+					<span class="stage stage-I">I</span>
+					<span class="name">Poyomon</span>
+					<span class="meta">#003</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="tokomon #004 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#004">
+					<span class="stage stage-I">I</span>
+					<span class="name">Tokomon</span>
+					<span class="meta">#004</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="tanemon #005 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#005">
+					<span class="stage stage-I">I</span>
+					<span class="name">Tanemon</span>
+					<span class="meta">#005</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="pagumon #006 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#006">
+					<span class="stage stage-I">I</span>
+					<span class="name">Pagumon</span>
+					<span class="meta">#006</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kapurimon #007 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#007">
+					<span class="stage stage-I">I</span>
+					<span class="name">Kapurimon</span>
+					<span class="meta">#007</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kuramon #008 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#008">
+					<span class="stage stage-I">I</span>
+					<span class="name">Kuramon</span>
+					<span class="meta">#008</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="puttimon #009 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#009">
+					<span class="stage stage-I">I</span>
+					<span class="name">Puttimon</span>
+					<span class="meta">#009</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="chibomon #010 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#010">
+					<span class="stage stage-I">I</span>
+					<span class="name">Chibomon</span>
+					<span class="meta">#010</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dorimon #011 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#011">
+					<span class="stage stage-I">I</span>
+					<span class="name">Dorimon</span>
+					<span class="meta">#011</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="calumon #012 i" data-lvl="I">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#012">
+					<span class="stage stage-I">I</span>
+					<span class="name">Calumon</span>
+					<span class="meta">#012</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="agumon #013 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#013">
+					<span class="stage stage-R">R</span>
+					<span class="name">Agumon</span>
+					<span class="meta">#013</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="veemon #014 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#014">
+					<span class="stage stage-R">R</span>
+					<span class="name">Veemon</span>
+					<span class="meta">#014</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="guilmon #015 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#015">
+					<span class="stage stage-R">R</span>
+					<span class="name">Guilmon</span>
+					<span class="meta">#015</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dorumon #016 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#016">
+					<span class="stage stage-R">R</span>
+					<span class="name">Dorumon</span>
+					<span class="meta">#016</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="betamon #017 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#017">
+					<span class="stage stage-R">R</span>
+					<span class="name">Betamon</span>
+					<span class="meta">#017</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gabumon #018 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#018">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gabumon</span>
+					<span class="meta">#018</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="patamon #019 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#019">
+					<span class="stage stage-R">R</span>
+					<span class="name">Patamon</span>
+					<span class="meta">#019</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="biyomon #020 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#020">
+					<span class="stage stage-R">R</span>
+					<span class="name">Biyomon</span>
+					<span class="meta">#020</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="palmon #021 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#021">
+					<span class="stage stage-R">R</span>
+					<span class="name">Palmon</span>
+					<span class="meta">#021</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="tentomon #022 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#022">
+					<span class="stage stage-R">R</span>
+					<span class="name">Tentomon</span>
+					<span class="meta">#022</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gotsumon #023 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#023">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gotsumon</span>
+					<span class="meta">#023</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="otamamon #024 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#024">
+					<span class="stage stage-R">R</span>
+					<span class="name">Otamamon</span>
+					<span class="meta">#024</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gomamon #025 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#025">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gomamon</span>
+					<span class="meta">#025</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="tapirmon #026 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#026">
+					<span class="stage stage-R">R</span>
+					<span class="name">Tapirmon</span>
+					<span class="meta">#026</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="demidevimon #027 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#027">
+					<span class="stage stage-R">R</span>
+					<span class="name">DemiDevimon</span>
+					<span class="meta">#027</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="toyagumon #028 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#028">
+					<span class="stage stage-R">R</span>
+					<span class="name">ToyAgumon</span>
+					<span class="meta">#028</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="hagurumon #029 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#029">
+					<span class="stage stage-R">R</span>
+					<span class="name">Hagurumon</span>
+					<span class="meta">#029</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="salamon #030 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#030">
+					<span class="stage stage-R">R</span>
+					<span class="name">Salamon</span>
+					<span class="meta">#030</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="wormon #031 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#031">
+					<span class="stage stage-R">R</span>
+					<span class="name">Wormon</span>
+					<span class="meta">#031</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="hawkmon #032 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#032">
+					<span class="stage stage-R">R</span>
+					<span class="name">Hawkmon</span>
+					<span class="meta">#032</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="armadillomon #033 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#033">
+					<span class="stage stage-R">R</span>
+					<span class="name">Armadillomon</span>
+					<span class="meta">#033</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="terriermon #034 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#034">
+					<span class="stage stage-R">R</span>
+					<span class="name">Terriermon</span>
+					<span class="meta">#034</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="lopmon #035 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#035">
+					<span class="stage stage-R">R</span>
+					<span class="name">Lopmon</span>
+					<span class="meta">#035</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="renamon #036 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#036">
+					<span class="stage stage-R">R</span>
+					<span class="name">Renamon</span>
+					<span class="meta">#036</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="impmon #037 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#037">
+					<span class="stage stage-R">R</span>
+					<span class="name">Impmon</span>
+					<span class="meta">#037</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="keramon #038 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#038">
+					<span class="stage stage-R">R</span>
+					<span class="name">Keramon</span>
+					<span class="meta">#038</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="falcomon #039 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#039">
+					<span class="stage stage-R">R</span>
+					<span class="name">Falcomon</span>
+					<span class="meta">#039</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="penguinmon #040 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#040">
+					<span class="stage stage-R">R</span>
+					<span class="name">Penguinmon</span>
+					<span class="meta">#040</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="goburimon #041 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#041">
+					<span class="stage stage-R">R</span>
+					<span class="name">Goburimon</span>
+					<span class="meta">#041</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kumamon #042 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#042">
+					<span class="stage stage-R">R</span>
+					<span class="name">Kumamon</span>
+					<span class="meta">#042</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kotemon #043 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#043">
+					<span class="stage stage-R">R</span>
+					<span class="name">Kotemon</span>
+					<span class="meta">#043</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="snowagumon #044 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#044">
+					<span class="stage stage-R">R</span>
+					<span class="name">SnowAgumon</span>
+					<span class="meta">#044</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="blackagumon #045 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#045">
+					<span class="stage stage-R">R</span>
+					<span class="name">BlackAgumon</span>
+					<span class="meta">#045</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="muchomon #046 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#046">
+					<span class="stage stage-R">R</span>
+					<span class="name">Muchomon</span>
+					<span class="meta">#046</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="crabmon #047 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#047">
+					<span class="stage stage-R">R</span>
+					<span class="name">Crabmon</span>
+					<span class="meta">#047</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="floramon #048 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#048">
+					<span class="stage stage-R">R</span>
+					<span class="name">Floramon</span>
+					<span class="meta">#048</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gizamon #049 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#049">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gizamon</span>
+					<span class="meta">#049</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="raramon #050 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#050">
+					<span class="stage stage-R">R</span>
+					<span class="name">Raramon</span>
+					<span class="meta">#050</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="aruraumon #051 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#051">
+					<span class="stage stage-R">R</span>
+					<span class="name">Aruraumon</span>
+					<span class="meta">#051</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="toyagumon black #052 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#052">
+					<span class="stage stage-R">R</span>
+					<span class="name">ToyAgumon Black</span>
+					<span class="meta">#052</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="tsukaimon #053 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#053">
+					<span class="stage stage-R">R</span>
+					<span class="name">Tsukaimon</span>
+					<span class="meta">#053</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="pawnchessmon black #054 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#054">
+					<span class="stage stage-R">R</span>
+					<span class="name">PawnChessmon Black</span>
+					<span class="meta">#054</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gaomon #055 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#055">
+					<span class="stage stage-R">R</span>
+					<span class="name">Gaomon</span>
+					<span class="meta">#055</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dotfalcomon #056 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#056">
+					<span class="stage stage-R">R</span>
+					<span class="name">DotFalcomon</span>
+					<span class="meta">#056</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kudamon #057 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#057">
+					<span class="stage stage-R">R</span>
+					<span class="name">Kudamon</span>
+					<span class="meta">#057</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kamemon #058 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#058">
+					<span class="stage stage-R">R</span>
+					<span class="name">Kamemon</span>
+					<span class="meta">#058</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dracmon #059 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#059">
+					<span class="stage stage-R">R</span>
+					<span class="name">Dracmon</span>
+					<span class="meta">#059</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="pawnchessmon white #060 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#060">
+					<span class="stage stage-R">R</span>
+					<span class="name">PawnChessmon White</span>
+					<span class="meta">#060</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dotagumon #061 r" data-lvl="R">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#061">
+					<span class="stage stage-R">R</span>
+					<span class="name">DotAgumon</span>
+					<span class="meta">#061</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="greymon #062 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#062">
+					<span class="stage stage-C">C</span>
+					<span class="name">Greymon</span>
+					<span class="meta">#062</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="tyrannomon #063 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#063">
+					<span class="stage stage-C">C</span>
+					<span class="name">Tyrannomon</span>
+					<span class="meta">#063</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="devimon #064 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#064">
+					<span class="stage stage-C">C</span>
+					<span class="name">Devimon</span>
+					<span class="meta">#064</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="airdramon #065 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#065">
+					<span class="stage stage-C">C</span>
+					<span class="name">Airdramon</span>
+					<span class="meta">#065</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="seadramon #066 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#066">
+					<span class="stage stage-C">C</span>
+					<span class="name">Seadramon</span>
+					<span class="meta">#066</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="numemon #067 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#067">
+					<span class="stage stage-C">C</span>
+					<span class="name">Numemon</span>
+					<span class="meta">#067</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kabuterimon #068 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#068">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kabuterimon</span>
+					<span class="meta">#068</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="garurumon #069 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#069">
+					<span class="stage stage-C">C</span>
+					<span class="name">Garurumon</span>
+					<span class="meta">#069</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="angemon #070 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#070">
+					<span class="stage stage-C">C</span>
+					<span class="name">Angemon</span>
+					<span class="meta">#070</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="veggiemon #071 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#071">
+					<span class="stage stage-C">C</span>
+					<span class="name">Veggiemon</span>
+					<span class="meta">#071</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="ogremon #072 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#072">
+					<span class="stage stage-C">C</span>
+					<span class="name">Ogremon</span>
+					<span class="meta">#072</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="bakemon #073 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#073">
+					<span class="stage stage-C">C</span>
+					<span class="name">Bakemon</span>
+					<span class="meta">#073</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="sukamon #074 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#074">
+					<span class="stage stage-C">C</span>
+					<span class="name">Sukamon</span>
+					<span class="meta">#074</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kokatorimon #075 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#075">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kokatorimon</span>
+					<span class="meta">#075</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="leomon #076 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#076">
+					<span class="stage stage-C">C</span>
+					<span class="name">Leomon</span>
+					<span class="meta">#076</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kuwagamon #077 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#077">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kuwagamon</span>
+					<span class="meta">#077</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="raremon #078 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#078">
+					<span class="stage stage-C">C</span>
+					<span class="name">Raremon</span>
+					<span class="meta">#078</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gekomon #079 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#079">
+					<span class="stage stage-C">C</span>
+					<span class="name">Gekomon</span>
+					<span class="meta">#079</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gatomon #080 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#080">
+					<span class="stage stage-C">C</span>
+					<span class="name">Gatomon</span>
+					<span class="meta">#080</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="wizardmon #081 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#081">
+					<span class="stage stage-C">C</span>
+					<span class="name">Wizardmon</span>
+					<span class="meta">#081</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="togemon #082 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#082">
+					<span class="stage stage-C">C</span>
+					<span class="name">Togemon</span>
+					<span class="meta">#082</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="guardromon #083 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#083">
+					<span class="stage stage-C">C</span>
+					<span class="name">Guardromon</span>
+					<span class="meta">#083</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="exveemon #084 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#084">
+					<span class="stage stage-C">C</span>
+					<span class="name">ExVeemon</span>
+					<span class="meta">#084</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="stingmon #085 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#085">
+					<span class="stage stage-C">C</span>
+					<span class="name">Stingmon</span>
+					<span class="meta">#085</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="birdramon #086 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#086">
+					<span class="stage stage-C">C</span>
+					<span class="name">Birdramon</span>
+					<span class="meta">#086</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="ankylomon #087 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#087">
+					<span class="stage stage-C">C</span>
+					<span class="name">Ankylomon</span>
+					<span class="meta">#087</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gargomon #088 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#088">
+					<span class="stage stage-C">C</span>
+					<span class="name">Gargomon</span>
+					<span class="meta">#088</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="growlmon #089 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#089">
+					<span class="stage stage-C">C</span>
+					<span class="name">Growlmon</span>
+					<span class="meta">#089</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kyubimon #090 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#090">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kyubimon</span>
+					<span class="meta">#090</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kurisarimon #091 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#091">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kurisarimon</span>
+					<span class="meta">#091</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="seasarmon #092 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#092">
+					<span class="stage stage-C">C</span>
+					<span class="name">Seasarmon</span>
+					<span class="meta">#092</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="vilemon #093 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#093">
+					<span class="stage stage-C">C</span>
+					<span class="name">Vilemon</span>
+					<span class="meta">#093</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="aquilamon #094 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#094">
+					<span class="stage stage-C">C</span>
+					<span class="name">Aquilamon</span>
+					<span class="meta">#094</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="roachmon #095 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#095">
+					<span class="stage stage-C">C</span>
+					<span class="name">Roachmon</span>
+					<span class="meta">#095</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dinohumon #096 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#096">
+					<span class="stage stage-C">C</span>
+					<span class="name">Dinohumon</span>
+					<span class="meta">#096</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="hookmon #097 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#097">
+					<span class="stage stage-C">C</span>
+					<span class="name">Hookmon</span>
+					<span class="meta">#097</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="grizzmon #098 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#098">
+					<span class="stage stage-C">C</span>
+					<span class="name">Grizzmon</span>
+					<span class="meta">#098</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dorugamon #099 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#099">
+					<span class="stage stage-C">C</span>
+					<span class="name">Dorugamon</span>
+					<span class="meta">#099</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="reptiledramon #100 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#100">
+					<span class="stage stage-C">C</span>
+					<span class="name">Reptiledramon</span>
+					<span class="meta">#100</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="apemon #101 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#101">
+					<span class="stage stage-C">C</span>
+					<span class="name">Apemon</span>
+					<span class="meta">#101</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="starmon #102 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#102">
+					<span class="stage stage-C">C</span>
+					<span class="name">Starmon</span>
+					<span class="meta">#102</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kiwimon #103 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#103">
+					<span class="stage stage-C">C</span>
+					<span class="name">Kiwimon</span>
+					<span class="meta">#103</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="unimon #104 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#104">
+					<span class="stage stage-C">C</span>
+					<span class="name">Unimon</span>
+					<span class="meta">#104</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="sorcerymon #105 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#105">
+					<span class="stage stage-C">C</span>
+					<span class="name">Sorcerymon</span>
+					<span class="meta">#105</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="darktyrannomon #106 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#106">
+					<span class="stage stage-C">C</span>
+					<span class="name">DarkTyrannomon</span>
+					<span class="meta">#106</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="akatorimon #107 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#107">
+					<span class="stage stage-C">C</span>
+					<span class="name">Akatorimon</span>
+					<span class="meta">#107</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="platinum sukamon #108 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#108">
+					<span class="stage stage-C">C</span>
+					<span class="name">Platinum Sukamon</span>
+					<span class="meta">#108</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="ikkakumon #109 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#109">
+					<span class="stage stage-C">C</span>
+					<span class="name">Ikkakumon</span>
+					<span class="meta">#109</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="minotarumon #110 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#110">
+					<span class="stage stage-C">C</span>
+					<span class="name">Minotarumon</span>
+					<span class="meta">#110</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="icemon #111 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#111">
+					<span class="stage stage-C">C</span>
+					<span class="name">Icemon</span>
+					<span class="meta">#111</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="darklizardmon #112 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#112">
+					<span class="stage stage-C">C</span>
+					<span class="name">DarkLizardmon</span>
+					<span class="meta">#112</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="flarerizamon #113 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#113">
+					<span class="stage stage-C">C</span>
+					<span class="name">Flarerizamon</span>
+					<span class="meta">#113</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="geogreymon #114 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#114">
+					<span class="stage stage-C">C</span>
+					<span class="name">GeoGreymon</span>
+					<span class="meta">#114</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gaogamon #115 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#115">
+					<span class="stage stage-C">C</span>
+					<span class="name">Gaogamon</span>
+					<span class="meta">#115</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="diatrymon #116 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#116">
+					<span class="stage stage-C">C</span>
+					<span class="name">Diatrymon</span>
+					<span class="meta">#116</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="reppamon #117 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#117">
+					<span class="stage stage-C">C</span>
+					<span class="name">Reppamon</span>
+					<span class="meta">#117</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="sunflowmon #118 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#118">
+					<span class="stage stage-C">C</span>
+					<span class="name">Sunflowmon</span>
+					<span class="meta">#118</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="guappamon #119 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#119">
+					<span class="stage stage-C">C</span>
+					<span class="name">Guappamon</span>
+					<span class="meta">#119</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="sangloupmon #120 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#120">
+					<span class="stage stage-C">C</span>
+					<span class="name">Sangloupmon</span>
+					<span class="meta">#120</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="peckmon #121 c" data-lvl="C">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#121">
+					<span class="stage stage-C">C</span>
+					<span class="name">Peckmon</span>
+					<span class="meta">#121</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="flamedramon #122 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#122">
+					<span class="stage stage-U">U</span>
+					<span class="name">Flamedramon</span>
+					<span class="meta">#122</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="magnamon #123 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#123">
+					<span class="stage stage-U">U</span>
+					<span class="name">Magnamon</span>
+					<span class="meta">#123</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="prairiemon #124 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#124">
+					<span class="stage stage-U">U</span>
+					<span class="name">Prairiemon</span>
+					<span class="meta">#124</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kongoumon #125 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#125">
+					<span class="stage stage-U">U</span>
+					<span class="name">Kongoumon</span>
+					<span class="meta">#125</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="seahomon #126 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#126">
+					<span class="stage stage-U">U</span>
+					<span class="name">Seahomon</span>
+					<span class="meta">#126</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="shurimon #127 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#127">
+					<span class="stage stage-U">U</span>
+					<span class="name">Shurimon</span>
+					<span class="meta">#127</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kenkimon #128 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#128">
+					<span class="stage stage-U">U</span>
+					<span class="name">Kenkimon</span>
+					<span class="meta">#128</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="ponchomon #129 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#129">
+					<span class="stage stage-U">U</span>
+					<span class="name">Ponchomon</span>
+					<span class="meta">#129</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="metalgreymon #130 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#130">
+					<span class="stage stage-U">U</span>
+					<span class="name">MetalGreymon</span>
+					<span class="meta">#130</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="monzaemon #131 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#131">
+					<span class="stage stage-U">U</span>
+					<span class="name">Monzaemon</span>
+					<span class="meta">#131</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="metalmamemon #132 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#132">
+					<span class="stage stage-U">U</span>
+					<span class="name">MetalMamemon</span>
+					<span class="meta">#132</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="andromon #133 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#133">
+					<span class="stage stage-U">U</span>
+					<span class="name">Andromon</span>
+					<span class="meta">#133</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="etemon #134 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#134">
+					<span class="stage stage-U">U</span>
+					<span class="name">Etemon</span>
+					<span class="meta">#134</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="megadramon #135 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#135">
+					<span class="stage stage-U">U</span>
+					<span class="name">Megadramon</span>
+					<span class="meta">#135</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="piximon #136 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#136">
+					<span class="stage stage-U">U</span>
+					<span class="name">Piximon</span>
+					<span class="meta">#136</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="digitamamon #137 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#137">
+					<span class="stage stage-U">U</span>
+					<span class="name">Digitamamon</span>
+					<span class="meta">#137</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="megakabuterimon blue #138 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#138">
+					<span class="stage stage-U">U</span>
+					<span class="name">MegaKabuterimon Blue</span>
+					<span class="meta">#138</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="okuwamon #139 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#139">
+					<span class="stage stage-U">U</span>
+					<span class="name">Okuwamon</span>
+					<span class="meta">#139</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="angewomon #140 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#140">
+					<span class="stage stage-U">U</span>
+					<span class="name">Angewomon</span>
+					<span class="meta">#140</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="megaseadramon #141 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#141">
+					<span class="stage stage-U">U</span>
+					<span class="name">MegaSeadramon</span>
+					<span class="meta">#141</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dragomon #142 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#142">
+					<span class="stage stage-U">U</span>
+					<span class="name">Dragomon</span>
+					<span class="meta">#142</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="weregarurumon black #143 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#143">
+					<span class="stage stage-U">U</span>
+					<span class="name">WereGarurumon Black</span>
+					<span class="meta">#143</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="weregarurumon #144 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#144">
+					<span class="stage stage-U">U</span>
+					<span class="name">WereGarurumon</span>
+					<span class="meta">#144</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="myotismon #145 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#145">
+					<span class="stage stage-U">U</span>
+					<span class="name">Myotismon</span>
+					<span class="meta">#145</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="ladydevimon #146 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#146">
+					<span class="stage stage-U">U</span>
+					<span class="name">LadyDevimon</span>
+					<span class="meta">#146</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="garudamon #147 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#147">
+					<span class="stage stage-U">U</span>
+					<span class="name">Garudamon</span>
+					<span class="meta">#147</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="blossomon #148 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#148">
+					<span class="stage stage-U">U</span>
+					<span class="name">Blossomon</span>
+					<span class="meta">#148</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="lillymon #149 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#149">
+					<span class="stage stage-U">U</span>
+					<span class="name">Lillymon</span>
+					<span class="meta">#149</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="megakabuterimon red #150 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#150">
+					<span class="stage stage-U">U</span>
+					<span class="name">MegaKabuterimon Red</span>
+					<span class="meta">#150</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="cyberdramon #151 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#151">
+					<span class="stage stage-U">U</span>
+					<span class="name">Cyberdramon</span>
+					<span class="meta">#151</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="magnaangemon #152 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#152">
+					<span class="stage stage-U">U</span>
+					<span class="name">MagnaAngemon</span>
+					<span class="meta">#152</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="paildramon #153 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#153">
+					<span class="stage stage-U">U</span>
+					<span class="name">Paildramon</span>
+					<span class="meta">#153</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dinobeemon #154 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#154">
+					<span class="stage stage-U">U</span>
+					<span class="name">Dinobeemon</span>
+					<span class="meta">#154</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="antylamon #155 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#155">
+					<span class="stage stage-U">U</span>
+					<span class="name">Antylamon</span>
+					<span class="meta">#155</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="arukenimon #156 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#156">
+					<span class="stage stage-U">U</span>
+					<span class="name">Arukenimon</span>
+					<span class="meta">#156</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="mummymon #157 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#157">
+					<span class="stage stage-U">U</span>
+					<span class="name">Mummymon</span>
+					<span class="meta">#157</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="wargrowlmon #158 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#158">
+					<span class="stage stage-U">U</span>
+					<span class="name">WarGrowlmon</span>
+					<span class="meta">#158</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="rapidmon #159 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#159">
+					<span class="stage stage-U">U</span>
+					<span class="name">Rapidmon</span>
+					<span class="meta">#159</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="taomon #160 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#160">
+					<span class="stage stage-U">U</span>
+					<span class="name">Taomon</span>
+					<span class="meta">#160</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="parrotmon #161 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#161">
+					<span class="stage stage-U">U</span>
+					<span class="name">Parrotmon</span>
+					<span class="meta">#161</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="infermon #162 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#162">
+					<span class="stage stage-U">U</span>
+					<span class="name">Infermon</span>
+					<span class="meta">#162</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="blackrapidmon #163 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#163">
+					<span class="stage stage-U">U</span>
+					<span class="name">BlackRapidmon</span>
+					<span class="meta">#163</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kyukimon #164 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#164">
+					<span class="stage stage-U">U</span>
+					<span class="name">Kyukimon</span>
+					<span class="meta">#164</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dorugreymon #165 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#165">
+					<span class="stage stage-U">U</span>
+					<span class="name">DoruGreymon</span>
+					<span class="meta">#165</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="divermon #166 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#166">
+					<span class="stage stage-U">U</span>
+					<span class="name">Divermon</span>
+					<span class="meta">#166</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="triceramon #167 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#167">
+					<span class="stage stage-U">U</span>
+					<span class="name">Triceramon</span>
+					<span class="meta">#167</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="deramon #168 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#168">
+					<span class="stage stage-U">U</span>
+					<span class="name">Deramon</span>
+					<span class="meta">#168</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="silphymon #169 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#169">
+					<span class="stage stage-U">U</span>
+					<span class="name">Silphymon</span>
+					<span class="meta">#169</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="superstarmon #170 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#170">
+					<span class="stage stage-U">U</span>
+					<span class="name">SuperStarmon</span>
+					<span class="meta">#170</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="blackwargrowlmon #171 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#171">
+					<span class="stage stage-U">U</span>
+					<span class="name">BlackWarGrowlmon</span>
+					<span class="meta">#171</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="zudomon #172 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#172">
+					<span class="stage stage-U">U</span>
+					<span class="name">Zudomon</span>
+					<span class="meta">#172</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="whamon #173 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#173">
+					<span class="stage stage-U">U</span>
+					<span class="name">Whamon</span>
+					<span class="meta">#173</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="mamemon #174 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#174">
+					<span class="stage stage-U">U</span>
+					<span class="name">Mamemon</span>
+					<span class="meta">#174</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="meteormon #175 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#175">
+					<span class="stage stage-U">U</span>
+					<span class="name">Meteormon</span>
+					<span class="meta">#175</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gigadramon #176 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#176">
+					<span class="stage stage-U">U</span>
+					<span class="name">Gigadramon</span>
+					<span class="meta">#176</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="risegreymon #177 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#177">
+					<span class="stage stage-U">U</span>
+					<span class="name">RiseGreymon</span>
+					<span class="meta">#177</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="machgaogamon #178 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#178">
+					<span class="stage stage-U">U</span>
+					<span class="name">MachGaogamon</span>
+					<span class="meta">#178</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="yatakaramon #179 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#179">
+					<span class="stage stage-U">U</span>
+					<span class="name">Yatakaramon</span>
+					<span class="meta">#179</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="tyilinmon #180 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#180">
+					<span class="stage stage-U">U</span>
+					<span class="name">Tyilinmon</span>
+					<span class="meta">#180</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="lilamon #181 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#181">
+					<span class="stage stage-U">U</span>
+					<span class="name">Lilamon</span>
+					<span class="meta">#181</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="matadormon #182 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#182">
+					<span class="stage stage-U">U</span>
+					<span class="name">Matadormon</span>
+					<span class="meta">#182</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="garbagemon #183 u" data-lvl="U">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#183">
+					<span class="stage stage-U">U</span>
+					<span class="name">Garbagemon</span>
+					<span class="meta">#183</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="herculeskabuterimon #184 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#184">
+					<span class="stage stage-M">M</span>
+					<span class="name">HerculesKabuterimon</span>
+					<span class="meta">#184</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="saberleomon #185 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#185">
+					<span class="stage stage-M">M</span>
+					<span class="name">SaberLeomon</span>
+					<span class="meta">#185</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="metaletemon #186 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#186">
+					<span class="stage stage-M">M</span>
+					<span class="name">MetalEtemon</span>
+					<span class="meta">#186</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="marineangemon #187 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#187">
+					<span class="stage stage-M">M</span>
+					<span class="name">MarineAngemon</span>
+					<span class="meta">#187</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gigaseadramon #188 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#188">
+					<span class="stage stage-M">M</span>
+					<span class="name">GigaSeadramon</span>
+					<span class="meta">#188</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="piedmon #189 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#189">
+					<span class="stage stage-M">M</span>
+					<span class="name">Piedmon</span>
+					<span class="meta">#189</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="creepymon #190 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#190">
+					<span class="stage stage-M">M</span>
+					<span class="name">Creepymon</span>
+					<span class="meta">#190</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="phoenixmon #191 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#191">
+					<span class="stage stage-M">M</span>
+					<span class="name">Phoenixmon</span>
+					<span class="meta">#191</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="puppetmon #192 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#192">
+					<span class="stage stage-M">M</span>
+					<span class="name">Puppetmon</span>
+					<span class="meta">#192</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="rosemon #193 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#193">
+					<span class="stage stage-M">M</span>
+					<span class="name">Rosemon</span>
+					<span class="meta">#193</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="wargreymon #194 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#194">
+					<span class="stage stage-M">M</span>
+					<span class="name">WarGreymon</span>
+					<span class="meta">#194</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="metalgarurumon #195 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#195">
+					<span class="stage stage-M">M</span>
+					<span class="name">MetalGarurumon</span>
+					<span class="meta">#195</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="machinedramon #196 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#196">
+					<span class="stage stage-M">M</span>
+					<span class="name">Machinedramon</span>
+					<span class="meta">#196</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="venommyotismon #197 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#197">
+					<span class="stage stage-M">M</span>
+					<span class="name">VenomMyotismon</span>
+					<span class="meta">#197</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="omnimon #198 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#198">
+					<span class="stage stage-M">M</span>
+					<span class="name">Omnimon</span>
+					<span class="meta">#198</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="imperialdramon dragon mode #199 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#199">
+					<span class="stage stage-M">M</span>
+					<span class="name">Imperialdramon Dragon Mode</span>
+					<span class="meta">#199</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="imperialdramon fighter mode #200 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#200">
+					<span class="stage stage-M">M</span>
+					<span class="name">Imperialdramon Fighter Mode</span>
+					<span class="meta">#200</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="imperialdramon paladin mode #201 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#201">
+					<span class="stage stage-M">M</span>
+					<span class="name">Imperialdramon Paladin Mode</span>
+					<span class="meta">#201</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="ghoulmon gray #202 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#202">
+					<span class="stage stage-M">M</span>
+					<span class="name">Ghoulmon Gray</span>
+					<span class="meta">#202</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="seraphimon #203 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#203">
+					<span class="stage stage-M">M</span>
+					<span class="name">Seraphimon</span>
+					<span class="meta">#203</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="hiandromon #204 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#204">
+					<span class="stage stage-M">M</span>
+					<span class="name">HiAndromon</span>
+					<span class="meta">#204</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="cherubimon good #205 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#205">
+					<span class="stage stage-M">M</span>
+					<span class="name">Cherubimon Good</span>
+					<span class="meta">#205</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="cherubimon evil #206 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#206">
+					<span class="stage stage-M">M</span>
+					<span class="name">Cherubimon Evil</span>
+					<span class="meta">#206</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gallantmon #207 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#207">
+					<span class="stage stage-M">M</span>
+					<span class="name">Gallantmon</span>
+					<span class="meta">#207</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="gallantmon crimson mode #208 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#208">
+					<span class="stage stage-M">M</span>
+					<span class="name">Gallantmon Crimson Mode</span>
+					<span class="meta">#208</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="megagargomon #209 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#209">
+					<span class="stage stage-M">M</span>
+					<span class="name">MegaGargomon</span>
+					<span class="meta">#209</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="sakuyamon #210 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#210">
+					<span class="stage stage-M">M</span>
+					<span class="name">Sakuyamon</span>
+					<span class="meta">#210</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="diaboromon #211 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#211">
+					<span class="stage stage-M">M</span>
+					<span class="name">Diaboromon</span>
+					<span class="meta">#211</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="plesiomon #212 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#212">
+					<span class="stage stage-M">M</span>
+					<span class="name">Plesiomon</span>
+					<span class="meta">#212</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="malomyotismon #213 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#213">
+					<span class="stage stage-M">M</span>
+					<span class="name">MaloMyotismon</span>
+					<span class="meta">#213</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="imperialdramon dark mode #214 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#214">
+					<span class="stage stage-M">M</span>
+					<span class="name">Imperialdramon Dark Mode</span>
+					<span class="meta">#214</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="prince mamemon #215 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#215">
+					<span class="stage stage-M">M</span>
+					<span class="name">Prince Mamemon</span>
+					<span class="meta">#215</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="blackmegagargomon #216 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#216">
+					<span class="stage stage-M">M</span>
+					<span class="name">BlackMegaGargomon</span>
+					<span class="meta">#216</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="jijimon #217 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#217">
+					<span class="stage stage-M">M</span>
+					<span class="name">Jijimon</span>
+					<span class="meta">#217</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="babamon #218 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#218">
+					<span class="stage stage-M">M</span>
+					<span class="name">Babamon</span>
+					<span class="meta">#218</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="parasimon #219 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#219">
+					<span class="stage stage-M">M</span>
+					<span class="name">Parasimon</span>
+					<span class="meta">#219</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="cannondramon #220 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#220">
+					<span class="stage stage-M">M</span>
+					<span class="name">Cannondramon</span>
+					<span class="meta">#220</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="slash angemon #221 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#221">
+					<span class="stage stage-M">M</span>
+					<span class="name">Slash Angemon</span>
+					<span class="meta">#221</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="eaglemon #222 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#222">
+					<span class="stage stage-M">M</span>
+					<span class="name">Eaglemon</span>
+					<span class="meta">#222</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="dorugoramon #223 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#223">
+					<span class="stage stage-M">M</span>
+					<span class="name">DORUgoramon</span>
+					<span class="meta">#223</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="bantyoleomon #224 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#224">
+					<span class="stage stage-M">M</span>
+					<span class="name">BantyoLeomon</span>
+					<span class="meta">#224</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="darkdramon #225 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#225">
+					<span class="stage stage-M">M</span>
+					<span class="name">Darkdramon</span>
+					<span class="meta">#225</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="ghoulmon black #226 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#226">
+					<span class="stage stage-M">M</span>
+					<span class="name">Ghoulmon Black</span>
+					<span class="meta">#226</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="kuzuhamon #227 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#227">
+					<span class="stage stage-M">M</span>
+					<span class="name">Kuzuhamon</span>
+					<span class="meta">#227</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="chaosgallantmon #228 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#228">
+					<span class="stage stage-M">M</span>
+					<span class="name">ChaosGallantmon</span>
+					<span class="meta">#228</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="metalseadramon #229 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#229">
+					<span class="stage stage-M">M</span>
+					<span class="name">MetalSeadramon</span>
+					<span class="meta">#229</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="valkyrimon #230 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#230">
+					<span class="stage stage-M">M</span>
+					<span class="name">Valkyrimon</span>
+					<span class="meta">#230</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="justimon #231 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#231">
+					<span class="stage stage-M">M</span>
+					<span class="name">Justimon</span>
+					<span class="meta">#231</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="vikemon #232 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#232">
+					<span class="stage stage-M">M</span>
+					<span class="name">Vikemon</span>
+					<span class="meta">#232</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="blackwargreymon #233 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#233">
+					<span class="stage stage-M">M</span>
+					<span class="name">BlackWarGreymon</span>
+					<span class="meta">#233</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="grankuwagamon #234 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#234">
+					<span class="stage stage-M">M</span>
+					<span class="name">GranKuwagamon</span>
+					<span class="meta">#234</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="sleipmon #235 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#235">
+					<span class="stage stage-M">M</span>
+					<span class="name">Sleipmon</span>
+					<span class="meta">#235</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="beelzemon #236 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#236">
+					<span class="stage stage-M">M</span>
+					<span class="name">Beelzemon</span>
+					<span class="meta">#236</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="varodurumon #237 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#237">
+					<span class="stage stage-M">M</span>
+					<span class="name">Varodurumon</span>
+					<span class="meta">#237</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="neptunemon #238 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#238">
+					<span class="stage stage-M">M</span>
+					<span class="name">Neptunemon</span>
+					<span class="meta">#238</span>
+				</label>
+			</div>
+			<div class="idrow node" data-text="chronomon holy mode #239 m" data-lvl="M">
+				<label class="item">
+					<input type="checkbox" class="cb" data-key="#239">
+					<span class="stage stage-M">M</span>
+					<span class="name">Chronomon Holy Mode</span>
+					<span class="meta">#239</span>
+				</label>
+			</div>
+		</div>
+	</div>
+	<script>
+		const STORAGE_KEY="digimon_story_ds_evo_checklist";
+		const VIEW_KEY="digimon_story_ds_viewmode";
+		const SAVE_KEY="digimon_story_ds";
+	</script>
+	<script src="./cssjs/script.js">
+	</script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+Koromon (I) #001
+  Agumon (R) #013
+    Greymon (C) #062
+      MetalGreymon (U) #130
+        WarGreymon (M) #194
+        BlackWarGreymon (M) #233
+        Omnimon (M) #198
+    GeoGreymon (C) #114
+      RiseGreymon (U) #177
+  ToyAgumon (R) #028
+    Starmon (C) #102
+      SuperStarmon (U) #170
+        Justimon (M) #231
+    Flarerizamon (C) #113
+  DotAgumon (R) #061
+
+Tsunomon (I) #002
+  Gabumon (R) #018
+    Garurumon (C) #069
+      WereGarurumon (U) #144
+        MetalGarurumon (M) #195
+        Darkdramon (M) #225
+  Gaomon (R) #055
+    Gaogamon (C) #115
+      MachGaogamon (U) #178
+  Dracmon (R) #059 
+    Sangloupmon (C) #120
+      Matadormon (U) #182
+
+Poyomon (I) #003
+  Gomamon (R) #025
+    Ikkakumon (C) #109
+      Zudomon (U) #172
+        Vikemon (M) #232
+        Neptunemon (M) #238
+  Crabmon (R) #047
+    Seasarmon (C) #092
+  Kamemon (R) #058
+    Guappamon (C) #119
+
+Tokomon (I) #004
+  Falcomon (R) #039
+    Peckmon (C) #121
+      Yatakaramon (U) #179
+        Varodurumon (M) #237
+  Patamon (R) #019
+    Angemon (C) #070
+      MagnaAngemon (U) #152
+        Seraphimon (M) #203
+  DotFalcomon (R) #056
+
+Tanemon (I) #005
+  Palmon (R) #021
+    Togemon (C) #082
+      Lillymon (U) #149
+        Rosemon (M) #193
+  Raramon (R) #050
+    Sunflowmon (C) #118
+      Lilamon (U) #181
+  Renamon (R) #036
+    Kyubimon (C) #090
+      Taomon (U) #160
+        Kuzuhamon (M) #227
+        Sakuyamon (M) #210 
+
+Pagumon (I) #006
+  Lopmon (R) #035
+    Wizardmon (C) #081
+      Antylamon (U) #155
+        Cherubimon Good (M) #205
+        Cherubimon Evil (M) #206
+        ChaosGallantmon (M) #228
+      Ponchomon (U) #129
+  Tsukaimon (R) #053
+  BlackAgumon (R) #045
+    DarkTyrannomon (C) #106
+
+Kapurimon (I) #007
+  Kotemon (R) #043
+    Dinohumon (C) #096
+      Kyukimon (U) #164
+        Slash Angemon (M) #221
+    DarkLizardmon (C) #112
+  PawnChessmon Black (R) #054
+    Platinum Sukamon (C) #108
+      MetalMamemon (U) #132
+        Prince Mamemon (M) #215
+    Hookmon (C) #097
+      Meteormon (U) #175
+  Hagurumon (R) #029
+    Guardromon (C) #083
+      Andromon (U) #133
+        HiAndromon (M) #204
+      Kenkimon (U) #128
+
+Kuramon (I) #008
+  Keramon (R) #038
+    Kurisarimon (C) #091
+      Infermon (U) #162
+        Diaboromon (M) #211
+        Beelzemon (M) #236
+  Guilmon (R) #015
+    Growlmon (C) #089
+      WarGrowlmon (U) #158
+        Gallantmon (M) #207
+      BlackWarGrowlmon (U) #171
+  Muchomon (R) #046
+    Akatorimon (C) #107
+
+Puttimon (I) #009
+  Salamon (R) #030
+    Gatomon (C) #080
+      Angewomon (U) #140
+        MarineAngemon (M) #187
+      LadyDevimon (U) #146
+  Kudamon (R) #057
+    Reppamon (C) #117
+      Tyilinmon (U) #180
+        Sleipmon (M) #235
+  PawnChessmon White (R) #060
+
+Chibomon (I) #010
+  Veemon (R) #014
+    ExVeemon (C) #084
+      Paildramon (U) #153
+        Imperialdramon Dragon Mode (M) #199
+        Imperialdramon Fighter Mode (M) #200
+      Flamedramon (U) #122
+      Magnamon (U) #123
+  SnowAgumon (R) #044
+
+Dorimon (I) #011
+  Dorumon (R) #016
+    Dorugamon (C) #099
+      DoruGreymon (U) #165
+        DORUgoramon (M) #223
+  Armadillomon (R) #033
+    Ankylomon (C) #087
+      Seahomon (U) #126
+  Aruraumon (R) #051
+
+Betamon (R) #017
+  Seadramon (C) #066
+    MegaSeadramon (U) #141
+      GigaSeadramon (M) #188
+      MetalSeadramon (M) #229
+  Sukamon (C) #074
+    Dragomon (U) #142
+    Garbagemon (U) #183
+
+Biyomon (R) #020
+  Birdramon (C) #086
+    Garudamon (U) #147
+      Phoenixmon (M) #191
+
+Tentomon (R) #022
+  Kabuterimon (C) #068
+    MegaKabuterimon Red (U) #150
+      HerculesKabuterimon (M) #184
+  Kuwagamon (C) #077
+    Okuwamon (U) #139
+      GranKuwagamon (M) #234
+
+Gotsumon (R) #023
+  Minotarumon (C) #110
+    Cyberdramon (U) #151
+      Ghoulmon Black (M) #226
+  Airdramon (C) #065
+  Icemon (C) #111
+
+Otamamon (R) #024
+  Gekomon (C) #079
+    Whamon (U) #173
+      Plesiomon (M) #212
+  Raremon (C) #078
+
+Tapirmon (R) #026
+  Unimon (C) #104
+    Piximon (U) #136
+      Babamon (M) #218
+      Jijimon (M) #217
+
+DemiDevimon (R) #027
+  Devimon (C) #064
+    Myotismon (U) #145
+      MaloMyotismon (M) #213
+      VenomMyotismon (M) #197
+
+Wormon (R) #031
+  Stingmon (C) #085
+    Dinobeemon (U) #154
+      GranKuwagamon (M) #234
+    Megadramon (U) #135
+      Machinedramon (M) #196
+    Kongoumon (U) #125
+
+Hawkmon (R) #032
+  Aquilamon (C) #094
+    Silphymon (U) #169
+      Valkyrimon (M) #230
+    Gigadramon (U) #176
+    Shurimon (U) #127
+
+Terriermon (R) #034
+  Gargomon (C) #088
+    Rapidmon (U) #159
+      MegaGargomon (M) #209
+      SaberLeomon (M) #185
+    BlackRapidmon (U) #163
+      BlackMegaGargomon (M) #216
+    Prairiemon (U) #124
+
+Impmon (R) #037
+  Roachmon (C) #095
+    MegaKabuterimon Blue (U) #138
+  Vilemon (C) #093
+    Mummymon (U) #157
+      Creepymon (M) #190
+      Ghoulmon Gray (M) #202
+  Sorcerymon (C) #105
+
+Penguinmon (R) #040
+  Kiwimon (C) #103
+    Deramon (U) #168
+  Kokatorimon (C) #075
+  Diatrymon (C) #116
+
+Goburimon (R) #041
+  Tyrannomon (C) #063
+    Triceramon (U) #167
+      Cannondramon (M) #220
+  Ogremon (C) #072
+    Arukenimon (U) #156
+      Parasimon (M) #219
+    Etemon (U) #134
+      MetalEtemon (M) #186
+      Piedmon (M) #189
+  Bakemon (C) #073
+
+Kumamon (R) #042
+  Leomon (C) #076
+    Monzaemon (U) #131
+      BantyoLeomon (M) #224
+  Grizzmon (C) #098
+    WereGarurumon Black (U) #143
+
+Floramon (R) #048
+  Veggiemon (C) #071
+    Blossomon (U) #148
+
+Gizamon (R) #049
+  Apemon (C) #101
+    Divermon (U) #166
+
+ToyAgumon Black (R) #052
+  Reptiledramon (C) #100
+    Mamemon (U) #174
+      Puppetmon (M) #192
+
+Parrotmon (U) #161
+  Eaglemon (M) #222
+
+Digitamamon (U) #137
+  Imperialdramon Dark Mode (M) #214
+
+The following digimon have no evolution line:
+
+Calumon (I) #012
+Numemon (C) #067
+Imperialdramon Paladin Mode (M) #201
+Gallantmon Crimson Mode (M) #208
+Chronomon Holy Mode (M) #239

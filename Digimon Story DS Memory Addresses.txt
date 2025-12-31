@@ -1,0 +1,514 @@
+[Digimon Gallery]
+ald_addr met_addr +flag cnt_addr deid slot
+021E042C 021E045E +0x01 021E0498 0000 #001 Koromon
+0xFF     0xFF     +0x02 021E049C 0001 #002 Tsunomon
+                  +0x04 021E04A0 0002 #003 Poyomon
+                  +0x08 021E04A4 0003 #004 Tokomon
+                  +0x10 021E04A8 0004 #005 Tanemon
+                  +0x20 021E04AC 0005 #006 Pagumon
+                  +0x40 021E04B0 0006 #007 Kapurimon
+                  +0x80 021E04B4 0007 #008 Kuramon
+021E042D 021E045F +0x01 021E04B8 0008 #009 Puttimon
+0xFF     0xFF     +0x02 021E04BC 0009 #010 Chibomon
+                  +0x04 021E04C0 000A #011 Dorimon
+                  +0x08 021E04C4 000B #012 Calumon
+                  +0x10 021E04C8 000C #013 Agumon
+                  +0x20 021E04CC 000D #014 Veemon
+                  +0x40 021E04D0 000E #015 Guilmon
+                  +0x80 021E04D4 000F #016 Dorumon
+021E042E 021E0460 +0x01 021E04D8 0010 #017 Betamon
+0xFF     0xFF     +0x02 021E04DC 0011 #018 Gabumon
+                  +0x04 021E04E0 0012 #019 Patamon
+                  +0x08 021E04E4 0013 #020 Biyomon
+                  +0x10 021E04E8 0014 #021 Palmon
+                  +0x20 021E04EC 0015 #022 Tentomon
+                  +0x40 021E04F0 0016 #023 Gotsumon
+                  +0x80 021E04F4 0017 #024 Otamamon
+021E042F 021E0461 +0x01 021E04F8 0018 #025 Gomamon
+0xFF     0xFF     +0x02 021E04FC 0019 #026 Tapirmon
+                  +0x04 021E0500 001A #027 DemiDevimon
+                  +0x08 021E0504 001B #028 ToyAgumon
+                  +0x10 021E0508 001C #029 Hagurumon
+                  +0x20 021E050C 001D #030 Salamon
+                  +0x40 021E0510 001E #031 Wormmon
+                  +0x80 021E0514 001F #032 Hawkmon
+021E0430 021E0462 +0x01 021E0518 0020 #033 Armadillomon
+0xFF     0xFF     +0x02 021E051C 0021 #034 Terriermon
+                  +0x04 021E0520 0022 #035 Lopmon
+                  +0x08 021E0524 0023 #036 Renamon
+                  +0x10 021E0528 0024 #037 Impmon
+                  +0x20 021E052C 0025 #038 Keramon
+                  +0x40 021E0530 0026 #039 Falcomon
+                  +0x80 021E0534 0027 #040 Penguinmon
+021E0431 021E0463 +0x01 021E0538 0028 #041 Goburimon
+0xC7     0xC7     +0x02 021E053C 0029 #042 Kumamon
+                  +0x04 021E0540 002A #043 Kotemon
+                  +0x08 021E0544 002B #N/A Koemon
+                  +0x10 021E0548 002C #N/A Bokomon
+                  +0x20 021E054C 002D #N/A Neamon
+                  +0x40 021E0550 002E #044 SnowAgumon
+                  +0x80 021E0554 002F #045 BlackAgumon
+021E0432 021E0464 +0x01 021E0558 0030 #046 Muchomon
+0xFF     0xFF     +0x02 021E055C 0031 #047 Crabmon
+                  +0x04 021E0560 0032 #048 Floramon
+                  +0x08 021E0564 0033 #049 Gizamon
+                  +0x10 021E0568 0034 #050 Raramon
+                  +0x20 021E056C 0035 #051 Aruraumon
+                  +0x40 021E0570 0036 #052 ToyAgumonB
+                  +0x80 021E0574 0037 #053 Tsukaimon
+021E0433 021E0465 +0x01 021E0578 0038 #054 PawnChessmon Black
+0xFF     0xFF     +0x02 021E057C 0039 #055 Gaomon
+                  +0x04 021E0580 003A #056 DotFalcomon
+                  +0x08 021E0584 003B #057 Kudamon
+                  +0x10 021E0588 003C #058 Kamemon
+                  +0x20 021E058C 003D #059 Dracmon
+                  +0x40 021E0590 003E #060 PawnChessmon White
+                  +0x80 021E0594 003F #061 DotAgumon
+021E0434 021E0466 +0x01 021E0598 0040 #N/A Goburimon (copy?)
+0xFC     0xFC     +0x02 021E059C 0041 #N/A Agumon (copy?)
+                  +0x04 021E05A0 0042 #062 Greymon
+                  +0x08 021E05A4 0043 #063 Tyrannomon
+                  +0x10 021E05A8 0044 #064 Devimon
+                  +0x20 021E05AC 0045 #065 Airdramon
+                  +0x40 021E05B0 0046 #066 Seadramon
+                  +0x80 021E05B4 0047 #067 Numemon
+021E0435 021E0467 +0x01 021E05B8 0048 #068 Kabuterimon
+0xFF     0xFF     +0x02 021E05BC 0049 #069 Garurumon
+                  +0x04 021E05C0 004A #070 Angemon
+                  +0x08 021E05C4 004B #071 Veggiemon
+                  +0x10 021E05C8 004C #072 Ogremon
+                  +0x20 021E05CC 004D #073 Bakemon
+                  +0x40 021E05D0 004E #074 Sukamon
+                  +0x80 021E05D4 004F #075 Kokatorimon
+021E0436 021E0468 +0x01 021E05D8 0050 #076 Leomon
+0xF7     0xF7     +0x02 021E05DC 0051 #077 Kuwagamon
+                  +0x04 021E05E0 0052 #078 Raremon
+                  +0x08 021E05E4 0053 #N/A Tortomon (bad data, game crash)
+                  +0x10 021E05E8 0054 #079 Gekomon
+                  +0x20 021E05EC 0055 #080 Gatomon
+                  +0x40 021E05F0 0056 #081 Wizardmon
+                  +0x80 021E05F4 0057 #082 Togemon
+021E0437 021E0469 +0x01 021E05F8 0058 #083 Guardromon
+0xFF     0xFF     +0x02 021E05FC 0059 #084 ExVeemon
+                  +0x04 021E0600 005A #085 Stingmon
+                  +0x08 021E0604 005B #086 Birdramon
+                  +0x10 021E0608 005C #087 Ankylomon
+                  +0x20 021E060C 005D #088 Gargomon
+                  +0x40 021E0610 005E #089 Growlmon
+                  +0x80 021E0614 005F #090 Kyubimon
+021E0438 021E046A +0x01 021E0618 0060 #091 Kurisarimon
+0xDF     0xDF     +0x02 021E061C 0061 #092 Seasarmon
+                  +0x04 021E0620 0062 #093 Vilemon
+                  +0x08 021E0624 0063 #094 Aquilamon
+                  +0x10 021E0628 0064 #095 Roachmon
+                  +0x20 021E062C 0065 [invalid]
+                  +0x40 021E0630 0066 #096 Dinohumon
+                  +0x80 021E0634 0067 #097 Hookmon
+021E0439 021E046B +0x01 021E0638 0068 #098 Grizzmon
+0xDF     0xDF     +0x02 021E063C 0069 #099 Dorugamon
+                  +0x04 021E0640 006A #100 Reptiledramon
+                  +0x08 021E0644 006B #101 Apemon
+                  +0x10 021E0648 006C #102 Starmon
+                  +0x20 021E064C 006D [invalid]
+                  +0x40 021E0650 006E #103 Kiwimon
+                  +0x80 021E0654 006F #104 Unimon
+021E043A 021E046C +0x01 021E0658 0070 #105 Sorcerymon
+0xFF     0xFF     +0x02 021E065C 0071 #106 DarkTyrannomon
+                  +0x04 021E0660 0072 #107 Akatorimon
+                  +0x08 021E0664 0073 #108 Platinum Sukamon
+                  +0x10 021E0668 0074 #109 Ikkakumon
+                  +0x20 021E066C 0075 #110 Minotarumon
+                  +0x40 021E0670 0076 #111 Icemon
+                  +0x80 021E0674 0077 #112 DarkLizardmon
+021E043B 021E046D +0x01 021E0678 0078 #113 FlareLizardmon
+0xFF     0xFF     +0x02 021E067C 0079 #114 GeoGreymon
+                  +0x04 021E0680 007A #115 Gaogamon
+                  +0x08 021E0684 007B #116 Diatrymon
+                  +0x10 021E0688 007C #117 Reppamon
+                  +0x20 021E068C 007D #118 Sunflowmon
+                  +0x40 021E0690 007E #119 Guappamon
+                  +0x80 021E0694 007F #120 Sangloupmon
+021E043C 021E046E +0x01 021E0698 0080 #121 Peckmon
+0xF5     0xF5     +0x02 021E069C 0081 #N/A Greymon (copy?)
+                  +0x04 021E06A0 0082 #122 Flamedramon
+                  +0x08 021E06A4 0083 [invalid]
+                  +0x10 021E06A8 0084 #123 Magnamon
+                  +0x20 021E06AC 0085 #124 Prairiemon
+                  +0x40 021E06B0 0086 #125 Kongoumon
+                  +0x80 021E06B4 0087 #126 Seahomon
+021E043D 021E046F +0x01 021E06B8 0088 #127 Shurimon
+0x19     0x19     +0x02 021E06BC 0089 [invalid]
+                  +0x04 021E06C0 008A [invalid]
+                  +0x08 021E06C4 008B #128 Kenkimon
+                  +0x10 021E06C8 008C #129 Ponchomon
+                  +0x20 021E06CC 008D #N/A Flamedramon (copy?)
+                  +0x40 021E06D0 008E #N/A Kongoumon (copy?)
+                  +0x80 021E06D4 008F #N/A Kenkimon (copy?)
+021E043E 021E0470 +0x01 021E06D8 0090 #130 MetalGreymon
+0xFB     0xFB     +0x02 021E06DC 0091 #131 Monzaemon
+                  +0x04 021E06E0 0092 #N/A SkullGreymon
+                  +0x08 021E06E4 0093 #132 MetalMamemon
+                  +0x10 021E06E8 0094 #133 Andromon
+                  +0x20 021E06EC 0095 #134 Etemon
+                  +0x40 021E06F0 0096 #135 Megadramon
+                  +0x80 021E06F4 0097 #136 Piximon
+021E043F 021E0471 +0x01 021E06F8 0098 #137 Digitamamon
+0x2D     0x2D     +0x02 021E06FC 0099 #N/A Datamon (bad data, game crash)
+                  +0x04 021E0700 009A #138 MegaKabuterimon Blue
+                  +0x08 021E0704 009B #139 Okuwamon
+                  +0x10 021E0708 009C #N/A Tonosama Gekomon
+                  +0x20 021E070C 009D #140 Angewomon
+                  +0x40 021E0710 009E [invalid]
+                  +0x80 021E0714 009F [invalid]
+021E0440 021E0472 +0x01 021E0718 00A0 #141 MegaSeadramon
+0xFF     0xFF     +0x02 021E071C 00A1 #142 Dragomon
+                  +0x04 021E0720 00A2 #143 WereGarurumon Black
+                  +0x08 021E0724 00A3 #144 WereGarurumon
+                  +0x10 021E0728 00A4 #145 Myotismon
+                  +0x20 021E072C 00A5 #146 LadyDevimon
+                  +0x40 021E0730 00A6 #147 Garudamon
+                  +0x80 021E0734 00A7 #148 Blossomon
+021E0441 021E0473 +0x01 021E0738 00A8 #149 Lillymon
+0xFB     0xFB     +0x02 021E073C 00A9 #150 MegaKabuterimon (Red)
+                  +0x04 021E0740 00AA #N/A WaruMonzaemon
+                  +0x08 021E0744 00AB #151 Cyberdramon
+                  +0x10 021E0748 00AC #152 MagnaAngemon
+                  +0x20 021E074C 00AD #153 Paildramon
+                  +0x40 021E0750 00AE #154 Dinobeemon
+                  +0x80 021E0754 00AF #155 Antylamon
+021E0442 021E0474 +0x01 021E0758 00B0 #156 Arukenimon
+0xFF     0xFF     +0x02 021E075C 00B1 #157 Mummymon
+                  +0x04 021E0760 00B2 #158 WarGrowlmon
+                  +0x08 021E0764 00B3 #159 Rapidmon
+                  +0x10 021E0768 00B4 #160 Taomon
+                  +0x20 021E076C 00B5 #161 Parrotmon
+                  +0x40 021E0770 00B6 #162 Infermon
+                  +0x80 021E0774 00B7 #163 BlackRapidmon
+021E0443 021E0475 +0x01 021E0778 00B8 #N/A Pandamon
+0xC8     0xC8     +0x02 021E077C 00B9 [invalid]
+                  +0x04 021E0780 00BA [invalid]
+                  +0x08 021E0784 00BB #164 Kyukimon
+                  +0x10 021E0788 00BC [invalid]
+                  +0x20 021E078C 00BD [invalid]
+                  +0x40 021E0790 00BE #165 DoruGreymon
+                  +0x80 021E0794 00BF #166 Divermon
+021E0444 021E0476 +0x01 021E0798 00C0 #N/A Chimairamon
+0xFE     0xFE     +0x02 021E079C 00C1 #167 Triceramon
+                  +0x04 021E07A0 00C2 #168 Deramon
+                  +0x08 021E07A4 00C3 #169 Silphymon
+                  +0x10 021E07A8 00C4 #170 SuperStarmon
+                  +0x20 021E07AC 00C5 #171 BlackWarGrowlmon
+                  +0x40 021E07B0 00C6 #172 Zudomon
+                  +0x80 021E07B4 00C7 #173 Whamon
+021E0445 021E0477 +0x01 021E07B8 00C8 #174 Mamemon
+0xF9     0xF9     +0x02 021E07BC 00C9 [invalid]
+                  +0x04 021E07C0 00CA [invalid]
+                  +0x08 021E07C4 00CB #175 Meteormon
+                  +0x10 021E07C8 00CC #176 Gigadramon
+                  +0x20 021E07CC 00CD #177 RiseGreymon
+                  +0x40 021E07D0 00CE #178 MachGaogamon
+                  +0x80 021E07D4 00CF #179 Yatakaramon
+021E0446 021E0478 +0x01 021E07D8 00D0 #180 Tyilinmon
+0x4B     0x4B     +0x02 021E07DC 00D1 #181 Lilamon
+                  +0x04 021E07E0 00D2 [invalid]
+                  +0x08 021E07E4 00D3 #182 Matadormon
+                  +0x10 021E07E8 00D4 [invalid]
+                  +0x20 021E07EC 00D5 #N/A Lucemon CM (Chaos Mode)
+                  +0x40 021E07F0 00D6 #183 Garbagemon
+                  +0x80 021E07F4 00D7 #N/A MetalGreymon (copy?)
+021E0447 021E0479 +0x01 021E07F8 00D8 #N/A SkullGreymon (boss)
+0x00     0x00     +0x02 021E07FC 00D9 #N/A SkullGreymon (copy?)
+                  +0x04 021E0800 00DA #N/A SkullGreymon (copy?)
+                  +0x08 021E0804 00DB #N/A ShogunGekomon (boss)
+                  +0x10 021E0808 00DC #N/A ShogunGekomon
+                  +0x20 021E080C 00DD #N/A Kimeramon (boss)
+                  +0x40 021E0810 00DE #N/A Kimeramon
+                  +0x80 021E0814 00DF #N/A Kimeramon
+021E0448 021E047A +0x01 021E0818 00E0 #N/A Lucemon CM (Chaos Mode)
+0xF0     0xF0     +0x02 021E081C 00E1 #N/A Lucemon CM (Chaos Mode)
+                  +0x04 021E0820 00E2 #N/A Lucemon CM (Chaos Mode)
+                  +0x08 021E0824 00E3 #N/A Lucemon CM (Chaos Mode)
+                  +0x10 021E0828 00E4 #184 Hercules Kabuterimon
+                  +0x20 021E082C 00E5 #185 SaberLeomon
+                  +0x40 021E0830 00E6 #186 MetalEtemon
+                  +0x80 021E0834 00E7 #187 MarineAngemon
+021E0449 021E047B +0x01 021E0838 00E8 #188 GigaSeadramon
+0xFF     0xFF     +0x02 021E083C 00E9 #189 Piedmon
+                  +0x04 021E0840 00EA #190 Creepymon
+                  +0x08 021E0844 00EB #191 Phoenixmonmon
+                  +0x10 021E0848 00EC #192 Puppetmon
+                  +0x20 021E084C 00ED #193 Rosemon
+                  +0x40 021E0850 00EE #194 WarGreymon
+                  +0x80 021E0854 00EF #195 MetalGarurumon
+021E044A 021E047C +0x01 021E0858 00F0 #196 Machinedramon
+0xFF     0xFF     +0x02 021E085C 00F1 #197 VenomMyotismon
+                  +0x04 021E0860 00F2 #198 Omnimon
+                  +0x08 021E0864 00F3 #199 Imperialdramon Dragon Mode
+                  +0x10 021E0868 00F4 #200 Imperialdramon Fighter Mode
+                  +0x20 021E086C 00F5 #201 Imperialdramon Paladin Mode
+                  +0x40 021E0870 00F6 #202 Ghoulmon
+                  +0x80 021E0874 00F7 #203 Seraphimon
+021E044B 021E047D +0x01 021E0878 00F8 #204 HiAndromon
+0xFD     0xFD     +0x02 021E087C 00F9 [invalid]
+                  +0x04 021E0880 00FA #205 Cherubimon Good
+                  +0x08 021E0884 00FB #206 Cherubimon Evil
+                  +0x10 021E0888 00FC #207 Gallantmon
+                  +0x20 021E088C 00FD #208 Gallantmon Crimson Mode
+                  +0x40 021E0890 00FE #209 MegaGargomon
+                  +0x80 021E0894 00FF #210 Sakuyamon
+021E044C 021E047E +0x01 021E0898 0100 #211 Diaboromon
+0xD1     0xD1     +0x02 021E089C 0101 #N/A King Etemon
+                  +0x04 021E08A0 0102 [invalid]
+                  +0x08 021E08A4 0103 [invalid]
+                  +0x10 021E08A8 0104 #212 Plesiomon
+                  +0x20 021E08AC 0105 #N/A Armagemon (boss?)
+                  +0x40 021E08B0 0106 #213 MaloMyotismon
+                  +0x80 021E08B4 0107 #214 Imperialdramon Dragon Mode Black
+021E044D 021E047F +0x01 021E08B8 0108 #N/A Chronomon Destroy Mode
+0x72     0x72     +0x02 021E08BC 0109 #215 Prince Mamemon
+                  +0x04 021E08C0 010A #N/A Ofanimon
+                  +0x08 021E08C4 010B [invalid]
+                  +0x10 021E08C8 010C #216 BlackMegaGargomon
+                  +0x20 021E08CC 010D #217 Jijimon
+                  +0x40 021E08D0 010E #218 Babamon
+                  +0x80 021E08D4 010F [invalid]
+021E044E 021E0480 +0x01 021E08D8 0110 #219 Parasimon
+0xDF     0xDF     +0x02 021E08DC 0111 #220 Cannondramon
+                  +0x04 021E08E0 0112 #221 Slash Angemon
+                  +0x08 021E08E4 0113 #222 Eaglemon
+                  +0x10 021E08E8 0114 #223 DORUgoramon
+                  +0x20 021E08EC 0115 [invalid]
+                  +0x40 021E08F0 0116 #224 BantyoLeomon
+                  +0x80 021E08F4 0117 #225 Darkdramon
+021E044F 021E0481 +0x01 021E08F8 0118 #N/A Chronomon Destroy Mode (boss?)
+0xE0     0xE0     +0x02 021E08FC 0119 #N/A Chronomon Destroy Mode
+                  +0x04 021E0900 011A #N/A Chronomon Destroy Mode
+                  +0x08 021E0904 011B #N/A Chronomon Destroy Mode
+                  +0x10 021E0908 011C #N/A Chronomon Destroy Mode
+                  +0x20 021E090C 011D #226 GhoulmonB
+                  +0x40 021E0910 011E #227 Kuzuhamon
+                  +0x80 021E0914 011F #228 ChaosGallantmon
+021E0450 021E0482 +0x01 021E0918 0120 #229 MetalSeadramon
+0x5F     0x5F     +0x02 021E091C 0121 #230 Valkyrimon
+                  +0x04 021E0920 0122 #231 Justimon
+                  +0x08 021E0924 0123 #232 Vikemon
+                  +0x10 021E0928 0124 #233 BlackWarGreymon
+                  +0x20 021E092C 0125 #N/A Devitamamon (bad data, game crash)
+                  +0x40 021E0930 0126 #234 Gran Kuwagamon
+                  +0x80 021E0934 0127 #N/A Gran Locomon (boss)
+021E0451 021E0483 +0x01 021E0938 0128 #N/A Susanoomon (bad sprite, NPC)
+0x40     0x40     +0x02 021E093C 0129 #N/A Alphamon (bad sprite)
+                  +0x04 021E0940 012A #N/A Ebemon (bad data, game crash)
+                  +0x08 021E0944 012B #N/A Shine Greymon (bad data, game crash)
+                  +0x10 021E0948 012C #N/A Mirage Gaogamon (bad data, game crash)
+                  +0x20 021E094C 012D [invalid]
+                  +0x40 021E0950 012E #235 Sleipmon
+                  +0x80 021E0954 012F [invalid]
+021E0452 021E0484 +0x01 021E0958 0130 [invalid]
+0x40     0x40     +0x02 021E095C 0131 [invalid]
+                  +0x04 021E0960 0132 [invalid]
+                  +0x08 021E0964 0133 #N/A Lilithmon (boss)
+                  +0x10 021E0968 0134 #N/A Daemon (boss?, glitchy sprite)
+                  +0x20 021E096C 0135 #N/A Leviamon (boss?, glitchy sprite)
+                  +0x40 021E0970 0136 #236 Beelzemon
+                  +0x80 021E0974 0137 #N/A Barbamon (boss?, glitchy sprite)
+021E0453 021E0485 +0x01 021E0978 0138 #N/A Belphemon (Rage Mode, boss?, glitchy sprite)
+0x16     0x16     +0x02 021E097C 0139 #237 Varodurumon
+                  +0x04 021E0980 013A #238 Neptunemon
+                  +0x08 021E0984 013B #N/A Heal Plant (bad data, game crash)
+                  +0x10 021E0988 013C #239 Chronomon Holy Mode
+                  +0x20 021E098C 013D #N/A Imperialdramon Fighter Mode (boss?)
+                  +0x40 021E0990 013E #N/A Gallantmon (copy?)
+                  +0x80 021E0994 013F #N/A Diaboromon (copy?, mega version)
+-------- -------- ----- -------- 0140 #N/A Daemon (boss?, copy?, glitchy sprite)
+-------- -------- ----- -------- 0141 #N/A Beelzemon (boss?, copy?)
+-------- -------- ----- -------- 0142 #N/A Barbamon
+-------- -------- ----- -------- 0143 #N/A Lilithmon
+-------- -------- ----- -------- 0144 #N/A Leviamon
+-------- -------- ----- -------- 0145 #N/A Azulongmon (boss?, glitchy sprite)
+-------- -------- ----- -------- 0146 #N/A Azulongmon
+-------- -------- ----- -------- 0147 #N/A Azulongmon
+-------- -------- ----- -------- 0148 #N/A Azulongmon
+-------- -------- ----- -------- 0149 #N/A Azulongmon
+-------- -------- ----- -------- 014A #N/A Ebonwumon / Xuanwumon
+-------- -------- ----- -------- 014B #N/A Ebonwumon / Xuanwumon
+-------- -------- ----- -------- 014C #N/A Ebonwumon / Xuanwumon
+-------- -------- ----- -------- 014D #N/A Baihumon
+-------- -------- ----- -------- 014E #N/A Baihumon
+-------- -------- ----- -------- 014F #N/A Baihumon
+-------- -------- ----- -------- 0150 #N/A Hercules Kabuterimon (Quest Boss?)
+-------- -------- ----- -------- 0151 #N/A Hercules Kabuterimon (Quest Boss?)
+-------- -------- ----- -------- 0152 #N/A Gran Locomon
+-------- -------- ----- -------- 0153 #N/A Gran Locomon
+-------- -------- ----- -------- 0154 #N/A Gran Locomon
+-------- -------- ----- -------- 0155 #N/A Zhuqiaomon
+
+cnt_addr:
+__AA __BB __CC __DD
+0xE7 0x9F 0x7F 0x3E    → [999, 999, 999] (Binary (LSB first))
+Digimon met count      - 10 bit value (AA all  8bit + BB first 2bit) [AA 0b11111111 BB 0b00000011]
+Digimon defeated count - 10 bit value (BB last 6bit + CC first 4bit) [BB 0b11111100 CC 0b00001111]
+Scan count (percents)  - 10 bit value (CC last 4bit + DD first 6bit) [CC 0b11110000 DD 0b00111111]
+
+[Wiki]
+https://digimon.neoseeker.com/wiki/Digimon_World_DS
+https://digimon.neoseeker.com/wiki/Digimon_World_DS_Digivolution_Guide
+https://gamefaqs.gamespot.com/ds/928689-digimon-world-ds/faqs/79885 (Digivolution Lines)
+https://gamefaqs.gamespot.com/ds/928689-digimon-world-ds/faqs/48011 (Monster Location Guide)
+https://gamefaqs.gamespot.com/ds/928689-digimon-world-ds/faqs/51693 (Quest FAQ)
+https://www.supercheats.com/digimon-world-ds/walkthrough/
+
+[GAME TIME]
+021DB7F0 00786900
+0x40 is one second, 1/64 = 0.015625 seconds per tick
+00 69 78 00 → 30:00:00 (hex value is 108000 * 64ticks)
+
+[Starters]
+ald_addr met_addr +flag cnt_addr slot
+021E042C 021E045E +0x01 021E0498 #001 Koromon
+021E042C 021E045E +0x02 021E049C #002 Tsunomon
+021E042C 021E045E +0x10 021E04A8 #005 Tanemon
+
+[Codes Only]
+021E0433 021E0465 +0x04 021E0580 #056 DotFalcomon
+021E0433 021E0465 +0x80 021E0594 #061 DotAgumon
+
+[Matching Only]
+ald_addr met_addr +flag cnt_addr slot
+021E042D 021E045F +0x02 021E04BC #010 Chibomon  [300atk obedient + dragon]
+021E0431 021E0463 +0x40 021E0550 #044 SnowAgumon [Holy + Aquan]
+021E0434 021E0466 +0x80 021E05B4 #067 Numemon [Any]
+021E0437 021E0469 +0x02 021E05FC #084 ExVeemon [300atk Obedient + Dragon]
+021E0441 021E0473 +0x20 021E074C #153 Paildramon [Xveemon + Stingmon]
+021E044A 021E047C +0x04 021E0860 #198 Omnimon [Metalgarurumon + Metalgreymon]
+021E044A 021E047C +0x20 021E086C #201 Imperialdramon Paladin Mode [Omnimon + Imperialdramon FM]
+021E044B 021E047D +0x20 021E088C #208 Gallantmon Crimson Mode [99lvl x2]
+021E044F 021E0481 +0x80 021E0914 #228 ChaosGallantmon (from Antylamon) [BlackWarGreymon + BlackMegaGargomon]
+021E043F 021E0471 +0x01 021E06F8 #137 Digitamamon [Same Name x2]
+
+[Unobtainable by Evolution]
+Chronomon HM
+Culumon
+Gallantmon: Crimson Mode
+Imperialdramon: Paladin Mode
+Numemon
+
+[Locations]
+
+Data Forest
+|- #001 Koromon  / #013 Agumon
+|- #002 Tsunomon / #018 Gabumon
+|- #005 Tanemon  / #021 Palmon
+#003 Poyomon
+#017 Betamon
+#041 Goburimon
+#072 Ogremon
+
+Training Peak
+#004 Tokomon
+#019 Patamon
+#023 Gotsumon
+#026 Tapirmon
+#043 Kotemon
+#045 BlackAgumon
+#083 Guardromon
+#094 Aquilamon
+#106 DarkTyrannomon
+
+[Digimon Parameters]
+
+021DB830 XXXX - Digi ID
+021DB876 XXXX - Digi DEF 01
+
+[Digimon World DS (US)]
+
+Digimon Gallery Complete
+
+E21E042C 0000002C
+FFFFFFFF FFFFC7FF
+FFF7FFFC FFFFDFDF
+2DFB19F5 C8FFFBFF
+004BF9FE FDFFFFF0
+E0DF72D1 1640405F
+00000000 00000000
+D2000000 00000000
+121E045E 0000FFFF
+E21E0460 00000028
+C7FFFFFF FFFCFFFF
+DFDFFFF7 19F5FFFF
+FBFF2DFB F9FEC8FF
+FFF0004B 72D1FDFF
+405FE0DF 00001640
+D2000000 00000000
+121E0488 00000000
+
+Met/Defeated 999 + Scan 999% (Press Select)
+
+94000130 000003FB
+D5000000 3E7F9FE7
+C0000000 0000013B
+D6000000 021E0498
+D2000000 00000000
+
+DigiEgg Gallery Complete
+
+; DigiEgg Gallery codes
+; 0x0000 - Hatched Count (Max: 99 (0x63))
+;        - Hatched Digimon Flags (+0x01, +0x02, +0x04)
+; 0x0000 - Parent Digimon ID 1
+; 0x0000 - Parent Digimon ID 2
+; 0x0000 - Max Egg Size (Max: 999.9 (0x270F))
+
+C0000000 00000007
+121E0B46 00006303
+121E0B48 00000000
+121E0B4A 00000000
+121E0B4C 0000270F
+DC000000 00000008
+D2000000 00000000
+121E0C7E 00006303
+121E0C80 00000000
+121E0C82 00000000
+121E0C84 0000270F
+C0000000 00000007
+121E0B86 00006301
+121E0B88 00000000
+121E0B8A 00000000
+121E0B8C 0000270F
+DC000000 00000008
+D2000000 00000000
+C0000000 0000000F
+121E0BC6 00006303
+121E0BC8 00000000
+121E0BCA 00000000
+121E0BCC 0000270F
+DC000000 00000008
+D2000000 00000000
+C0000000 00000003
+121E0C46 00006307
+121E0C48 00000000
+121E0C4A 00000000
+121E0C4C 0000270F
+DC000000 00000008
+D2000000 00000000
+C0000000 00000002
+121E0C66 00006301
+121E0C68 00000000
+121E0C6A 00000000
+121E0C6C 0000270F
+DC000000 00000008
+D2000000 00000000
+C0000000 00000003
+121E0C86 00006301
+121E0C88 00000000
+121E0C8A 00000000
+121E0C8C 0000270F
+DC000000 00000008
+D2000000 00000000
+C0000000 00000003
+121E0CA6 00006307
+121E0CA8 00000000
+121E0CAA 00000000
+121E0CAC 0000270F
+DC000000 00000008
+D2000000 00000000
