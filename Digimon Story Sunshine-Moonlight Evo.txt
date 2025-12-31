@@ -43,6 +43,13 @@ Betamon (R) #029
       MarineAngemon (M) #302
     Divermon (U) #242
 
+Gizamon (R) #064
+  IceDevimon (C) #163
+    MarineDevimon (U) #236
+  Raremon (C) #102
+    Datamon/Nanomon (U) #221
+      Parasimon (M) #343
+
 Solarmon (R) #079
   Clockmon (C) #176
     Knightmon (U) #278
