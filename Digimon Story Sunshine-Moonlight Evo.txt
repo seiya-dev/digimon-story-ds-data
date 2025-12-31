@@ -11,6 +11,21 @@ Chichimon (I) #001
       Parrotmon (U) #232
         Eaglemon (M) #346
 
+Poyomon (I) #004
+  Gomamon (R) #037
+    Ikkakumon (C) #134
+      Zudomon (U) #249
+        Vikemon (M) #362
+  Kamemon (R) #073
+    Gwappamon (C) #144
+      Shaujinmon (U) #282
+        JumboGamemon (M) #376
+    Tortamon (C) #153
+      Brachiomon (U) #279
+        Plesiomon (M) #331
+  Crabmon (R) #062
+    Ebidramon (C) #154
+
 Wanyamon (I) #019
   Gaomon (R) #070
     Gaogamon (C) #140
