@@ -16,3 +16,14 @@ Moonmon (I) #023
     Lekismon (C) #193
       Crescemon (U) #287
         Dianamon (M) #384
+
+Betamon (R) #029
+  Octomon (C) #155
+  Gesomon (C) #156
+  Dolphmon (C) #164
+    Whamon (U) #250
+      MarineAngemon (M) #302
+    Divermon (U) #242
+
+Dragomon (U) #212
+  Neptunmon (M) #328
