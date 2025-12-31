@@ -11,6 +11,24 @@ Chichimon (I) #001
       Parrotmon (U) #232
         Eaglemon (M) #346
 
+Wanyamon (I) #019
+  Gaomon (R) #070
+    Gaogamon (C) #140
+      MachGaogamon (U) #257
+        MirageGaogamon (M) #375
+        DotMirageGaogamon (M) #391
+    Leomon (C) #100
+      GrappLeomon (U) #277
+        SaberLeomon (M) #300
+  Bearmon (R) #054
+    Grizzmon (C) #122
+      Monzaemon (U) #196
+        Babamon (M) #341
+      Pandamon (U) #235
+    Mojyamon (C) #182
+      Mammothmon (U) #204
+        SkullMammothmon (M) #364
+
 Moonmon (I) #023
   Lunamon (R) #084
     Lekismon (C) #193
@@ -24,6 +42,13 @@ Betamon (R) #029
     Whamon (U) #250
       MarineAngemon (M) #302
     Divermon (U) #242
+
+Solarmon (R) #079
+  Clockmon (C) #176
+    Knightmon (U) #278
+      Alphamon (M) #368
+  BomberNanimon (C) #127
+    Giromon (U) #267
 
 Dragomon (U) #212
   Neptunmon (M) #328
