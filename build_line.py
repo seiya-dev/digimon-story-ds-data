@@ -245,3 +245,4 @@ def get_evo_tree(src_file, target_file, game_name, game_id):
     out_html.write_text(''.join(parts), encoding="utf-8")
 
 get_evo_tree("Digimon Story DS Evo.txt", "Digimon Story DS Evo.html", "Digimon Story DS", "digimon_story_ds")
+get_evo_tree("Digimon Story Sunshine-Moonlight Evo.txt", "Digimon Story Sunshine-Moonlight Evo.html", "Digimon Story Sunshine/Moonlight", "digimon_story_sunshine_moonlight")
