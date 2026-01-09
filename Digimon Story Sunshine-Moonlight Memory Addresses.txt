@@ -1,0 +1,31 @@
+[Digimon Gallery]
+ald_addr +flag met_addr +flag cnt_addr deid slot
+0213A282 +0x01 0213A2C0 +0x10 0213A500 ???? #001 Chicchimon
+         +0x02          +0x20 0213A504 ???? #002 Koromon
+         +0x04          +0x40 0213A508 ???? #003 Tsunomon
+         +0x08          +0x80 0213A50C ???? #004 Poyomon
+0213A282 +0x10 0213A2C1 +0x01 0213A510 ???? #005 Tokomon
+         +0x20          +0x02 0213A514 ???? #006 Tanemon
+         +0x40          +0x04 0213A518 ???? #007 Pagumon
+         +0x80          +0x08 0213A51C ???? #008 Kapurimon
+
+Low Play Time
+02135a14 00000000
+
+; DigiEgg Gallery codes
+; 0x0000 - Hatched Count (Max: 99 (0x63))
+;        - Hatched Digimon Flags (+0x01, +0x02, +0x04, +0x08)
+; 0x0000 - Parent Digimon ID 1
+; 0x0000 - Parent Digimon ID 2
+; 0x0000 - Max Egg Size (Max: 999.9 (0x270F))
+; 213abe0 ???
+
+DigiEgg Gallery Complete
+
+C0000000 0000003F
+1213abe0 0000630F
+1213abe2 00000000
+1213abe4 00000000
+1213abe6 0000270F
+DC000000 00000008
+D2000000 00000000
