@@ -13,8 +13,17 @@ Note:
 00~3F Eggs
 40    Red Egg no-element
 
-Low Play Time
-02135A14 00000000
+cnt_addr:
+__AA __BB __CC __DD
+0xE7 0x9F 0x7F 0x3E    > [999, 999, 999] (Binary (LSB first))
+Digimon met count      - 10 bit value (AA all  8bit + BB first 2bit) [AA 0b11111111 BB 0b00000011]
+Digimon defeated count - 10 bit value (BB last 6bit + CC first 4bit) [BB 0b11111100 CC 0b00001111]
+Scan count (percents)  - 10 bit value (CC last 4bit + DD first 6bit) [CC 0b11110000 DD 0b00111111]
+
+[GAME TIME]
+02135A14 00786900
+0x40 is one second, 1/64 = 0.015625 seconds per tick
+00 69 78 00 > 30:00:00 (hex value is 108000 * 64ticks)
 
 ; DigiEgg Gallery codes
 ; 0x0000 - Hatched Count (Max: 99 (0x63))
