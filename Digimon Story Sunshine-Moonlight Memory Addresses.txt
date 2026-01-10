@@ -1,16 +1,20 @@
 [Digimon Gallery]
 ald_addr +flag met_addr +flag cnt_addr deid slot
-0213A282 +0x01 0213A2C0 +0x10 0213A500 0040 #001 Chicchimon
-         +0x02          +0x20 0213A504 0041 #002 Koromon
-         +0x04          +0x40 0213A508 0042 #003 Tsunomon
-         +0x08          +0x80 0213A50C 0043 #004 Poyomon
-0213A282 +0x10 0213A2C1 +0x01 0213A510 0044 #005 Tokomon
-         +0x20          +0x02 0213A514 0045 #006 Tanemon
-         +0x40          +0x04 0213A518 0046 #007 Pagumon
-         +0x80          +0x08 0213A51C 0047 #008 Kapurimon
+0213A282 +0x01 0213A2C0 +0x10 0213A500 0041 #001 Chicchimon
+         +0x02          +0x20 0213A504 0042 #002 Koromon
+         +0x04          +0x40 0213A508 0043 #003 Tsunomon
+         +0x08          +0x80 0213A50C 0044 #004 Poyomon
+0213A282 +0x10 0213A2C1 +0x01 0213A510 0045 #005 Tokomon
+         +0x20          +0x02 0213A514 0046 #006 Tanemon
+         +0x40          +0x04 0213A518 0047 #007 Pagumon
+         +0x80          +0x08 0213A51C 0048 #008 Kapurimon
+
+Note:
+00~3F Eggs
+40    Red Egg no-element
 
 Low Play Time
-02135a14 00000000
+02135A14 00000000
 
 ; DigiEgg Gallery codes
 ; 0x0000 - Hatched Count (Max: 99 (0x63))
@@ -23,10 +27,10 @@ Low Play Time
 DigiEgg Gallery Complete
 
 C0000000 0000003F
-1213abe0 0000630F
-1213abe2 00000040
-1213abe4 00000040
-1213abe6 0000270F
+1213ABE0 0000630F
+1213ABE2 00000042
+1213ABE4 00000042
+1213ABE6 0000270F
 DC000000 00000008
 D2000000 00000000
 
