@@ -51,7 +51,7 @@
 #051 Falcomon
 #052 Penguinmon
 #053 Goburimon
-#054 Kumamon
+#054 Kumamon/Bearmon
 #055 Kotemon
 #056 Shamamon
 #057 SnowGoburimon

@@ -367,7 +367,7 @@ Wanyamon (I) #019
     Leomon (C) #100
       GrappLeomon (U) #277
         SaberLeomon (M) #300
-  Bearmon (R) #054
+  Kumamon (R) #054
     Grizzmon (C) #122
       Monzaemon (U) #196
         Babamon (M) #341
