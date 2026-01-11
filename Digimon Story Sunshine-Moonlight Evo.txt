@@ -266,6 +266,8 @@ Puttimon (I) #010
     Gatomon (C) #104
       Angewomon (U) #208
         Ophanimon (M) #337
+      Lynxmon [DigiEgg of Courage] (U) #281
+      Kabukimon [DigiEgg of Sincerity] (U) #262
       Tylomon [DigiEgg of Reliability] (A) #209
   PawnChessmonW (R) #075
     KnightChessmonW (C) #190
@@ -403,8 +405,6 @@ Silphymon (U) #246
 
 Shadramon (U) #260
 
-Kabukimon (U) #262
-
 Lucemon Fallen Mode (U) #265
 
 Vadermon (U) #268
@@ -412,8 +412,6 @@ Vadermon (U) #268
 MetalTyrannomon (U) #269
 
 BigMamemon (U) #271
-
-Lynxmon (U) #281
 
 Kongoumon (U) #291
 
