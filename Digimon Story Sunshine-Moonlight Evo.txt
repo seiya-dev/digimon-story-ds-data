@@ -88,6 +88,8 @@ Dorimon (I) #012
   Armadillomon (R) #045
     Ankylomon (C) #111
     NDrimogemon (C) #148
+    Seahomon [DigiEgg of Friendship] (A) #292
+    Kenkimon [DigiEgg of Light] (A) #294
   Shamamon (R) #056
     Fugamon (C) #151
     Apemon (C) #125
@@ -414,10 +416,6 @@ Lynxmon (U) #281
 Prairiemon (U) #290
 
 Kongoumon (U) #291
-
-Seahomon (U) #292
-
-Kenkimon (U) #294
 
 Ponchomon (U) #295
 
