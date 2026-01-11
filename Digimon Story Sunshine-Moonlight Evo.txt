@@ -104,7 +104,7 @@ Gizamon (R) #064
   IceDevimon (C) #163
     MarineDevimon (U) #236
   Raremon (C) #102
-    Datamon/Nanomon (U) #221
+    Datamon (U) #221
       Parasimon (M) #343
 
 Moonmon (I) #023
