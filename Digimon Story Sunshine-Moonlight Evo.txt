@@ -330,6 +330,8 @@ Tokomon (I) #005
       MagnaAngemon (U) #223
         SlashAngemon (M) #345
         Seraphimon (M) #318
+    Ponchomon [DigiEgg of Sincerity] (A) #295
+    Prairiemon [DigiEgg of Kindness] (A) #290
     Pipismon [DigiEgg of Love] (A) #240
   Falcomon (R) #051
     Peckmon (C) #146
@@ -413,11 +415,7 @@ BigMamemon (U) #271
 
 Lynxmon (U) #281
 
-Prairiemon (U) #290
-
 Kongoumon (U) #291
-
-Ponchomon (U) #295
 
 Shakkoumon (U) #297
 
