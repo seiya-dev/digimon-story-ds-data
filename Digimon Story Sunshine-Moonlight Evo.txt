@@ -53,6 +53,8 @@ Chibomon (I) #011
         Goldramon (M) #354
     ExVeemon (C) #108
       Paildramon [/w Stingmon] (U) #224
+        Imperialdramon Dragon Mode (M) #314
+        Imperialdramon Fighter Mode (M) #315
   Monodramon (R) #024
     Dinohumon (C) #120
       Cyberdramon (U) #222
@@ -197,6 +199,8 @@ Minomon (I) #018
   Wormmon (R) #043
     Stingmon (C) #109
       Paildramon [/w ExVeemon] (U) #224
+        Imperialdramon Dragon Mode (M) #314
+        Imperialdramon Fighter Mode (M) #315
     Snimon (C) #167
   Kunemon (R) #077
     Yanmamon (C) #169
@@ -410,8 +414,7 @@ Shakkoumon (U) #297
 HerculesKabuterimon (M) #299
 Daemon / Creepymon (M) #305
 Omnimon (M) #313
-Imperialdramon Dragon Mode (M) #314
-Imperialdramon Fighter Mode (M) #315
+
 Imperialdramon Paladin Mode (M) #316
 Gallantmon Crimson Mode (M) #324
 Armageddemon (M) #332
