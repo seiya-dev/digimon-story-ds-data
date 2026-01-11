@@ -261,6 +261,12 @@ Puttimon (I) #010
       Tylinmon (U) #258
         Sleipmon (M) #373
 
+SnowAgumon (R) #059
+  Seadramon (C) #090
+    MegaSeadramon (U) #211
+      MetalSeadramon (M) #359
+      GigaSeadramon (M) #303
+
 Solarmon (R) #079
   Clockmon (C) #176
     Knightmon (U) #278
