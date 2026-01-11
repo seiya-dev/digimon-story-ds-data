@@ -245,6 +245,22 @@ Poyomon (I) #004
   Crabmon (R) #062
     Ebidramon (C) #154
 
+Puttimon (I) #010
+  Salamon (R) #042
+    Gatomon (C) #104
+      Angewomon (U) #208
+        Ophanimon (M) #337
+  PawnChessmonW (R) #075
+    KnightChessmonW (C) #190
+      BishopChessmon (U) #284
+        KingChessmon (M) #379
+  Kudamon (R) #072
+    Starmon (C) #126
+      SuperStarmon (U) #247
+    Reppamon (C) #142
+      Tylinmon (U) #258
+        Sleipmon (M) #373
+
 Solarmon (R) #079
   Clockmon (C) #176
     Knightmon (U) #278
