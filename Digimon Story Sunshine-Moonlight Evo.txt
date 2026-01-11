@@ -89,6 +89,17 @@ Dorimon (I) #012
 Dragomon (U) #212
   Neptunmon (M) #328
 
+Gigimon (I) #014
+  Guilmon (R) #027
+    Growlmon (C) #113
+      WarGrowlmon (U) #229
+        Gallantmon (M) #323
+        Megidramon (M) #372
+      BWGrowlmon (U) #248
+    Tyrannomon (C) #087
+      Triceramon (U) #244
+        Cannondramon (M) #344
+
 Gizamon (R) #064
   IceDevimon (C) #163
     MarineDevimon (U) #236
