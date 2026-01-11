@@ -52,7 +52,7 @@ Chibomon (I) #011
       ARVeedramon (U) #276
         Goldramon (M) #354
     ExVeemon (C) #108
-      Paildramon [/w Stingmon] (U) #224
+      Paildramon [/w Stingmon] (J) #224
         Imperialdramon Dragon Mode (M) #314
         Imperialdramon Fighter Mode (M) #315
   Monodramon (R) #024
@@ -198,7 +198,7 @@ Minomon (I) #018
     SandYanmamon (C) #170
   Wormmon (R) #043
     Stingmon (C) #109
-      Paildramon [/w ExVeemon] (U) #224
+      Paildramon [/w ExVeemon] (J) #224
         Imperialdramon Dragon Mode (M) #314
         Imperialdramon Fighter Mode (M) #315
     Snimon (C) #167
