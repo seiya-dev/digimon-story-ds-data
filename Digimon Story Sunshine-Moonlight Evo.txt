@@ -1,3 +1,49 @@
+Betamon (R) #029
+  Octomon (C) #155
+  Gesomon (C) #156
+  Dolphmon (C) #164
+    Whamon (U) #250
+      MarineAngemon (M) #302
+    Divermon (U) #242
+
+Biyomon (R) #032
+  Birdramon (C) #110
+    Garudamon (U) #217
+      Gryphonmon (M) #330
+  Saberdramon (C) #165
+    Karatenmon (U) #237
+
+Botamon (I) #021
+  BlackAgumon (R) #060
+    Monochromon (C) #181
+      Vermilimon (U) #273
+        BlackWarGreymon (M) #363
+    DarkTyrannomon (C) #131
+      SkullGreymon (U) #197
+        Machinedramon (M) #311
+  Candlemon (R) #080
+    DarkLizardmon (C) #137
+      Volcanomon (U) #194
+    Flarerizamon (C) #138
+
+Budmon (I) #020
+  Dokunemon (R) #082
+    Kuwagamon (C) #101
+      Okuwamon (U) #206
+        GKuwagamon (M) #365
+    Dokugumon (C) #187
+      Arukenimon (U) #227
+    Roachmon (C) #119
+  Mushroomon (R) #078
+    Ninjamon (C) #173
+    Kogamon (C) #174
+  Lalamon (R) #065
+    Sunflowmon (C) #143
+      Lilamon (U) #259
+        Rosemon (M) #308
+        Lotusmon (M) #389
+    RedVeggiemon (C) #171
+
 Chichimon (I) #001
   Penguinmon (R) #052
     Kokatorimon (C) #099
@@ -10,6 +56,22 @@ Chichimon (I) #001
     Akatorimon (C) #132
       Parrotmon (U) #232
         Eaglemon (M) #346
+
+Dragomon (U) #212
+  Neptunmon (M) #328
+
+Gizamon (R) #064
+  IceDevimon (C) #163
+    MarineDevimon (U) #236
+  Raremon (C) #102
+    Datamon/Nanomon (U) #221
+      Parasimon (M) #343
+
+Moonmon (I) #023
+  Lunamon (R) #084
+    Lekismon (C) #193
+      Crescemon (U) #287
+        Dianamon (M) #384
 
 Poyomon (I) #004
   Gomamon (R) #037
@@ -25,6 +87,13 @@ Poyomon (I) #004
         Plesiomon (M) #331
   Crabmon (R) #062
     Ebidramon (C) #154
+
+Solarmon (R) #079
+  Clockmon (C) #176
+    Knightmon (U) #278
+      Alphamon (M) #368
+  BomberNanimon (C) #127
+    Giromon (U) #267
 
 Wanyamon (I) #019
   Gaomon (R) #070
@@ -44,33 +113,7 @@ Wanyamon (I) #019
       Mammothmon (U) #204
         SkullMammothmon (M) #364
 
-Moonmon (I) #023
-  Lunamon (R) #084
-    Lekismon (C) #193
-      Crescemon (U) #287
-        Dianamon (M) #384
 
-Betamon (R) #029
-  Octomon (C) #155
-  Gesomon (C) #156
-  Dolphmon (C) #164
-    Whamon (U) #250
-      MarineAngemon (M) #302
-    Divermon (U) #242
 
-Gizamon (R) #064
-  IceDevimon (C) #163
-    MarineDevimon (U) #236
-  Raremon (C) #102
-    Datamon/Nanomon (U) #221
-      Parasimon (M) #343
 
-Solarmon (R) #079
-  Clockmon (C) #176
-    Knightmon (U) #278
-      Alphamon (M) #368
-  BomberNanimon (C) #127
-    Giromon (U) #267
 
-Dragomon (U) #212
-  Neptunmon (M) #328
