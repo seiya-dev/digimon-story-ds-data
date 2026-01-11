@@ -307,6 +307,57 @@ Tanemon (I) #006
   Floramon (R) #063
     Veggiemon (C) #095
 
+Tokomon (I) #005
+  Patamon (R) #031
+    Angemon (C) #094
+      MagnaAngemon (U) #223
+        SlashAngemon (M) #345
+        Seraphimon (M) #318
+  Falcomon (R) #051
+    Peckmon (C) #146
+      Yatagaramon (U) #283
+        Ravemon (M) #377
+  DotFalcomon (R) #071
+
+ToyAgumon (R) #040
+  Tankmon (C) #178
+    MetalMamemon (U) #198
+      PrinceMamemon (M) #336
+  Deputymon (C) #184
+    Mametyramon (U) #266
+
+ToyAgumon Black (R) #067
+  Mekanorimon (C) #085
+    EXtyrannomon (U) #272
+      Ghoulmon (M) #317
+
+Tsumemon (I) #017
+  Keramon (R) #050
+    Kurisarimon (C) #115
+      Infermon (U) #233
+        Diaboromon (M) #327
+      Argomon Ultimate (U) #296
+        Argomon Mega (M) #394
+  Dracmon (R) #074
+    SangLoupmon (C) #145
+      Matadormon (U) #261
+        Piedmon (M) #304
+
+Tsunomon (I) #003
+  Gabumon (R) #030
+    Garurumon (C) #093
+      WereGarurumon (U) #214
+        MetalGarurumon (M) #310
+    JMojyamon (C) #183
+  Goburimon (R) #053
+    Ogremon (C) #096
+      WereGarurumon Black (U) #213
+        Gulfmon (M) #353
+    Minotaurmon (C) #135
+      Etemon (U) #200
+        MetalEtemon (M) #301
+    Nanimon (C) #179
+
 Wanyamon (I) #019
   Gaomon (R) #070
     Gaogamon (C) #140
@@ -324,8 +375,3 @@ Wanyamon (I) #019
     Mojyamon (C) #182
       Mammothmon (U) #204
         SkullMammothmon (M) #364
-
-
-
-
-
