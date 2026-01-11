@@ -58,12 +58,12 @@ Chibomon (I) #011
       Megadramon (U) #201
         Darkdramon (M) #350
 
-Chichimon (I) #001
+Chicchimon (I) #001
   Penguinmon (R) #052
-    Kokatorimon (C) #099
     Kiwimon (C) #128
       Deramon (U) #245
         Phoenixmon (M) #306
+    Kokatorimon (C) #099
   Muchomon (R) #061
     Diatrymon (C) #141
       Sinduramon (U) #239
