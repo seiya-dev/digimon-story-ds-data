@@ -71,6 +71,21 @@ Chicchimon (I) #001
       Parrotmon (U) #232
         Eaglemon (M) #346
 
+Dorimon (I) #012
+  Dorumon (R) #028
+    Dorugamon (C) #123
+      DoruGreymon (U) #241
+        Dorugoramon (M) #347
+    Drimogemon (C) #147
+  Armadillomon (R) #045
+    Ankylomon (C) #111
+    NDrimogemon (C) #148
+  Shamamon (R) #056
+    Fugamon (C) #151
+    Apemon (C) #125
+      Kyukimon (U) #238
+        Kuzuhamon (M) #357
+
 Dragomon (U) #212
   Neptunmon (M) #328
 
