@@ -381,11 +381,17 @@ Wanyamon (I) #019
 Reptiledramon (C) #124
 SandYanmamon (C) #170
 Pipismon (C) #240
-Vadermon (C) #268
 
 Tylomon (U) #209
 Paildramon (U) #224
+Toucanmon (U) #252
+Owlmon (U) #253
 Silphymon (U) #246
+Shadramon (U) #260
+Kabukimon (U) #262
+Lucemon Fallen Mode (U) #265
+Vadermon (U) #268
+MetalTyrannomon (U) #269
 BigMamemon (U) #271
 Allomon (U) #280
 Lynxmon (U) #281
@@ -422,8 +428,10 @@ Chronomon Holy Mode (M) #380
 Valdurmon (M) #382
 ShineGreymon Burst Mode (M) #385
 ShineGreymon Ruin Mode (M) #386
+MirageGaogamon Burst Mode (M) #387
 Ravemon Burst Mode (M) #388
 Beelzemon Blast Mode (M) #392
+Rosemon Burst Mode (M) #393
 Minervamon (M) #395
 Duftmon (M) #396
 Chaosmon (M) #397
