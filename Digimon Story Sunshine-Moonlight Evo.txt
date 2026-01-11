@@ -107,6 +107,12 @@ Gizamon (R) #064
     Datamon (U) #221
       Parasimon (M) #343
 
+Gotsumon (R) #035
+  Icemon (C) #136
+    Meteormon (U) #254
+  Golemon (C) #180
+  Tsuchidarumon (C) #237
+
 Moonmon (I) #023
   Lunamon (R) #084
     Lekismon (C) #193
