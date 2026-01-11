@@ -410,19 +410,21 @@ Wanyamon (I) #019
 Vadermon (U) #268
   Ebemon (M) #352
 
+BigMamemon (J) #271
+BigMamemon [/w Veggiemon + RedVegiemon] (J) #271
+BigMamemon [/w Golemon + Mekanorimon] (J) #271
+BigMamemon [/w Veggiemon + Golemon] (J) #271
 
+Shakkoumon (J) #297
+Shakkoumon [/w Angemon + Ankylomon] (J) #297
 
-BigMamemon (U) #271
+HerculesKabuterimon [/w MegaKabuterimonRed + Ookuwamon] (J) #299
 
-Shakkoumon (U) #297
+Daemon / Creepymon [/w Vamdemon + LadyDevimon] (J) #305
 
-HerculesKabuterimon (M) #299
+Omnimon [/w WarGreymon + MetalGarurumon] (J) #313
 
-Daemon / Creepymon (M) #305
-
-Omnimon (M) #313
-
-Imperialdramon Paladin Mode (M) #316
+Imperialdramon Paladin Mode [/w Omnimon + Imperialdramon FM] (J) #316
 
 Gallantmon Crimson Mode (M) #324
 
