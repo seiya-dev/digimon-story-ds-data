@@ -55,6 +55,8 @@ Chibomon (I) #011
       Paildramon [/w Stingmon] (J) #224
         Imperialdramon Dragon Mode (M) #314
         Imperialdramon Fighter Mode (M) #315
+    Flamedramon [DigiEgg of Courage] (A) #288
+    Magnamon [DigiEgg of Miracles] (A) #289
   Monodramon (R) #024
     Dinohumon (C) #120
       Cyberdramon (U) #222
@@ -137,6 +139,9 @@ Gummymon (I) #015
 
 Hawkmon (R) #044
   Aquilamon (C) #118
+  Toucanmon [DigiEgg of Kindness] (A) #252
+  Allomon [DigiEgg of Courage] (A) #280
+  Shurimon [DigiEgg of Sincerity] (A) #293
 
 Kapurimon (I) #008
   PawnChessmonB (R) #069
@@ -388,8 +393,6 @@ Wanyamon (I) #019
       Mammothmon (U) #204
         SkullMammothmon (M) #364
 
-Toucanmon (U) #252
-
 Owlmon (U) #253
 
 Silphymon (U) #246
@@ -406,21 +409,13 @@ MetalTyrannomon (U) #269
 
 BigMamemon (U) #271
 
-Allomon (U) #280
-
 Lynxmon (U) #281
-
-Flamedramon (U) #288
-
-Magnamon (U) #289
 
 Prairiemon (U) #290
 
 Kongoumon (U) #291
 
 Seahomon (U) #292
-
-Shurimon (U) #293
 
 Kenkimon (U) #294
 
