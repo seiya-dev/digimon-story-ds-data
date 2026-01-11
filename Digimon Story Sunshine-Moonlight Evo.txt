@@ -209,6 +209,9 @@ Minomon (I) #018
         Imperialdramon Dragon Mode (M) #314
         Imperialdramon Fighter Mode (M) #315
     Snimon (C) #167
+    Shadramon [DigiEgg of Courage] (A) #260
+    Owlmon [DigiEgg of Love] (A) #253
+    Kongoumon [DigiEgg of Miracles] (A) #291
   Kunemon (R) #077
     Yanmamon (C) #169
     Flymon (C) #168
@@ -399,11 +402,7 @@ Wanyamon (I) #019
       Mammothmon (U) #204
         SkullMammothmon (M) #364
 
-Owlmon (U) #253
-
 Silphymon (U) #246
-
-Shadramon (U) #260
 
 Lucemon Fallen Mode (U) #265
 
@@ -412,8 +411,6 @@ Vadermon (U) #268
 MetalTyrannomon (U) #269
 
 BigMamemon (U) #271
-
-Kongoumon (U) #291
 
 Shakkoumon (U) #297
 
