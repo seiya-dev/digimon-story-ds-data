@@ -21,6 +21,7 @@ Botamon (I) #021
     DarkTyrannomon (C) #131
       SkullGreymon (U) #197
         Machinedramon (M) #311
+      MetalTyrannomon (U) #269
   Candlemon (R) #080
     DarkLizardmon (C) #137
       Volcanomon (U) #194
@@ -141,6 +142,7 @@ Gummymon (I) #015
 
 Hawkmon (R) #044
   Aquilamon (C) #118
+    Silphymon [/w Gatomon] (J) #246
   Toucanmon [DigiEgg of Kindness] (A) #252
   Allomon [DigiEgg of Courage] (A) #280
   Shurimon [DigiEgg of Sincerity] (A) #293
@@ -237,6 +239,7 @@ Pagumon (I) #007
     Devimon (C) #088
       Myotismon (U) #215
         VenomMyotismon (M) #312
+      Lucemon Fallen Mode [/w Angemon] (J) #265
     Musyamon (C) #189
       Vajramon (U) #275
         Zanbamon (M) #338
@@ -272,6 +275,7 @@ Puttimon (I) #010
       Lynxmon [DigiEgg of Courage] (U) #281
       Kabukimon [DigiEgg of Sincerity] (U) #262
       Tylomon [DigiEgg of Reliability] (A) #209
+      Silphymon [/w Aquilamon] (J) #246
   PawnChessmonW (R) #075
     KnightChessmonW (C) #190
       BishopChessmon (U) #284
@@ -335,6 +339,7 @@ Tokomon (I) #005
       MagnaAngemon (U) #223
         SlashAngemon (M) #345
         Seraphimon (M) #318
+      Lucemon Fallen Mode [/w Devimon] (J) #265
     Ponchomon [DigiEgg of Sincerity] (A) #295
     Prairiemon [DigiEgg of Kindness] (A) #290
     Pipismon [DigiEgg of Love] (A) #240
@@ -402,13 +407,10 @@ Wanyamon (I) #019
       Mammothmon (U) #204
         SkullMammothmon (M) #364
 
-Silphymon (U) #246
-
-Lucemon Fallen Mode (U) #265
-
 Vadermon (U) #268
+  Ebemon (M) #352
 
-MetalTyrannomon (U) #269
+
 
 BigMamemon (U) #271
 
@@ -433,8 +435,6 @@ Anubismon (M) #342
 Beelzemon (M) #348
 
 BanchouLeomon (M) #349
-
-Ebemon (M) #352
 
 ZeedMilleniumon (M) #355
 
