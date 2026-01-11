@@ -52,6 +52,7 @@ Chibomon (I) #011
       ARVeedramon (U) #276
         Goldramon (M) #354
     ExVeemon (C) #108
+      Paildramon [/w Stingmon] (U) #224
   Monodramon (R) #024
     Dinohumon (C) #120
       Cyberdramon (U) #222
@@ -195,12 +196,13 @@ Minomon (I) #018
     SandYanmamon (C) #170
   Wormmon (R) #043
     Stingmon (C) #109
+      Paildramon [/w ExVeemon] (U) #224
     Snimon (C) #167
   Kunemon (R) #077
     Yanmamon (C) #169
     Flymon (C) #168
       Dinobeemon (U) #225
-        Imperialdramon Dragon Mode (M) #314
+        Imperialdramon Dragon Black (M) #334
     Sukamon (C) #098
       Garbagemon (U) #264
 
@@ -253,6 +255,7 @@ Puttimon (I) #010
     Gatomon (C) #104
       Angewomon (U) #208
         Ophanimon (M) #337
+      Tylomon [DigiEgg of Reliability] (A) #209
   PawnChessmonW (R) #075
     KnightChessmonW (C) #190
       BishopChessmon (U) #284
@@ -381,8 +384,8 @@ Wanyamon (I) #019
       Mammothmon (U) #204
         SkullMammothmon (M) #364
 
-Tylomon (U) #209
-Paildramon (U) #224
+
+
 Toucanmon (U) #252
 Owlmon (U) #253
 Silphymon (U) #246
@@ -407,12 +410,12 @@ Shakkoumon (U) #297
 HerculesKabuterimon (M) #299
 Daemon / Creepymon (M) #305
 Omnimon (M) #313
+Imperialdramon Dragon Mode (M) #314
 Imperialdramon Fighter Mode (M) #315
 Imperialdramon Paladin Mode (M) #316
 Gallantmon Crimson Mode (M) #324
 Armageddemon (M) #332
 MaloMyotismon (M) #333
-Imperialdramon Dragon Black (M) #334
 Anubismon (M) #342
 Beelzemon (M) #348
 BanchouLeomon (M) #349
