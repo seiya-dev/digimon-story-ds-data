@@ -162,6 +162,45 @@ Kokuwamon (R) #081
   Thunderballmon (C) #177
     Mamemon (U) #251
 
+Koromon (I) #002
+  Agumon (R) #025
+    GeoGreymon (C) #139
+      RiseGreymon (U) #256
+        ShineGreymon (M) #374
+        DotShineGreymon (M) #390
+    Greymon (C) #086
+      MetalGreymon (U) #195
+        WarGreymon (M) #309
+  DotAgumon (R) #076
+
+Kuramon (I) #009
+  Tsukaimon (R) #068
+    Bakemon (C) #097
+      Phantomon (U) #274
+        GhoulmonB (M) #356
+        Apocalymon (M) #351
+    Devidramon (C) #186
+      Kimeramon (U) #243
+        MoonMilleniumon (M) #371
+      Gigadramon (U) #255
+
+Minomon (I) #018
+  Tentomon (R) #034
+    Kabuterimon (C) #092
+      MKabuterimonR (U) #220
+      MKabuterimon (U) #205
+    SyAnmamon (C) #085
+  Wormmon (R) #043
+    Stingmon (C) #109
+    Snimon (C) #167
+  Kunemon (R) #077
+    Yanmamon (C) #169
+    Flymon (C) #168
+      Dinobeemon (U) #225
+        Imperialdramon Dragon Mode (M) #314
+    Sukamon (C) #098
+      Garbagemon (U) #264
+
 Moonmon (I) #023
   Lunamon (R) #084
     Lekismon (C) #193
