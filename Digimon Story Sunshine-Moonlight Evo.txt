@@ -44,6 +44,20 @@ Budmon (I) #020
         Lotusmon (M) #389
     RedVeggiemon (C) #171
 
+Chibomon (I) #011
+  Veemon (R) #026
+    Veedramon (C) #188
+      ARVeedramon (U) #276
+        Goldramon (M) #354
+    ExVeemon (C) #108
+  Monodramon (R) #024
+    Dinohumon (C) #120
+      Cyberdramon (U) #222
+        Justimon (M) #361
+    Airdramon (C) #089
+      Megadramon (U) #201
+        Darkdramon (M) #350
+
 Chichimon (I) #001
   Penguinmon (R) #052
     Kokatorimon (C) #099
