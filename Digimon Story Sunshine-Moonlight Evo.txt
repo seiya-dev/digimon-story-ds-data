@@ -207,6 +207,12 @@ Moonmon (I) #023
       Crescemon (U) #287
         Dianamon (M) #384
 
+Otamamon (R) #036
+  Gekomon (C) #103
+    ShogunGekomon (U) #207
+  Geremon (C) #160
+  Numemon (C) #091
+
 Poyomon (I) #004
   Gomamon (R) #037
     Ikkakumon (C) #134
