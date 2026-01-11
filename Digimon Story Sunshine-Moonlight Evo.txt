@@ -213,6 +213,23 @@ Otamamon (R) #036
   Geremon (C) #160
   Numemon (C) #091
 
+Pagumon (IT) #007
+  DemiDevimon (R) #039
+    Devimon (C) #088
+      Myotismon (U) #215
+        VenomMyotismon (M) #312
+    Musyamon (C) #189
+      Vajramon (U) #275
+        Zanbamon (M) #338
+        Boltmon (M) #335
+  Impmon (R) #049
+    Vilemon (C) #117
+      LadyDevimon (U) #216
+        Lilithmon (M) #381
+    Wizardmon (C) #105
+      Mummymon (U) #228
+        Pharaohmon (M) #366
+
 Poyomon (I) #004
   Gomamon (R) #037
     Ikkakumon (C) #134
