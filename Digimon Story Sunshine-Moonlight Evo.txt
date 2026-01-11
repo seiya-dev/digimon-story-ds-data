@@ -278,6 +278,35 @@ Solarmon (R) #079
   BomberNanimon (C) #127
     Giromon (U) #267
 
+Sunmon (I) #022
+  Coronamon (R) #083
+    Firamon (C) #192
+      Flaremon (U) #286
+        Apollomon (M) #383
+
+Syakomon (R) #058
+  KaratsukiNumemon (C) #162
+    Digitamamon (U) #203
+      Lampmon (M) #298
+      Devitamamon (M) #320
+  Coelamon (C) #157
+    Scorpiomon (U) #210
+      Pukumon (M) #329
+  Shellmon (C) #158
+
+Tanemon (I) #006
+  Palmon (R) #033
+    Togemon (C) #106
+      Lillymon (U) #219
+    MoriShellmon (C) #149
+  Aruramon (R) #066
+    Weedmon (C) #172
+      Blossomon (U) #218
+    Woodmon (C) #166
+      Cherrymon (U) #263
+  Floramon (R) #063
+    Veggiemon (C) #095
+
 Wanyamon (I) #019
   Gaomon (R) #070
     Gaogamon (C) #140
