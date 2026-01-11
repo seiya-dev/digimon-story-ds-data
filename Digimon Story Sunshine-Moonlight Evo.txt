@@ -113,6 +113,22 @@ Gotsumon (R) #035
   Golemon (C) #180
   Tsuchidarumon (C) #237
 
+Gummymon (I) #015
+  Terriermon (R) #046
+    Gargomon (C) #112
+      Rapidmon (U) #230
+        MegaGargomon (M) #325
+  Tapirmon (R) #038
+    Unimon (C) #129
+      Piximon (U) #202
+        Jijimon (M) #340
+    Seasarmon (C) #116
+  Renamon (R) #048
+    Kyubimon (C) #114
+      Taomon (U) #231
+        Sakuyamon (M) #326
+    Sorcerymon (C) #130
+
 Moonmon (I) #023
   Lunamon (R) #084
     Lekismon (C) #193
