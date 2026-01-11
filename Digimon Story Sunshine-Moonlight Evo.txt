@@ -59,6 +59,7 @@ Chibomon (I) #011
     Airdramon (C) #089
       Megadramon (U) #201
         Darkdramon (M) #350
+    Reptiledramon [w/ ToyAgumon Black] (J) #124
 
 Chicchimon (I) #001
   Penguinmon (R) #052
@@ -191,7 +192,7 @@ Minomon (I) #018
     Kabuterimon (C) #092
       MKabuterimonR (U) #220
       MKabuterimon (U) #205
-    SyAnmamon (C) #085
+    SandYanmamon (C) #170
   Wormmon (R) #043
     Stingmon (C) #109
     Snimon (C) #167
@@ -315,6 +316,7 @@ Tokomon (I) #005
       MagnaAngemon (U) #223
         SlashAngemon (M) #345
         Seraphimon (M) #318
+    Pipismon [DigiEgg of Love] (A) #240
   Falcomon (R) #051
     Peckmon (C) #146
       Yatagaramon (U) #283
@@ -332,6 +334,7 @@ ToyAgumon Black (R) #067
   Mekanorimon (C) #085
     EXtyrannomon (U) #272
       Ghoulmon (M) #317
+  Reptiledramon [w/ Monodramon] (J) #124
 
 Tsumemon (I) #017
   Keramon (R) #050
@@ -377,10 +380,6 @@ Wanyamon (I) #019
     Mojyamon (C) #182
       Mammothmon (U) #204
         SkullMammothmon (M) #364
-
-Reptiledramon (C) #124
-SandYanmamon (C) #170
-Pipismon (C) #240
 
 Tylomon (U) #209
 Paildramon (U) #224

@@ -147,12 +147,13 @@ def get_evo_tree(src_file, target_file, game_name, game_id):
     for d in id_list:
         data=html.escape(d["search"])
         meta=f'<span class="meta">{html.escape(d["id_str"])}</span>' if d["id_str"] else ""
+        name=html.escape(re.sub(r"\[w\/.*?\]", "", d["name"]))
         id_rows.append(
             f'\t\t\t<div class="idrow node" data-text="{data}" data-lvl="{html.escape(d["stage"])}">\n'
             f'\t\t\t\t<label class="item">\n'
             f'\t\t\t\t\t<input type="checkbox" class="cb" data-key="{html.escape(d["key"])}">\n'
             f'\t\t\t\t\t{stage_span(d["stage"])}\n'
-            f'\t\t\t\t\t<span class="name">{html.escape(d["name"])}</span>\n'
+            f'\t\t\t\t\t<span class="name">{name}</span>\n'
             f'\t\t\t\t\t{meta}\n'
             f'\t\t\t\t</label>\n'
             f'\t\t\t</div>\n'
