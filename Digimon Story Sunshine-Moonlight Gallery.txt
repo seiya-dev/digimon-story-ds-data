@@ -149,7 +149,7 @@
 #149 MoriShellmon
 #150 Wendigomon
 #151 Fugamon
-#152 MudFrigimon
+#152 MudFrigimon/Tsuchidarumon
 #153 Tortamon
 #154 Ebidramon
 #155 Octomon
