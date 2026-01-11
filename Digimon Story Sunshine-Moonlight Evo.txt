@@ -388,54 +388,98 @@ Wanyamon (I) #019
       Mammothmon (U) #204
         SkullMammothmon (M) #364
 
-
-
 Toucanmon (U) #252
+
 Owlmon (U) #253
+
 Silphymon (U) #246
+
 Shadramon (U) #260
+
 Kabukimon (U) #262
+
 Lucemon Fallen Mode (U) #265
+
 Vadermon (U) #268
+
 MetalTyrannomon (U) #269
+
 BigMamemon (U) #271
+
 Allomon (U) #280
+
 Lynxmon (U) #281
+
 Flamedramon (U) #288
+
 Magnamon (U) #289
+
 Prairiemon (U) #290
+
 Kongoumon (U) #291
+
 Seahomon (U) #292
+
 Shurimon (U) #293
+
 Kenkimon (U) #294
+
 Ponchomon (U) #295
+
 Shakkoumon (U) #297
 
 HerculesKabuterimon (M) #299
+
 Daemon / Creepymon (M) #305
+
 Omnimon (M) #313
+
 Imperialdramon Paladin Mode (M) #316
+
 Gallantmon Crimson Mode (M) #324
+
 Armageddemon (M) #332
+
 MaloMyotismon (M) #333
+
 Anubismon (M) #342
+
 Beelzemon (M) #348
+
 BanchouLeomon (M) #349
+
 Ebemon (M) #352
+
 ZeedMilleniumon (M) #355
+
 ChaosGallantmon (M) #358
+
 Valkyriemon (M) #360
+
 Susanoomon (M) #367
+
 Holydramon / Magnadramon (M) #369
+
 Milleniumon (M) #370
+
 Chronomon Holy Mode (M) #380
+
 Valdurmon (M) #382
+
 ShineGreymon Burst Mode (M) #385
+
 ShineGreymon Ruin Mode (M) #386
+
 MirageGaogamon Burst Mode (M) #387
+
 Ravemon Burst Mode (M) #388
+
 Beelzemon Blast Mode (M) #392
+
 Rosemon Burst Mode (M) #393
+
 Minervamon (M) #395
+
 Duftmon (M) #396
+
 Chaosmon (M) #397
