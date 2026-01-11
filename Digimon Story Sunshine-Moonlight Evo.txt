@@ -267,6 +267,10 @@ SnowAgumon (R) #059
       MetalSeadramon (M) #359
       GigaSeadramon (M) #303
 
+SnowGoburimon (R) #057
+  Hyogamon (C) #161
+  Frigimon (C) #159
+
 Solarmon (R) #079
   Clockmon (C) #176
     Knightmon (U) #278
