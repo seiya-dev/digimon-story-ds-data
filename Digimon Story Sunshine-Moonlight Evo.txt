@@ -129,6 +129,39 @@ Gummymon (I) #015
         Sakuyamon (M) #326
     Sorcerymon (C) #130
 
+Hawkmon (R) #044
+  Aquilamon (C) #118
+
+Kapurimon (I) #008
+  PawnChessmonB (R) #069
+    KnightChessmonB (C) #191
+      RookChessmon (U) #285
+        QueenChessmon (M) #378
+  Kotemon (R) #055
+    Omekamon (C) #175
+      Tekkamon (U) #270
+        Puppetmon (M) #307
+    PlatinumSukamon (C) #133
+  Hagurumon (R) #041
+    Guardromon (C) #107
+      Andromon (U) #199
+        HiAndromon (M) #319
+    Hookmon (C) #121
+
+Kokomon (I) #016
+  Lopmon (R) #047
+    Centarumon (C) #185
+      BRapidmon (U) #234
+        BSGargomon (M) #339
+    Wendigomon (C) #150
+      Antylamon (U) #226
+        CherubimonG (M) #321
+        CherubimonE (M) #322
+
+Kokuwamon (R) #081
+  Thunderballmon (C) #177
+    Mamemon (U) #251
+
 Moonmon (I) #023
   Lunamon (R) #084
     Lekismon (C) #193
