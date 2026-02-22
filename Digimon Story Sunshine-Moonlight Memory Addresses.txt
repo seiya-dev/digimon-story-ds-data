@@ -28,411 +28,411 @@ ald_addr +flag met_addr +flag cnt_addr deid slot
          +0x02          +0x20 0213A564 005A none
          +0x04          +0x40 0213A568 005B none
          +0x08          +0x80 0213A56C 005C none
-0213A285 +0x10          +0x01 0213A570 005D none
+0213A285 +0x10 0213A2C4 +0x01 0213A570 005D none
          +0x20          +0x02 0213A574 005E none
          +0x40          +0x04 0213A578 005F none
          +0x80          +0x08 0213A57C 0060 none
-         +0x01          +0x10 0213A580 0061 #024 Monodramon
+0213A286 +0x01 0213A2C4 +0x10 0213A580 0061 #024 Monodramon
          +0x02          +0x20 0213A584 0062 #025 Agumon
          +0x04          +0x40 0213A588 0063 #026 Veemon
          +0x08          +0x80 0213A58C 0064 #027 Guilmon
-         +0x10          +0x01 0213A590 0065 #028 Dorumon 
+0213A286 +0x10 0213A2C5 +0x01 0213A590 0065 #028 Dorumon 
          +0x20          +0x02 0213A594 0066 #029 Betamon
          +0x40          +0x04 0213A598 0067 #030 Gabumon
          +0x80          +0x08 0213A59C 0068 #031 Patamon
-         +0x01          +0x10 0213A5A0 0069 #032 Biyomon
+0213A287 +0x01 0213A2C5 +0x10 0213A5A0 0069 #032 Biyomon
          +0x02          +0x20 0213A5A4 006A #033 Palmon
          +0x04          +0x40 0213A5A8 006B #034 Tentomon
          +0x08          +0x80 0213A5AC 006C #035 Gotsumon
-         +0x10          +0x01 0213A5B0 006D #036 Otamamon
+0213A287 +0x10 0213A2C6 +0x01 0213A5B0 006D #036 Otamamon
          +0x20          +0x02 0213A5B4 006E #037 Gomamon
          +0x40          +0x04 0213A5B8 006F #038 Tapirmon
          +0x80          +0x08 0213A5BC 0070 #039 DemiDevimon
-         +0x01          +0x10 0213A5C0 0071 #040 ToyAgumon
+0213A288 +0x01 0213A2C6 +0x10 0213A5C0 0071 #040 ToyAgumon
          +0x02          +0x20 0213A5C4 0072 #041 Hagurumon
          +0x04          +0x40 0213A5C8 0073 #042 Salamon
          +0x08          +0x80 0213A5CC 0074 #043 Wormmon
-         +0x10          +0x01 0213A5D0 0075 #044 Hawkmon
+0213A288 +0x10 0213A2C7 +0x01 0213A5D0 0075 #044 Hawkmon
          +0x20          +0x02 0213A5D4 0076 #045 Armadillomon
          +0x40          +0x04 0213A5D8 0077 #046 Terriermon
          +0x80          +0x08 0213A5DC 0078 #047 Lopmon
-         +0x01          +0x10 0213A5E0 0079 #048 Renamon
+0213A289 +0x01 0213A2C7 +0x10 0213A5E0 0079 #048 Renamon
          +0x02          +0x20 0213A5E4 007A #049 Impmon
          +0x04          +0x40 0213A5E8 007B #050 Keramon
          +0x08          +0x80 0213A5EC 007C #051 Falcomon
-         +0x10          +0x01 0213A5F0 007D #052 Penguinmon
+0213A289 +0x10 0213A2C8 +0x01 0213A5F0 007D #052 Penguinmon
          +0x20          +0x02 0213A5F4 007E #053 Goburimon
          +0x40          +0x04 0213A5F8 007F #054 Kumamon/Bearmon
          +0x80          +0x08 0213A5FC 0080 #055 Kotemon
-         +0x01          +0x10 0213A600 0081 #056 Shamamon
+0213A28A +0x01 0213A2C8 +0x10 0213A600 0081 #056 Shamamon
          +0x02          +0x20 0213A604 0082 #057 SnowGoburimon
          +0x04          +0x40 0213A608 0083 #058 Syakomon
          +0x08          +0x80 0213A60C 0084 #059 SnowAgumon
-         +0x10          +0x01 0213A610 0085 #060 BlackAgumon
+0213A28A +0x10 0213A2C9 +0x01 0213A610 0085 #060 BlackAgumon
          +0x20          +0x02 0213A614 0086 #061 Muchomon
          +0x40          +0x04 0213A618 0087 #062 Crabmon
          +0x80          +0x08 0213A61C 0088 #063 Floramon
-         +0x01          +0x10 0213A620 0089 #064 Gizamon
+0213A28B +0x01 0213A2C9 +0x10 0213A620 0089 #064 Gizamon
          +0x02          +0x20 0213A624 008A #065 Lalamon
          +0x04          +0x40 0213A628 008B #066 Aruraumon
          +0x08          +0x80 0213A62C 008C #067 ToyAgumonB
-         +0x10          +0x01 0213A630 008D #068 Tsukaimon
+0213A28B +0x10 0213A2CA +0x01 0213A630 008D #068 Tsukaimon
          +0x20          +0x02 0213A634 008E #069 PawnChessmonB
          +0x40          +0x04 0213A638 008F #070 Gaomon
          +0x80          +0x08 0213A63C 0090 #071 DotFalcomon
-         +0x01          +0x10 0213A640 0091 #072 Kudamon
+0213A28C +0x01 0213A2CA +0x10 0213A640 0091 #072 Kudamon
          +0x02          +0x20 0213A644 0092 #073 Kamemon
          +0x04          +0x40 0213A648 0093 #074 Dracmon
          +0x08          +0x80 0213A64C 0094 #075 PawnChessmonW
-         +0x10          +0x01 0213A650 0095 #076 DotAgumon // Dawn only
+0213A28C +0x10 0213A2CB +0x01 0213A650 0095 #076 DotAgumon // Dawn only
          +0x20          +0x02 0213A654 0096 #077 Kunemon
          +0x40          +0x04 0213A658 0097 #078 Mushroomon
          +0x80          +0x08 0213A65C 0098 #079 Solarmon
-         +0x01          +0x10 0213A660 0099 #080 Candlemon
+0213A28D +0x01 0213A2CB +0x10 0213A660 0099 #080 Candlemon
          +0x02          +0x20 0213A664 009A #081 Kokuwamon
          +0x04          +0x40 0213A668 009B #082 Dokunemon
          +0x08          +0x80 0213A66C 009C #083 Coronamon
-         +0x10          +0x01 0213A670 009D #084 Lunamon
+0213A28D +0x10 0213A2CC +0x01 0213A670 009D #084 Lunamon
          +0x20          +0x02 0213A674 009E none
          +0x40          +0x04 0213A678 009F none
          +0x80          +0x08 0213A67C 00A0 none
-         +0x01          +0x10 0213A680 00A1 none
+0213A28E +0x01 0213A2CC +0x10 0213A680 00A1 none
          +0x02          +0x20 0213A684 00A2 none
          +0x04          +0x40 0213A688 00A3 none
          +0x08          +0x80 0213A68C 00A4 none
-         +0x10          +0x01 0213A690 00A5 none
+0213A28E +0x10 0213A2CD +0x01 0213A690 00A5 none
          +0x20          +0x02 0213A694 00A6 none
          +0x40          +0x04 0213A698 00A7 none
          +0x80          +0x08 0213A69C 00A8 #085 Mekanorimon
-         +0x01          +0x10 0213A6A0 00A9 #086 Greymon
+0213A28F +0x01 0213A2CD +0x10 0213A6A0 00A9 #086 Greymon
          +0x02          +0x20 0213A6A4 00AA #087 Tyrannomon
          +0x04          +0x40 0213A6A8 00AB #088 Devimon
          +0x08          +0x80 0213A6AC 00AC #089 Airdramon
-         +0x10          +0x01 0213A6B0 00AD #090 Seadramon
+0213A28F +0x10 0213A2CE +0x01 0213A6B0 00AD #090 Seadramon
          +0x20          +0x02 0213A6B4 00AE #091 Numemon
          +0x40          +0x04 0213A6B8 00AF #092 Kabuterimon
          +0x80          +0x08 0213A6BC 00B0 #093 Garurumon
-         +0x01          +0x10 0213A6C0 00B1 #094 Angemon
+0213A290 +0x01 0213A2CE +0x10 0213A6C0 00B1 #094 Angemon
          +0x02          +0x20 0213A6C4 00B2 #095 Veggiemon
          +0x04          +0x40 0213A6C8 00B3 #096 Ogremon
          +0x08          +0x80 0213A6CC 00B4 #097 Bakemon
-         +0x10          +0x01 0213A6D0 00B5 #098 Sukamon
+0213A290 +0x10 0213A2CF +0x01 0213A6D0 00B5 #098 Sukamon
          +0x20          +0x02 0213A6D4 00B6 #099 Kokatorimon
          +0x40          +0x04 0213A6D8 00B7 #100 Leomon
          +0x80          +0x08 0213A6DC 00B8 #101 Kuwagamon
-         +0x01          +0x10 0213A6E0 00B9 #102 Raremon
+0213A291 +0x01 0213A2CF +0x10 0213A6E0 00B9 #102 Raremon
          +0x02          +0x20 0213A6E4 00BA none
          +0x04          +0x40 0213A6E8 00BB #103 Gekomon
          +0x08          +0x80 0213A6EC 00BC #104 Gatomon
-         +0x10          +0x01 0213A6F0 00BD #105 Wizardmon
+0213A291 +0x10 0213A2D0 +0x01 0213A6F0 00BD #105 Wizardmon
          +0x20          +0x02 0213A6F4 00BE #106 Togemon
          +0x40          +0x04 0213A6F8 00BF #107 Guardromon
          +0x80          +0x08 0213A6FC 00C0 #108 ExVeemon
-         +0x01          +0x10 0213A700 00C1 #109 Stingmon
+0213A292 +0x01 0213A2D0 +0x10 0213A700 00C1 #109 Stingmon
          +0x02          +0x20 0213A704 00C2 #110 Birdramon
          +0x04          +0x40 0213A708 00C3 #111 Ankylomon
          +0x08          +0x80 0213A70C 00C4 #112 Gargomon
-         +0x10          +0x01 0213A710 00C5 #113 Growlmon
+0213A292 +0x10 0213A2D1 +0x01 0213A710 00C5 #113 Growlmon
          +0x20          +0x02 0213A714 00C6 #114 Kyubimon
          +0x40          +0x04 0213A718 00C7 #115 Chrysalimon
          +0x80          +0x08 0213A71C 00C8 #116 Seasarmon
-         +0x01          +0x10 0213A720 00C9 #117 Vilemon
+0213A293 +0x01 0213A2D1 +0x10 0213A720 00C9 #117 Vilemon
          +0x02          +0x20 0213A724 00CA #118 Aquilamon
          +0x04          +0x40 0213A728 00CB #119 Roachmon
          +0x08          +0x80 0213A72C 00CC #120 Dinohumon
-         +0x10          +0x01 0213A730 00CD #121 Hookmon
+0213A293 +0x10 0213A2D2 +0x01 0213A730 00CD #121 Hookmon
          +0x20          +0x02 0213A734 00CE #122 Grizzmon
          +0x40          +0x04 0213A738 00CF #123 Dorugamon
          +0x80          +0x08 0213A73C 00D0 #124 Reptiledramon
-         +0x01          +0x10 0213A740 00D1 #125 Apemon
+0213A294 +0x01 0213A2D2 +0x10 0213A740 00D1 #125 Apemon
          +0x02          +0x20 0213A744 00D2 #126 Starmon
          +0x04          +0x40 0213A748 00D3 #127 BomberNanimon
          +0x08          +0x80 0213A74C 00D4 #128 Kiwimon
-         +0x10          +0x01 0213A750 00D5 #129 Unimon
+0213A294 +0x10 0213A2D3 +0x01 0213A750 00D5 #129 Unimon
          +0x20          +0x02 0213A754 00D6 #130 Sorcerymon
          +0x40          +0x04 0213A758 00D7 #131 DarkTyrannomon
          +0x80          +0x08 0213A75C 00D8 #132 Akatorimon
-         +0x01          +0x10 0213A760 00D9 #133 PlatinumSukamon
+0213A295 +0x01 0213A2D3 +0x10 0213A760 00D9 #133 PlatinumSukamon
          +0x02          +0x20 0213A764 00DA #134 Ikkakumon
          +0x04          +0x40 0213A768 00DB #135 Minotaurmon
          +0x08          +0x80 0213A76C 00DC #136 Icemon
-         +0x10          +0x01 0213A770 00DD #137 DarkLizardmon
+0213A295 +0x10 0213A2D4 +0x01 0213A770 00DD #137 DarkLizardmon
          +0x20          +0x02 0213A774 00DE #138 Flarerizamon
          +0x40          +0x04 0213A778 00DF #139 GeoGreymon
          +0x80          +0x08 0213A77C 00E0 #140 Gaogamon
-         +0x01          +0x10 0213A780 00E1 #141 Diatrymon
+0213A296 +0x01 0213A2D4 +0x10 0213A780 00E1 #141 Diatrymon
          +0x02          +0x20 0213A784 00E2 #142 Reppamon
          +0x04          +0x40 0213A788 00E3 #143 Sunflowmon
          +0x08          +0x80 0213A78C 00E4 #144 Gwappamon
-         +0x10          +0x01 0213A790 00E5 #145 SangLoupmon
+0213A296 +0x10 0213A2D5 +0x01 0213A790 00E5 #145 SangLoupmon
          +0x20          +0x02 0213A794 00E6 #146 Peckmon
          +0x40          +0x04 0213A798 00E7 #147 Dorimogemon
          +0x80          +0x08 0213A79C 00E8 #148 NiseDrimogemon
-         +0x01          +0x10 0213A7A0 00E9 #149 MoriShellmon
+0213A297 +0x01 0213A2D5 +0x10 0213A7A0 00E9 #149 MoriShellmon
          +0x02          +0x20 0213A7A4 00EA #150 Wendigomon
          +0x04          +0x40 0213A7A8 00EB #151 Fugamon
          +0x08          +0x80 0213A7AC 00EC #152 MudFrigimon/Tsuchidarumon
-         +0x10          +0x01 0213A7B0 00ED #153 Tortamon
+0213A297 +0x10 0213A2D6 +0x01 0213A7B0 00ED #153 Tortamon
          +0x20          +0x02 0213A7B4 00EE #154 Ebidramon
          +0x40          +0x04 0213A7B8 00EF #155 Octomon
          +0x80          +0x08 0213A7BC 00F0 #156 Gesomon
-         +0x01          +0x10 0213A7C0 00F1 #157 Coelamon
+0213A298 +0x01 0213A2D6 +0x10 0213A7C0 00F1 #157 Coelamon
          +0x02          +0x20 0213A7C4 00F2 #158 Shellmon
          +0x04          +0x40 0213A7C8 00F3 #159 Frigimon
          +0x08          +0x80 0213A7CC 00F4 #160 Geremon
-         +0x10          +0x01 0213A7D0 00F5 #161 Hyogamon
+0213A298 +0x10 0213A2D7 +0x01 0213A7D0 00F5 #161 Hyogamon
          +0x20          +0x02 0213A7D4 00F6 #162 KaratsukiNumemon
          +0x40          +0x04 0213A7D8 00F7 #163 IceDevimon
          +0x80          +0x08 0213A7DC 00F8 #164 Dolphmon
-         +0x01          +0x10 0213A7E0 00F9 #165 Saberdramon
+0213A299 +0x01 0213A2D7 +0x10 0213A7E0 00F9 #165 Saberdramon
          +0x02          +0x20 0213A7E4 00FA #166 Woodmon
          +0x04          +0x40 0213A7E8 00FB #167 Snimon
          +0x08          +0x80 0213A7EC 00FC #168 Flymon
-         +0x10          +0x01 0213A7F0 00FD #169 Yanmamon
+0213A299 +0x10 0213A2D8 +0x01 0213A7F0 00FD #169 Yanmamon
          +0x20          +0x02 0213A7F4 00FE #170 SandYanmamon
          +0x40          +0x04 0213A7F8 00FF #171 RedVeggiemon
          +0x80          +0x08 0213A7FC 0100 #172 Weedmon
-         +0x01          +0x10 0213A800 0101 #173 Ninjamon
+0213A29A +0x01 0213A2D8 +0x10 0213A800 0101 #173 Ninjamon
          +0x02          +0x20 0213A804 0102 #174 Kogamon
          +0x04          +0x40 0213A808 0103 #175 Omekamon
          +0x08          +0x80 0213A80C 0104 #176 Clockmon
-         +0x10          +0x01 0213A810 0105 #177 Thunderballmon
+0213A29A +0x10 0213A2D9 +0x01 0213A810 0105 #177 Thunderballmon
          +0x20          +0x02 0213A814 0106 #178 Tankmon
          +0x40          +0x04 0213A818 0107 #179 Nanimon
          +0x80          +0x08 0213A81C 0108 #180 Golemon
-         +0x01          +0x10 0213A820 0109 #181 Monochromon
+0213A29B +0x01 0213A2D9 +0x10 0213A820 0109 #181 Monochromon
          +0x02          +0x20 0213A824 010A #182 Mojyamon
          +0x04          +0x40 0213A828 010B #183 JMojyamon
          +0x08          +0x80 0213A82C 010C #184 Deputymon
-         +0x10          +0x01 0213A830 010D #185 Centarumon
+0213A29B +0x10 0213A2DA +0x01 0213A830 010D #185 Centarumon
          +0x20          +0x02 0213A834 010E #186 Devidramon
          +0x40          +0x04 0213A838 010F #187 Dokugumon
          +0x80          +0x08 0213A83C 0110 #188 Veedramon
-         +0x01          +0x10 0213A840 0111 #189 Musyamon
+0213A29C +0x01 0213A2DA +0x10 0213A840 0111 #189 Musyamon
          +0x02          +0x20 0213A844 0112 #190 KnightChessmonW
          +0x04          +0x40 0213A848 0113 #191 KnightChessmonB
          +0x08          +0x80 0213A84C 0114 #192 Firamon
-         +0x10          +0x01 0213A850 0115 #193 Lekismon
+0213A29C +0x10 0213A2DB +0x01 0213A850 0115 #193 Lekismon
          +0x20          +0x02 0213A854 0116 none
          +0x40          +0x04 0213A858 0117 none
          +0x80          +0x08 0213A85C 0118 none
-         +0x01          +0x10 0213A860 0119 none
+0213A29D +0x01 0213A2DB +0x10 0213A860 0119 none
          +0x02          +0x20 0213A864 011A none
          +0x04          +0x40 0213A868 011B none
          +0x08          +0x80 0213A86C 011C none
-         +0x10          +0x01 0213A870 011D none
+0213A29D +0x10 0213A2DC +0x01 0213A870 011D none
          +0x20          +0x02 0213A874 011E none
          +0x40          +0x04 0213A878 011F none
          +0x80          +0x08 0213A87C 0120 #194 Volcamon
-         +0x01          +0x10 0213A880 0121 #195 MetalGreymon
+0213A29E +0x01 0213A2DC +0x10 0213A880 0121 #195 MetalGreymon
          +0x02          +0x20 0213A884 0122 #196 Monzaemon
          +0x04          +0x40 0213A888 0123 #197 SkullGreymon
          +0x08          +0x80 0213A88C 0124 #198 MetalMamemon
-         +0x10          +0x01 0213A890 0125 #199 Andromon
+0213A29E +0x10 0213A2DD +0x01 0213A890 0125 #199 Andromon
          +0x20          +0x02 0213A894 0126 #200 Etemon
          +0x40          +0x04 0213A898 0127 #201 Megadramon
          +0x80          +0x08 0213A89C 0128 #202 Piximon
-         +0x01          +0x10 0213A8A0 0129 #203 Digitamamon
+0213A29F +0x01 0213A2DD +0x10 0213A8A0 0129 #203 Digitamamon
          +0x02          +0x20 0213A8A4 012A #204 Mammothmon
          +0x04          +0x40 0213A8A8 012B #205 AlturKabuterimon
          +0x08          +0x80 0213A8AC 012C #206 Ookuwamon
-         +0x10          +0x01 0213A8B0 012D #207 ShogunGekomon
+0213A29F +0x10 0213A2DE +0x01 0213A8B0 012D #207 ShogunGekomon
          +0x20          +0x02 0213A8B4 012E #208 Angewomon
          +0x40          +0x04 0213A8B8 012F #209 Tylomon
          +0x80          +0x08 0213A8BC 0130 #210 Scorpiomon
-         +0x01          +0x10 0213A8C0 0131 #211 MegaSeadramon
+0213A2A0 +0x01 0213A2DE +0x10 0213A8C0 0131 #211 MegaSeadramon
          +0x02          +0x20 0213A8C4 0132 #212 Dragomon
          +0x04          +0x40 0213A8C8 0133 #213 WereGarurumonBlack
          +0x08          +0x80 0213A8CC 0134 #214 WereGarurumon
-         +0x10          +0x01 0213A8D0 0135 #215 Myotismon/Vamdemon
+0213A2A0 +0x10 0213A2DF +0x01 0213A8D0 0135 #215 Myotismon/Vamdemon
          +0x20          +0x02 0213A8D4 0136 #216 LadyDevimon
          +0x40          +0x04 0213A8D8 0137 #217 Garudamon
          +0x80          +0x08 0213A8DC 0138 #218 Blossomon
-         +0x01          +0x10 0213A8E0 0139 #219 Lilymon
+0213A2A1 +0x01 0213A2DF +0x10 0213A8E0 0139 #219 Lilymon
          +0x02          +0x20 0213A8E4 013A #220 AlturKabuterimonRed
          +0x04          +0x40 0213A8E8 013B #221 Datamon/Nanomon
          +0x08          +0x80 0213A8EC 013C #222 Cyberdramon
-         +0x10          +0x01 0213A8F0 013D #223 MagnaAngemon
+0213A2A1 +0x10 0213A2E0 +0x01 0213A8F0 013D #223 MagnaAngemon
          +0x20          +0x02 0213A8F4 013E #224 Paildramon
          +0x40          +0x04 0213A8F8 013F #225 Dinobeemon
          +0x80          +0x08 0213A8FC 0140 #226 Antylamon
-         +0x01          +0x10 0213A900 0141 #227 Arukenimon
+0213A2A2 +0x01 0213A2E0 +0x10 0213A900 0141 #227 Arukenimon
          +0x02          +0x20 0213A904 0142 #228 Mummymon
          +0x04          +0x40 0213A908 0143 #229 WarGrowlmon
          +0x08          +0x80 0213A90C 0144 #230 Rapidmon
-         +0x10          +0x01 0213A910 0145 #231 Taomon
+0213A2A2 +0x10 0213A2E1 +0x01 0213A910 0145 #231 Taomon
          +0x20          +0x02 0213A914 0146 #232 Parrotmon
          +0x40          +0x04 0213A918 0147 #233 Infermon
          +0x80          +0x08 0213A91C 0148 #234 BlackRapidmon
-         +0x01          +0x10 0213A920 0149 #235 Pandamon
+0213A2A3 +0x01 0213A2E1 +0x10 0213A920 0149 #235 Pandamon
          +0x02          +0x20 0213A924 014A #236 MarineDevimon
          +0x04          +0x40 0213A928 014B #237 Karatenmon
          +0x08          +0x80 0213A92C 014C #238 Kyukimon
-         +0x10          +0x01 0213A930 014D #239 Sinduramon
+0213A2A3 +0x10 0213A2E2 +0x01 0213A930 014D #239 Sinduramon
          +0x20          +0x02 0213A934 014E #240 Pipismon
          +0x40          +0x04 0213A938 014F #241 Dorugreymon
          +0x80          +0x08 0213A93C 0150 #242 Divermon
-         +0x01          +0x10 0213A940 0151 #243 Kimeramon
+0213A2A4 +0x01 0213A2E2 +0x10 0213A940 0151 #243 Kimeramon
          +0x02          +0x20 0213A944 0152 #244 Triceramon
          +0x04          +0x40 0213A948 0153 #245 Deramon
          +0x08          +0x80 0213A94C 0154 #246 Silphymon
-         +0x10          +0x01 0213A950 0155 #247 SuperStarmon
+0213A2A4 +0x10 0213A2E3 +0x01 0213A950 0155 #247 SuperStarmon
          +0x20          +0x02 0213A954 0156 #248 BlackWargrowlmon
          +0x40          +0x04 0213A958 0157 #249 Zudomon
          +0x80          +0x08 0213A95C 0158 #250 Whamon
-         +0x01          +0x10 0213A960 0159 #251 Mamemon
+0213A2A5 +0x01 0213A2E3 +0x10 0213A960 0159 #251 Mamemon
          +0x02          +0x20 0213A964 015A #252 Toucanmon
          +0x04          +0x40 0213A968 015B #253 Owlmon
          +0x08          +0x80 0213A96C 015C #254 Meteormon
-         +0x10          +0x01 0213A970 015D #255 Gigadramon
+0213A2A5 +0x10 0213A2E4 +0x01 0213A970 015D #255 Gigadramon
          +0x20          +0x02 0213A974 015E #256 RizeGreymon
          +0x40          +0x04 0213A978 015F #257 MachGaogamon
          +0x80          +0x08 0213A97C 0160 ???? Yatakaramon??
-         +0x01          +0x10 0213A980 0161 #258 Tylinmon
+0213A2A6 +0x01 0213A2E4 +0x10 0213A980 0161 #258 Tylinmon
          +0x02          +0x20 0213A984 0162 #259 Lylamon
          +0x04          +0x40 0213A988 0163 #260 Shadramon
          +0x08          +0x80 0213A98C 0164 #261 Matadormon
-         +0x10          +0x01 0213A990 0165 #262 Kabukimon
+0213A2A6 +0x10 0213A2E5 +0x01 0213A990 0165 #262 Kabukimon
          +0x20          +0x02 0213A994 0166 #263 Cherrymon
          +0x40          +0x04 0213A998 0167 #264 Garbagemon
          +0x80          +0x08 0213A99C 0168 #265 Lucemon Fallen Mode
-         +0x01          +0x10 0213A9A0 0169 #266 Mametyramon
+0213A2A7 +0x01 0213A2E5 +0x10 0213A9A0 0169 #266 Mametyramon
          +0x02          +0x20 0213A9A4 016A #267 Giromon
          +0x04          +0x40 0213A9A8 016B #268 Vadermon
          +0x08          +0x80 0213A9AC 016C #269 MetalTyrannomon
-         +0x10          +0x01 0213A9B0 016D #270 Tekkamon
+0213A2A7 +0x10 0213A2E6 +0x01 0213A9B0 016D #270 Tekkamon
          +0x20          +0x02 0213A9B4 016E #271 BigMamemon
          +0x40          +0x04 0213A9B8 016F #272 EXtyrannomon
          +0x80          +0x08 0213A9BC 0170 #273 Vermilimon
-         +0x01          +0x10 0213A9C0 0171 #274 Phantomon
+0213A2A8 +0x01 0213A2E6 +0x10 0213A9C0 0171 #274 Phantomon
          +0x02          +0x20 0213A9C4 0172 #275 Vajiramon
          +0x04          +0x40 0213A9C8 0173 #276 AeroVeedramon
          +0x08          +0x80 0213A9CC 0174 #277 GrappLeomon
-         +0x10          +0x01 0213A9D0 0175 #278 Knightmon
+0213A2A8 +0x10 0213A2E7 +0x01 0213A9D0 0175 #278 Knightmon
          +0x20          +0x02 0213A9D4 0176 #279 Brachiomon
          +0x40          +0x04 0213A9D8 0177 #280 Allomon
          +0x80          +0x08 0213A9DC 0178 #281 Lynxmon
-         +0x01          +0x10 0213A9E0 0179 #282 Shaujinmon
+0213A2A9 +0x01 0213A2E7 +0x10 0213A9E0 0179 #282 Shaujinmon
          +0x02          +0x20 0213A9E4 017A #283 Yatagaramon
          +0x04          +0x40 0213A9E8 017B #284 BishopChessmon
          +0x08          +0x80 0213A9EC 017C #285 RookChessmon
-         +0x10          +0x01 0213A9F0 017D #286 Flaremon
+0213A2A9 +0x10 0213A2E8 +0x01 0213A9F0 017D #286 Flaremon
          +0x20          +0x02 0213A9F4 017E #287 Crescemon
          +0x40          +0x04 0213A9F8 017F #288 Flamedramon
          +0x80          +0x08 0213A9FC 0180 #289 Magnamon
-         +0x01          +0x10 0213AA00 0181 #290 Prairiemon
+0213A2AA +0x01 0213A2E8 +0x10 0213AA00 0181 #290 Prairiemon
          +0x02          +0x20 0213AA04 0182 #291 Kongoumon
          +0x04          +0x40 0213AA08 0183 #292 Seahomon
          +0x08          +0x80 0213AA0C 0184 #293 Shurimon
-         +0x10          +0x01 0213AA10 0185 #294 Kenkimon
+0213A2AA +0x10 0213A2E9 +0x01 0213AA10 0185 #294 Kenkimon
          +0x20          +0x02 0213AA14 0186 #295 Ponchomon
          +0x40          +0x04 0213AA18 0187 #296 Argomon Ultimate
          +0x80          +0x08 0213AA1C 0188 #297 Shakkoumon
-         +0x01          +0x10 0213AA20 0189 none
+0213A2AB +0x01 0213A2E9 +0x10 0213AA20 0189 none
          +0x02          +0x20 0213AA24 018A none
          +0x04          +0x40 0213AA28 018B none
          +0x08          +0x80 0213AA2C 018C none
-         +0x10          +0x01 0213AA30 018D none
+0213A2AB +0x10 0213A2EA +0x01 0213AA30 018D none
          +0x20          +0x02 0213AA34 018E none
          +0x40          +0x04 0213AA38 018F none
          +0x80          +0x08 0213AA3C 0190 none
-         +0x01          +0x10 0213AA40 0191 #298 Lampmon
+0213A2AC +0x01 0213A2EA +0x10 0213AA40 0191 #298 Lampmon
          +0x02          +0x20 0213AA44 0192 #299 HerculesKabuterimon
          +0x04          +0x40 0213AA48 0193 #300 SaberLeomon
          +0x08          +0x80 0213AA4C 0194 #301 MetalEtemon
-         +0x10          +0x01 0213AA50 0195 #302 MarineAngemon
+0213A2AC +0x10 0213A2EB +0x01 0213AA50 0195 #302 MarineAngemon
          +0x20          +0x02 0213AA54 0196 #303 GigaSeadramon
          +0x40          +0x04 0213AA58 0197 #304 Piedmon
          +0x80          +0x08 0213AA5C 0198 #305 Daemon/Creepymon
-         +0x01          +0x10 0213AA60 0199 #306 Phoenixmon
+0213A2AD +0x01 0213A2EB +0x10 0213AA60 0199 #306 Phoenixmon
          +0x02          +0x20 0213AA64 019A #307 Puppetmon
          +0x04          +0x40 0213AA68 019B #308 Rosemon
          +0x08          +0x80 0213AA6C 019C #309 WarGreymon
-         +0x10          +0x01 0213AA70 019D #310 MetalGarurumon
+0213A2AD +0x10 0213A2EC +0x01 0213AA70 019D #310 MetalGarurumon
          +0x20          +0x02 0213AA74 019E #311 Machinedramon
          +0x40          +0x04 0213AA78 019F #312 VenomMyotismon
          +0x80          +0x08 0213AA7C 01A0 #313 Omnimon
-         +0x01          +0x10 0213AA80 01A1 #314 Imperialdramon Dragon Mode
+0213A2AE +0x01 0213A2EC +0x10 0213AA80 01A1 #314 Imperialdramon Dragon Mode
          +0x02          +0x20 0213AA84 01A2 #315 Imperialdramon Fighter Mode
          +0x04          +0x40 0213AA88 01A3 #316 Imperialdramon Paladin Mode
          +0x08          +0x80 0213AA8C 01A4 #317 Ghoulmon
-         +0x10          +0x01 0213AA90 01A5 #318 Seraphimon
+0213A2AE +0x10 0213A2ED +0x01 0213AA90 01A5 #318 Seraphimon
          +0x20          +0x02 0213AA94 01A6 #319 HiAndromon
          +0x40          +0x04 0213AA98 01A7 #320 Devitamamon
          +0x80          +0x08 0213AA9C 01A8 #321 Cherubimon (Vaccine)
-         +0x01          +0x10 0213AAA0 01A9 #322 Cherubimon (Virus)
+0213A2AF +0x01 0213A2ED +0x10 0213AAA0 01A9 #322 Cherubimon (Virus)
          +0x02          +0x20 0213AAA4 01AA #323 Gallantmon
          +0x04          +0x40 0213AAA8 01AB #324 Gallantmon Crimson Mode
          +0x08          +0x80 0213AAAC 01AC #325 MegaGargomon
-         +0x10          +0x01 0213AAB0 01AD #326 Sakuyamon
+0213A2AF +0x10 0213A2EE +0x01 0213AAB0 01AD #326 Sakuyamon
          +0x20          +0x02 0213AAB4 01AE #327 Diaboromon
          +0x40          +0x04 0213AAB8 01AF #328 Neptunmon
          +0x80          +0x08 0213AABC 01B0 #329 Pukumon
-         +0x01          +0x10 0213AAC0 01B1 #330 Gryphomon
+0213A2B0 +0x01 0213A2EE +0x10 0213AAC0 01B1 #330 Gryphomon
          +0x02          +0x20 0213AAC4 01B2 #331 Plesiomon
          +0x04          +0x40 0213AAC8 01B3 #332 Armageddemon
          +0x08          +0x80 0213AACC 01B4 #333 MaloMyotismon
-         +0x10          +0x01 0213AAD0 01B5 #334 Imperialdramon Dragon Black
+0213A2B0 +0x10 0213A2EF +0x01 0213AAD0 01B5 #334 Imperialdramon Dragon Black
          +0x20          +0x02 0213AAD4 01B6 #335 Boltmon
          +0x40          +0x04 0213AAD8 01B7 #336 PrinceMamemon
          +0x80          +0x08 0213AADC 01B8 #337 Ophanimon
-         +0x01          +0x10 0213AAE0 01B9 #338 Zanbamon
+0213A2B1 +0x01 0213A2EF +0x10 0213AAE0 01B9 #338 Zanbamon
          +0x02          +0x20 0213AAE4 01BA #339 BlackMegaGargomon
          +0x04          +0x40 0213AAE8 01BB #340 Jijimon
          +0x08          +0x80 0213AAEC 01BC #341 Babamon
-         +0x10          +0x01 0213AAF0 01BD #342 Anubismon
+0213A2B1 +0x10 0213A2F0 +0x01 0213AAF0 01BD #342 Anubismon
          +0x20          +0x02 0213AAF4 01BE #343 Parasimon
          +0x40          +0x04 0213AAF8 01BF #344 Cannondramon
          +0x80          +0x08 0213AAFC 01C0 #345 SlashAngemon
-         +0x01          +0x10 0213AB00 01C1 #346 Eaglemon
+0213A2B2 +0x01 0213A2F0 +0x10 0213AB00 01C1 #346 Eaglemon
          +0x02          +0x20 0213AB04 01C2 #347 Dorugoramon
          +0x04          +0x40 0213AB08 01C3 #348 Beelzemon
          +0x08          +0x80 0213AB0C 01C4 #349 BanchouLeomon
-         +0x10          +0x01 0213AB10 01C5 #350 Darkdramon
+0213A2B2 +0x10 0213A2F1 +0x01 0213AB10 01C5 #350 Darkdramon
          +0x20          +0x02 0213AB14 01C6 #351 Apocalymon
          +0x40          +0x04 0213AB18 01C7 #352 Ebemon
          +0x80          +0x08 0213AB1C 01C8 #353 Gulfmon
-         +0x01          +0x10 0213AB20 01C9 #354 Goldramon
+0213A2B3 +0x01 0213A2F1 +0x10 0213AB20 01C9 #354 Goldramon
          +0x02          +0x20 0213AB24 01CA #355 ZeedMilleniumon
          +0x04          +0x40 0213AB28 01CB #356 GhoulmonB
          +0x08          +0x80 0213AB2C 01CC #357 Kuzuhamon
-         +0x10          +0x01 0213AB30 01CD #358 ChaosGallantmon
+0213A2B3 +0x10 0213A2F2 +0x01 0213AB30 01CD #358 ChaosGallantmon
          +0x20          +0x02 0213AB34 01CE #359 MetalSeadramon
          +0x40          +0x04 0213AB38 01CF #360 Valkyriemon
          +0x80          +0x08 0213AB3C 01D0 #361 Justimon
-         +0x01          +0x10 0213AB40 01D1 #362 Vikemon
+0213A2B4 +0x01 0213A2F2 +0x10 0213AB40 01D1 #362 Vikemon
          +0x02          +0x20 0213AB44 01D2 #363 BlackWarGreymon
          +0x04          +0x40 0213AB48 01D3 #364 SkullMammothmon
          +0x08          +0x80 0213AB4C 01D4 #365 GranKuwagamon
-         +0x10          +0x01 0213AB50 01D5 #366 Pharaohmon
+0213A2B4 +0x10 0213A2F3 +0x01 0213AB50 01D5 #366 Pharaohmon
          +0x20          +0x02 0213AB54 01D6 #367 Susanoomon
          +0x40          +0x04 0213AB58 01D7 #368 Alphamon
          +0x80          +0x08 0213AB5C 01D8 #369 Holydramon/Magnadramon
-         +0x01          +0x10 0213AB60 01D9 #370 Milleniumon
+0213A2B5 +0x01 0213A2F3 +0x10 0213AB60 01D9 #370 Milleniumon
          +0x02          +0x20 0213AB64 01DA #371 MoonMilleniumon
          +0x04          +0x40 0213AB68 01DB #372 Megidramon
          +0x08          +0x80 0213AB6C 01DC #373 Sleipmon
-         +0x10          +0x01 0213AB70 01DD #374 ShineGreymon
+0213A2B5 +0x10 0213A2F4 +0x01 0213AB70 01DD #374 ShineGreymon
          +0x20          +0x02 0213AB74 01DE #375 MirageGaogamon
          +0x40          +0x04 0213AB78 01DF #376 JumboGamemon
          +0x80          +0x08 0213AB7C 01E0 #377 Ravemon
-         +0x01          +0x10 0213AB80 01E1 #378 QueenChessmon
+0213A2B6 +0x01 0213A2F4 +0x10 0213AB80 01E1 #378 QueenChessmon
          +0x02          +0x20 0213AB84 01E2 #379 KingChessmon
          +0x04          +0x40 0213AB88 01E3 #380 Chronomon Holy Mode
          +0x08          +0x80 0213AB8C 01E4 #381 Lilithmon
-         +0x10          +0x01 0213AB90 01E5 #382 Valdurmon
+0213A2B6 +0x10 0213A2F5 +0x01 0213AB90 01E5 #382 Valdurmon
          +0x20          +0x02 0213AB94 01E6 #383 Apollomon
          +0x40          +0x04 0213AB98 01E7 #384 Dianamon
          +0x80          +0x08 0213AB9C 01E8 #385 ShineGreymon Burst Mode
-         +0x01          +0x10 0213ABA0 01E9 #386 ShineGreymon Ruin Mode
+0213A2B7 +0x01 0213A2F5 +0x10 0213ABA0 01E9 #386 ShineGreymon Ruin Mode
          +0x02          +0x20 0213ABA4 01EA #387 MirageGaogamon Burst Mode
          +0x04          +0x40 0213ABA8 01EB #388 Ravemon Burst Mode
          +0x08          +0x80 0213ABAC 01EC #389 Lotusmon
-         +0x10          +0x01 0213ABB0 01ED #390 DotShineGreymon // Dawn only
+0213A2B7 +0x10 0213A2F6 +0x01 0213ABB0 01ED #390 DotShineGreymon // Dawn only
          +0x20          +0x02 0213ABB4 01EE #391 DotMirageGaogamon
          +0x40          +0x04 0213ABB8 01EF #392 Beelzemon Blast Mode
          +0x80          +0x08 0213ABBC 01F0 #393 Rosemon Burst Mode
-         +0x01          +0x10 0213ABC0 01F1 #394 Argomon Mega
+0213A2B8 +0x01 0213A2F6 +0x10 0213ABC0 01F1 #394 Argomon Mega
          +0x02          +0x20 0213ABC4 01F2 #395 Minervamon
          +0x04          +0x40 0213ABC8 01F3 #396 Duftmon
          +0x08          +0x80 0213ABCC 01F4 #397 Chaosmon
