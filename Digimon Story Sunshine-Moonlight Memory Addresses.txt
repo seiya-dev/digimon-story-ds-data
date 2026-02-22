@@ -24,11 +24,11 @@ ald_addr +flag met_addr +flag cnt_addr deid slot
          +0x20          +0x02 0213A554 0056 #022 Sunmon
          +0x40          +0x04 0213A558 0057 #023 Moonmon
          +0x80          +0x08 0213A55C 0058 none
-         +0x01          +0x10 0213A560 0059 none
+0213A285 +0x01 0213A2C3 +0x10 0213A560 0059 none
          +0x02          +0x20 0213A564 005A none
          +0x04          +0x40 0213A568 005B none
          +0x08          +0x80 0213A56C 005C none
-         +0x10          +0x01 0213A570 005D none
+0213A285 +0x10          +0x01 0213A570 005D none
          +0x20          +0x02 0213A574 005E none
          +0x40          +0x04 0213A578 005F none
          +0x80          +0x08 0213A57C 0060 none
@@ -84,7 +84,7 @@ ald_addr +flag met_addr +flag cnt_addr deid slot
          +0x02          +0x20 0213A644 0092 #073 Kamemon
          +0x04          +0x40 0213A648 0093 #074 Dracmon
          +0x08          +0x80 0213A64C 0094 #075 PawnChessmonW
-         +0x10          +0x01 0213A650 0095 #076 DotAgumon
+         +0x10          +0x01 0213A650 0095 #076 DotAgumon // Dawn only
          +0x20          +0x02 0213A654 0096 #077 Kunemon
          +0x40          +0x04 0213A658 0097 #078 Mushroomon
          +0x80          +0x08 0213A65C 0098 #079 Solarmon
@@ -428,7 +428,7 @@ ald_addr +flag met_addr +flag cnt_addr deid slot
          +0x02          +0x20 0213ABA4 01EA #387 MirageGaogamon Burst Mode
          +0x04          +0x40 0213ABA8 01EB #388 Ravemon Burst Mode
          +0x08          +0x80 0213ABAC 01EC #389 Lotusmon
-         +0x10          +0x01 0213ABB0 01ED #390 DotShineGreymon
+         +0x10          +0x01 0213ABB0 01ED #390 DotShineGreymon // Dawn only
          +0x20          +0x02 0213ABB4 01EE #391 DotMirageGaogamon
          +0x40          +0x04 0213ABB8 01EF #392 Beelzemon Blast Mode
          +0x80          +0x08 0213ABBC 01F0 #393 Rosemon Burst Mode
