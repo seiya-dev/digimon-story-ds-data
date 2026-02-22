@@ -86,9 +86,9 @@ Chicchimon (I) #001
     Kiwimon (C) #128
       Deramon (U) #245
         Phoenixmon (M) #306
-        Valkyriemon [/w Angewomon] (J) #360
+        Valkyrimon [/w Angewomon] (J) #360
           Ravemon Burst Mode [/w Ravemon] (J) #388
-        Valkyriemon [/w Owlmon] (J) #360
+        Valkyrimon [/w Owlmon] (J) #360
           Ravemon Burst Mode [/w Ravemon] (J) #388
     Kokatorimon (C) #099
   Muchomon (R) #061
@@ -259,7 +259,7 @@ Minomon (I) #018
     Shadramon [DigiEgg of Courage] (A) #260
       MaloMyotismon [/w Myotismon] (J) #333
     Owlmon [DigiEgg of Love] (A) #253
-      Valkyriemon [/w Deramon] (J) #360
+      Valkyrimon [/w Deramon] (J) #360
         Ravemon Burst Mode [/w Ravemon] (J) #388
     Kongoumon [DigiEgg of Miracles] (A) #291
       Susanoomon [/w Yatagaramon] (J) #367
@@ -329,7 +329,7 @@ Puttimon (I) #010
       Angewomon (U) #208
         Ophanimon (M) #337
           Rosemon Burst Mode [/w Rosemon] (J) #393
-        Valkyriemon [/w Deramon] (J) #360
+        Valkyrimon [/w Deramon] (J) #360
           Ravemon Burst Mode [/w Ravemon] (J) #388
         Holydramon/Magnadramon [/w Lilamon] (J) #369
         Holydramon/Magnadramon [/w Lillymon] (J) #369
@@ -419,7 +419,7 @@ Tokomon (I) #005
     Peckmon (C) #146
       Yatagaramon (U) #283
         Ravemon (M) #377
-          Ravemon Burst Mode [/w Valkyriemon] (J) #388
+          Ravemon Burst Mode [/w Valkyrimon] (J) #388
           Ravemon Burst Mode [/w Valdurmon] (J) #388
         Anubismon [/w Karatenmon] (J) #342
         Susanoomon [/w Kongoumon] (J) #367
