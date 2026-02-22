@@ -187,11 +187,11 @@ Koromon (I) #002
     GeoGreymon (C) #139
       RiseGreymon (U) #256
         ShineGreymon (M) #374
-        DotShineGreymon (M) #390
+        DotShineGreymon [*DAWN ONLY*] (M) #390
     Greymon (C) #086
       MetalGreymon (U) #195
         WarGreymon (M) #309
-  DotAgumon (R) #076
+  DotAgumon [*DAWN ONLY*] (R) #076
 
 Kuramon (I) #009
   Tsukaimon (R) #068
@@ -356,7 +356,7 @@ Tokomon (I) #005
     Peckmon (C) #146
       Yatagaramon (U) #283
         Ravemon (M) #377
-  DotFalcomon (R) #071
+  DotFalcomon [*DUSK ONLY*] (R) #071
 
 ToyAgumon (R) #040
   Tankmon (C) #178
@@ -404,7 +404,7 @@ Wanyamon (I) #019
     Gaogamon (C) #140
       MachGaogamon (U) #257
         MirageGaogamon (M) #375
-        DotMirageGaogamon (M) #391
+        DotMirageGaogamon [*DUSK ONLY*] (M) #391
     Leomon (C) #100
       GrappLeomon (U) #277
         SaberLeomon (M) #300
