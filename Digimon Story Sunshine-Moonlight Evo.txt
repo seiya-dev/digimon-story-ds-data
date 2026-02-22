@@ -464,8 +464,8 @@ JOGRESS [TODO] (J):
   Beelzemon Blast Mode [/w Beelzemon + BanchouLeomon] (J) #392
   Rosemon Burst Mode [/w Rosemon + Ophanimon] (J) #393
   Rosemon Burst Mode [/w Rosemon + Babamon] (J) #393
-  Minervamon [/w Knightmon + WereGarurumon (Black)] (M) #395
-  Duftmon [/w SlashAngemon + Grappleomon] (M) #396
+  Minervamon [/w Knightmon + WereGarurumon (Black)] (J) #395
+  Duftmon [/w SlashAngemon + Grappleomon] (J) #396
   Chaosmon [/w Darkdramon + Banchou Leomon] (J) #397
   Chaosmon [/w Darkdramon + Valdurmon] (J) #397
   Chaosmon [/w Valdurmon + Banchou Leomon] (J) #397
