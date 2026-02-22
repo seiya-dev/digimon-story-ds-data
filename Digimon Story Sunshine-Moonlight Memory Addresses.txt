@@ -8,6 +8,21 @@ ald_addr +flag met_addr +flag cnt_addr deid slot
          +0x20          +0x02 0213A514 0046 #006 Tanemon
          +0x40          +0x04 0213A518 0047 #007 Pagumon
          +0x80          +0x08 0213A51C 0048 #008 Kapurimon
+                              0213A520 0049 #009 Kuramon
+                              0213A524 004A #010 Puttimon
+                              0213A528 004B #011 Chibomon
+                              0213A52C 004C #012 Dorimon
+                              0213A530 004D #013 Calumon
+                              0213A534 004E #014 Gigimon
+                              0213A538 004F #015 Gummymon
+                              0213A53C 0050 #016 Kokomon
+                              0213A540 0051 #017 Tsumemon
+                              0213A544 0052 #018 Minomon
+                              0213A548 0053 #019 Wanyamon
+                              0213A54C 0054 #020 Budmon
+                              0213A550 0055 #021 Botamon
+                              0213A554 0056 #022 Sunmon
+                              0213A558 0057 #023 Moonmon
 
 Note:
 00~3F Eggs
