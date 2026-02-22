@@ -172,6 +172,8 @@ Gummymon (I) #015
 Hawkmon (R) #044
   Aquilamon (C) #118
     Silphymon [/w Gatomon] (J) #246
+      Valkyrimon (M) #360
+        Ravemon Burst Mode [/w Ravemon] (J) #388
       Valdurmon [/w Sinduramon] (J) #382
         Chronomon Holy Mode [/w Susanoomon] (J) #380
         Ravemon Burst Mode [/w Ravemon] (J) #388
@@ -337,6 +339,8 @@ Puttimon (I) #010
       Kabukimon [DigiEgg of Sincerity] (U) #262
       Tylomon [DigiEgg of Reliability] (A) #209
       Silphymon [/w Aquilamon] (J) #246
+        Valkyrimon (M) #360
+          Ravemon Burst Mode [/w Ravemon] (J) #388
   PawnChessmonW (R) #075
     KnightChessmonW (C) #190
       BishopChessmon (U) #284
