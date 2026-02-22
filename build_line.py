@@ -102,10 +102,14 @@ def get_evo_tree(src_file, target_file, game_name, game_id):
         data = html.escape((f'{name} {sid} {stg}').lower())
         meta = f'<span class="meta">{html.escape(sid)}</span>' if sid else ''
         
+        cb_key = ''
+        if re.search(r"#\d+", html.escape(key)):
+            cb_key = f'\t\t\t\t\t<input type="checkbox" class="cb" data-key="{html.escape(key)}">\n'
+        
         return (
             f'\t\t\t\t<li class="node lvl-{lvl}" data-text="{data}" data-lvl="{html.escape(stg)}">\n'
             f'\t\t\t\t\t<label class="item">\n'
-            f'\t\t\t\t\t<input type="checkbox" class="cb" data-key="{html.escape(key)}">\n'
+            f'{cb_key}'
             f'\t\t\t\t\t{stage_span(stg)}\n'
             f'\t\t\t\t\t<span class="name">{html.escape(name)}</span>\n'
             f'\t\t\t\t\t{meta}\n'
@@ -148,10 +152,15 @@ def get_evo_tree(src_file, target_file, game_name, game_id):
         data=html.escape(d["search"])
         meta=f'<span class="meta">{html.escape(d["id_str"])}</span>' if d["id_str"] else ""
         name=html.escape(re.sub(r"\[w\/.*?\]", "", d["name"]))
+        
+        key_cb=''
+        if re.search(r"#\d+", d["key"]):
+            key_cb=f'\t\t\t\t\t<input type="checkbox" class="cb" data-key="{html.escape(d["key"])}">\n'
+        
         id_rows.append(
             f'\t\t\t<div class="idrow node" data-text="{data}" data-lvl="{html.escape(d["stage"])}">\n'
             f'\t\t\t\t<label class="item">\n'
-            f'\t\t\t\t\t<input type="checkbox" class="cb" data-key="{html.escape(d["key"])}">\n'
+            f'{key_cb}'
             f'\t\t\t\t\t{stage_span(d["stage"])}\n'
             f'\t\t\t\t\t<span class="name">{name}</span>\n'
             f'\t\t\t\t\t{meta}\n'
@@ -207,13 +216,18 @@ def get_evo_tree(src_file, target_file, game_name, game_id):
         else:
             title = f"{html.escape(payload['name'])} <span class='meta'>{html.escape(payload['id_str'])}</span>"
             data  = html.escape((payload["name"]+" "+payload["id_str"]+" "+payload["stage"]).lower())
+            
+            key_cb=''
+            if re.search(r"#\d+", payload['key']):
+                key_cb=f'\t\t\t\t\t\t<input type="checkbox" class="cb" data-key="{html.escape(payload['key'])}">\n'
+            
             parts.append((
                 f'\t\t<div class="section" id="solo-{sec_idx}">\n'
                 f'\t\t\t<h2><span>{title}</span><span class="right"><span class="badge">No digivolution</span></span></h2>\n'
                 f'\t\t\t<ul class="tree">\n'
                 f'\t\t\t\t<li class="node" data-text="{data}" data-lvl="{html.escape(payload['stage'])}">\n'
                 f'\t\t\t\t\t<label class="item">\n'
-                f'\t\t\t\t\t\t<input type="checkbox" class="cb" data-key="{html.escape(payload['key'])}">\n'
+                f'{key_cb}'
                 f'\t\t\t\t\t\t{stage_span(payload['stage'])}\n'
                 f'\t\t\t\t\t\t<span class="name">{html.escape(payload['name'])}</span>\n'
                 f'\t\t\t\t\t\t<span class="meta">{html.escape(payload['id_str'])}</span>\n'
