@@ -31,6 +31,7 @@ Budmon (I) #020
   Dokunemon (R) #082
     Kuwagamon (C) #101
       Okuwamon (U) #206
+        HerculesKabuterimon [/w MegaKabuterimonRed] (J) #299
         GKuwagamon (M) #365
     Dokugumon (C) #187
       Arukenimon (U) #227
@@ -44,6 +45,7 @@ Budmon (I) #020
         Rosemon (M) #308
         Lotusmon (M) #389
     RedVeggiemon (C) #171
+      BigMamemon [/w Veggiemon] (J) #271
 
 Calumon (I) #013
 
@@ -88,6 +90,7 @@ Dorimon (I) #012
     Drimogemon (C) #147
   Armadillomon (R) #045
     Ankylomon (C) #111
+      Shakkoumon [/w Angemon] (J) #297
     NDrimogemon (C) #148
     Seahomon [DigiEgg of Friendship] (A) #292
     Kenkimon [DigiEgg of Light] (A) #294
@@ -122,6 +125,8 @@ Gotsumon (R) #035
   Icemon (C) #136
     Meteormon (U) #254
   Golemon (C) #180
+    BigMamemon [/w Mekanorimon] (J) #271
+    BigMamemon [/w Veggiemon] (J) #271
   Tsuchidarumon (C) #152
 
 Gummymon (I) #015
@@ -202,8 +207,9 @@ Kuramon (I) #009
 Minomon (I) #018
   Tentomon (R) #034
     Kabuterimon (C) #092
-      MKabuterimonR (U) #220
-      MKabuterimon (U) #205
+      MegaKabuterimonRed (U) #220
+        HerculesKabuterimon [/w Okuwamon] (J) #299
+      MegaKabuterimon (U) #205
     SandYanmamon (C) #170
   Wormmon (R) #043
     Stingmon (C) #109
@@ -332,6 +338,8 @@ Tanemon (I) #006
       Cherrymon (U) #263
   Floramon (R) #063
     Veggiemon (C) #095
+      BigMamemon [/w RedVeggiemon] (J) #271
+      BigMamemon [/w Golemon] (J) #271
 
 Tokomon (I) #005
   Patamon (R) #031
@@ -340,6 +348,7 @@ Tokomon (I) #005
         SlashAngemon (M) #345
         Seraphimon (M) #318
       Lucemon Fallen Mode [/w Devimon] (J) #265
+      Shakkoumon [/w Ankylomon] (J) #297
     Ponchomon [DigiEgg of Sincerity] (A) #295
     Prairiemon [DigiEgg of Kindness] (A) #290
     Pipismon [DigiEgg of Love] (A) #240
@@ -360,6 +369,7 @@ ToyAgumon Black (R) #067
   Mekanorimon (C) #085
     EXtyrannomon (U) #272
       Ghoulmon (M) #317
+    BigMamemon [/w Golemon] (J) #271
   Reptiledramon [w/ Monodramon] (J) #124
 
 Tsumemon (I) #017
@@ -410,16 +420,10 @@ Wanyamon (I) #019
 Vadermon (U) #268
   Ebemon (M) #352
 
-BigMamemon (J) #271
-  BigMamemon [/w Veggiemon + RedVegiemon] (J) #271
-  BigMamemon [/w Golemon + Mekanorimon] (J) #271
-  BigMamemon [/w Veggiemon + Golemon] (J) #271
 
-Shakkoumon (J) #297
-  Shakkoumon [/w Angemon + Ankylomon] (J) #297
 
-HerculesKabuterimon (J) #299
-  HerculesKabuterimon [/w MegaKabuterimonRed + Ookuwamon] (J) #299
+
+
 
 Daemon / Creepymon (J) #305
   Daemon / Creepymon [/w Vamdemon + LadyDevimon] (J) #305
