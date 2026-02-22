@@ -219,7 +219,6 @@ Koromon (I) #002
           ShineGreymon Burst Mode [/w Gallantmon] (J) #385
           ShineGreymon Burst Mode [/w Imperialdramon Fighter Mode] (J) #385
           ShineGreymon Ruin Mode [/w Darkdramon] (J) #386
-          
         DotShineGreymon [*DAWN ONLY*] (M) #390
     Greymon (C) #086
       MetalGreymon (U) #195
