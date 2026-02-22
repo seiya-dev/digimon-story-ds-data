@@ -23,6 +23,7 @@ Botamon (I) #021
     DarkTyrannomon (C) #131
       SkullGreymon (U) #197
         Machinedramon (M) #311
+          Milleniumon [/w Kimeramon] (J) #370
       MetalTyrannomon (U) #269
   Candlemon (R) #080
     DarkLizardmon (C) #137
@@ -45,7 +46,11 @@ Budmon (I) #020
     Sunflowmon (C) #143
       Lilamon (U) #259
         Rosemon (M) #308
+          Rosemon Burst Mode [/w Ophanimon] (J) #393
+          Rosemon Burst Mode [/w Babamon] (J) #393
         Lotusmon (M) #389
+        Holydramon/Magnadramon [/w Angewomon] (J) #369
+        Holydramon/Magnadramon [/w Lillymon] (J) #369
     RedVeggiemon (C) #171
       BigMamemon [/w Veggiemon] (J) #271
 
@@ -60,8 +65,11 @@ Chibomon (I) #011
       Paildramon [/w Stingmon] (J) #224
         Imperialdramon Dragon Mode (M) #314
         Imperialdramon Fighter Mode (M) #315
+          ShineGreymon Burst Mode [/w ShineGreymon] (J) #385
     Flamedramon [DigiEgg of Courage] (A) #288
     Magnamon [DigiEgg of Miracles] (A) #289
+      Susanoomon [/w SuperStarmon] (J) #367
+        Chronomon Holy Mode [/w Valdurmon] (J) #380
   Monodramon (R) #024
     Dinohumon (C) #120
       Cyberdramon (U) #222
@@ -69,6 +77,8 @@ Chibomon (I) #011
     Airdramon (C) #089
       Megadramon (U) #201
         Darkdramon (M) #350
+          Chaosmon [/w BanchouLeomon] (J) #397
+          Chaosmon [/w Valdurmon] (J) #397
     Reptiledramon [w/ ToyAgumon Black] (J) #124
 
 Chicchimon (I) #001
@@ -76,10 +86,19 @@ Chicchimon (I) #001
     Kiwimon (C) #128
       Deramon (U) #245
         Phoenixmon (M) #306
+        Valkyriemon [/w Angewomon] (J) #360
+          Ravemon Burst Mode [/w Ravemon] (J) #388
+        Valkyriemon [/w Owlmon] (J) #360
+          Ravemon Burst Mode [/w Ravemon] (J) #388
     Kokatorimon (C) #099
   Muchomon (R) #061
     Diatrymon (C) #141
       Sinduramon (U) #239
+        Valdurmon [/w Silphymon] (J) #382
+          Chronomon Holy Mode [/w Susanoomon] (J) #380
+          Ravemon Burst Mode [/w Ravemon] (J) #388
+          Chaosmon [/w Darkdramon] (J) #397
+          Chaosmon [/w BanchouLeomon] (J) #397
     Akatorimon (C) #132
       Parrotmon (U) #232
         Eaglemon (M) #346
@@ -111,8 +130,10 @@ Gigimon (I) #014
       WarGrowlmon (U) #229
         Gallantmon (M) #323
           Gallantmon Crimson Mode [/w Seraphimon] (J) #324
+          ShineGreymon Burst Mode [/w ShineGreymon] (J) #385
         Megidramon (M) #372
       BWGrowlmon (U) #248
+        ChaosGallantmon [/w Diaboromon] (J) #358
     Tyrannomon (C) #087
       Triceramon (U) #244
         Cannondramon (M) #344
@@ -151,6 +172,11 @@ Gummymon (I) #015
 Hawkmon (R) #044
   Aquilamon (C) #118
     Silphymon [/w Gatomon] (J) #246
+      Valdurmon [/w Sinduramon] (J) #382
+        Chronomon Holy Mode [/w Susanoomon] (J) #380
+        Ravemon Burst Mode [/w Ravemon] (J) #388
+        Chaosmon [/w Darkdramon] (J) #397
+        Chaosmon [/w BanchouLeomon] (J) #397
   Toucanmon [DigiEgg of Kindness] (A) #252
   Allomon [DigiEgg of Courage] (A) #280
   Shurimon [DigiEgg of Sincerity] (A) #293
@@ -190,6 +216,10 @@ Koromon (I) #002
     GeoGreymon (C) #139
       RiseGreymon (U) #256
         ShineGreymon (M) #374
+          ShineGreymon Burst Mode [/w Gallantmon] (J) #385
+          ShineGreymon Burst Mode [/w Imperialdramon Fighter Mode] (J) #385
+          ShineGreymon Ruin Mode [/w Darkdramon] (J) #386
+          
         DotShineGreymon [*DAWN ONLY*] (M) #390
     Greymon (C) #086
       MetalGreymon (U) #195
@@ -206,8 +236,11 @@ Kuramon (I) #009
         Apocalymon (M) #351
     Devidramon (C) #186
       Kimeramon (U) #243
+        Milleniumon [/w Machinedramon] (J) #370
         MoonMilleniumon (M) #371
+          ZeedMilleniumon [/w Gigadramon] (J) #355
       Gigadramon (U) #255
+        ZeedMilleniumon [/w MoonMilleniumon] (J) #355
 
 Minomon (I) #018
   Tentomon (R) #034
@@ -222,11 +255,16 @@ Minomon (I) #018
         Imperialdramon Dragon Mode (M) #314
         Imperialdramon Fighter Mode (M) #315
           Imperialdramon Paladin Mode [/w Omnimon/Omegamon] (J) #316
+          ShineGreymon Burst Mode [/w ShineGreymon] (J) #385
     Snimon (C) #167
     Shadramon [DigiEgg of Courage] (A) #260
       MaloMyotismon [/w Myotismon] (J) #333
     Owlmon [DigiEgg of Love] (A) #253
+      Valkyriemon [/w Deramon] (J) #360
+        Ravemon Burst Mode [/w Ravemon] (J) #388
     Kongoumon [DigiEgg of Miracles] (A) #291
+      Susanoomon [/w Yatagaramon] (J) #367
+        Chronomon Holy Mode [/w Valdurmon] (J) #380
   Kunemon (R) #077
     Yanmamon (C) #169
     Flymon (C) #168
@@ -268,12 +306,14 @@ Pagumon (I) #007
       Mummymon (U) #228
         Pharaohmon (M) #366
         Beelzemon [/w Matadormon] (J) #348
+          Beelzemon Blast Mode [/w BanchouLeomon] (J) #392
 
 Poyomon (I) #004
   Gomamon (R) #037
     Ikkakumon (C) #134
       Zudomon (U) #249
         Vikemon (M) #362
+          MirageGaogamon Burst Mode [/w MirageGaogamon] (J) #387
   Kamemon (R) #073
     Gwappamon (C) #144
       Shaujimon (U) #282
@@ -289,6 +329,11 @@ Puttimon (I) #010
     Gatomon (C) #104
       Angewomon (U) #208
         Ophanimon (M) #337
+          Rosemon Burst Mode [/w Rosemon] (J) #393
+        Valkyriemon [/w Deramon] (J) #360
+          Ravemon Burst Mode [/w Ravemon] (J) #388
+        Holydramon/Magnadramon [/w Lilamon] (J) #369
+        Holydramon/Magnadramon [/w Lillymon] (J) #369
       Lynxmon [DigiEgg of Courage] (U) #281
       Kabukimon [DigiEgg of Sincerity] (U) #262
       Tylomon [DigiEgg of Reliability] (A) #209
@@ -300,6 +345,8 @@ Puttimon (I) #010
   Kudamon (R) #072
     Starmon (C) #126
       SuperStarmon (U) #247
+        Susanoomon [/w Magnamon] (J) #367
+          Chronomon Holy Mode [/w Valdurmon] (J) #380
     Reppamon (C) #142
       Tylinmon (U) #258
         Sleipmon (M) #373
@@ -318,6 +365,7 @@ Solarmon (R) #079
   Clockmon (C) #176
     Knightmon (U) #278
       Alphamon (M) #368
+      Minervamon [/w WereGarurumon Black] (J) #395
   BomberNanimon (C) #127
     Giromon (U) #267
 
@@ -341,6 +389,8 @@ Tanemon (I) #006
   Palmon (R) #033
     Togemon (C) #106
       Lillymon (U) #219
+        Holydramon/Magnadramon [/w Lilamon] (J) #369
+        Holydramon/Magnadramon [/w Angewomon] (J) #369
     MoriShellmon (C) #149
   Aruramon (R) #066
     Weedmon (C) #172
@@ -358,6 +408,7 @@ Tokomon (I) #005
     Angemon (C) #094
       MagnaAngemon (U) #223
         SlashAngemon (M) #345
+          Duftmon [/w Grappleomon] (J) #396
         Seraphimon (M) #318
           Gallantmon Crimson Mode [/w Gallantmon] (J) #324
       Lucemon Fallen Mode [/w Devimon] (J) #265
@@ -369,13 +420,18 @@ Tokomon (I) #005
     Peckmon (C) #146
       Yatagaramon (U) #283
         Ravemon (M) #377
+          Ravemon Burst Mode [/w Valkyriemon] (J) #388
+          Ravemon Burst Mode [/w Valdurmon] (J) #388
         Anubismon [/w Karatenmon] (J) #342
+        Susanoomon [/w Kongoumon] (J) #367
+          Chronomon Holy Mode [/w Valdurmon] (J) #380
   DotFalcomon [*DUSK ONLY*] (R) #071
 
 ToyAgumon (R) #040
   Tankmon (C) #178
     MetalMamemon (U) #198
       PrinceMamemon (M) #336
+        MirageGaogamon Burst Mode [/w MirageGaogamon] (J) #387
   Deputymon (C) #184
     Mametyramon (U) #266
 
@@ -392,6 +448,7 @@ Tsumemon (I) #017
       Infermon (U) #233
         Diaboromon (M) #327
           Armageddemon [/w Infermon] (J) #332
+          ChaosGallantmon [/w BWGrowlmon] (J) #358
         Armageddemon [/w Diaboromon] (J) #332
       Argomon Ultimate (U) #296
         Argomon Mega (M) #394
@@ -400,6 +457,7 @@ Tsumemon (I) #017
       Matadormon (U) #261
         Piedmon (M) #304
         Beelzemon [/w Mummymon] (J) #348
+          Beelzemon Blast Mode [/w BanchouLeomon] (J) #392
 
 Tsunomon (I) #003
   Gabumon (R) #030
@@ -413,6 +471,7 @@ Tsunomon (I) #003
     Ogremon (C) #096
       WereGarurumon Black (U) #213
         Gulfmon (M) #353
+        Minervamon [/w Knightmon] (J) #395
     Minotaurmon (C) #135
       Etemon (U) #200
         MetalEtemon (M) #301
@@ -423,49 +482,30 @@ Wanyamon (I) #019
     Gaogamon (C) #140
       MachGaogamon (U) #257
         MirageGaogamon (M) #375
+          MirageGaogamon Burst Mode [/w Vikemon] (J) #387
+          MirageGaogamon Burst Mode [/w PrinceMamemon] (J) #387
         DotMirageGaogamon [*DUSK ONLY*] (M) #391
     Leomon (C) #100
       GrappLeomon (U) #277
         SaberLeomon (M) #300
+        BanchouLeomon [/w Pandamon] (J) #349
+          Beelzemon Blast Mode [/w Beelzemon] (J) #392
+          Chaosmon [/w Darkdramon] (J) #397
+          Chaosmon [/w Valdurmon] (J) #397
+        Duftmon [/w SlashAngemon] (J) #396
   Kumamon (R) #054
     Grizzmon (C) #122
       Monzaemon (U) #196
         Babamon (M) #341
+          Rosemon Burst Mode [/w Rosemon] (J) #393
       Pandamon (U) #235
+        BanchouLeomon [/w Grappleomon] (J) #349
+          Beelzemon Blast Mode [/w Beelzemon] (J) #392
+          Chaosmon [/w Darkdramon] (J) #397
+          Chaosmon [/w Valdurmon] (J) #397
     Mojyamon (C) #182
       Mammothmon (U) #204
         SkullMammothmon (M) #364
 
 Vadermon (U) #268
   Ebemon (M) #352
-
-JOGRESS [TODO] (J):
-  BanchouLeomon [/w Grappleomon + Pandamon] (J) #349
-  ZeedMilleniumon [/w MoonMilleniumon + Gigadramon] (J) #355
-  ChaosGallantmon [/w BlackWarGrowlmon + Diaboromon] (J) #358
-  Valkyriemon [/w Angewomon + Deramon] (J) #360
-  Valkyriemon [/w Deramon + Owlmon] (J) #360
-  Valkyriemon [/w Owlmon + Deramon] (J) #360
-  Susanoomon [/w SuperStarmon + Magnamon] (J) #367
-  Susanoomon [/w Yatagaramon + Kongoumon] (J) #367
-  Holydramon / Magnadramon [/w Angewoman + Lylamon] (J) #369
-  Holydramon / Magnadramon [/w Lylamon + Lilymon] (J) #369
-  Holydramon / Magnadramon [/w Lilymon + Angewomon] (J) #369
-  Milleniumon [/w Kimeramon + Machinedramon] (J) #370
-  Chronomon Holy Mode [/w Valdurmon + Susanoomon] (J) #380
-  Valdurmon [/w Sinduramon + Silphymon] (J) #382
-  ShineGreymon Burst Mode [/w ShineGreymon + Gallantmon] (J) #385
-  ShineGreymon Burst Mode [/w ShineGreymon + Imperialdramon Fighter Mode] (J) #385
-  ShineGreymon Ruin Mode [/w ShineGreymon + Darkdramon] (J) #386
-  MirageGaogamon Burst Mode [/w MirageGaogamon + Vikemon] (J) #387
-  MirageGaogamon Burst Mode [/w MirageGaogamon + PrinceMamemon] (J) #387
-  Ravemon Burst Mode [/w Ravemon + Valkyriemon] (J) #388
-  Ravemon Burst Mode [/w Ravemon + Valdurmon] (J) #388
-  Beelzemon Blast Mode [/w Beelzemon + BanchouLeomon] (J) #392
-  Rosemon Burst Mode [/w Rosemon + Ophanimon] (J) #393
-  Rosemon Burst Mode [/w Rosemon + Babamon] (J) #393
-  Minervamon [/w Knightmon + WereGarurumon (Black)] (J) #395
-  Duftmon [/w SlashAngemon + Grappleomon] (J) #396
-  Chaosmon [/w Darkdramon + Banchou Leomon] (J) #397
-  Chaosmon [/w Darkdramon + Valdurmon] (J) #397
-  Chaosmon [/w Valdurmon + Banchou Leomon] (J) #397
