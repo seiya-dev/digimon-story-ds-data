@@ -1,4 +1,4 @@
-[Digimon Gallery]
+[Digimon Gallery (Moonlight)]
 ald_addr +flag met_addr +flag cnt_addr deid slot
 0213A282 +0x01 0213A2C0 +0x10 0213A500 0041 #001 Chicchimon
          +0x02          +0x20 0213A504 0042 #002 Koromon

@@ -411,63 +411,91 @@ Vadermon (U) #268
   Ebemon (M) #352
 
 BigMamemon (J) #271
-BigMamemon [/w Veggiemon + RedVegiemon] (J) #271
-BigMamemon [/w Golemon + Mekanorimon] (J) #271
-BigMamemon [/w Veggiemon + Golemon] (J) #271
+  BigMamemon [/w Veggiemon + RedVegiemon] (J) #271
+  BigMamemon [/w Golemon + Mekanorimon] (J) #271
+  BigMamemon [/w Veggiemon + Golemon] (J) #271
 
 Shakkoumon (J) #297
-Shakkoumon [/w Angemon + Ankylomon] (J) #297
+  Shakkoumon [/w Angemon + Ankylomon] (J) #297
 
-HerculesKabuterimon [/w MegaKabuterimonRed + Ookuwamon] (J) #299
+HerculesKabuterimon (J) #299
+  HerculesKabuterimon [/w MegaKabuterimonRed + Ookuwamon] (J) #299
 
-Daemon / Creepymon [/w Vamdemon + LadyDevimon] (J) #305
+Daemon / Creepymon (J) #305
+  Daemon / Creepymon [/w Vamdemon + LadyDevimon] (J) #305
 
-Omnimon [/w WarGreymon + MetalGarurumon] (J) #313
+Omnimon (J) #313
+  Omnimon [/w WarGreymon + MetalGarurumon] (J) #313
 
-Imperialdramon Paladin Mode [/w Omnimon + Imperialdramon FM] (J) #316
+Imperialdramon Paladin Mode (J) #316
+  Imperialdramon Paladin Mode [/w Omnimon + Imperialdramon FM] (J) #316
 
-Gallantmon Crimson Mode (M) #324
+Gallantmon Crimson Mode (J) #324
+  Gallantmon Crimson Mode [/w Gallantmon + Seraphimon] (J) #324
 
-Armageddemon (M) #332
+Armageddemon (J) #332
+  Armageddemon [/w Diaboromon + Infermon] (J) #332
 
-MaloMyotismon (M) #333
+MaloMyotismon (J) #333
+  MaloMyotismon [/w Myotismon + Shadramon] (J) #333
 
-Anubismon (M) #342
+Anubismon (J) #342
+  Anubismon [/w Yatagaramon + Karatenmon] (J) #342
+  Anubismon [/w Garudamon + Blossomon] (J) #342
 
-Beelzemon (M) #348
+Beelzemon (J) #348
+  Beelzemon [/w Mummymon + Matadormon] (J) #348
 
 BanchouLeomon (M) #349
+  BanchouLeomon (M) #349
 
 ZeedMilleniumon (M) #355
+  ZeedMilleniumon (M) #355
 
 ChaosGallantmon (M) #358
+  ChaosGallantmon (M) #358
 
 Valkyriemon (M) #360
+  Valkyriemon (M) #360
 
 Susanoomon (M) #367
+  Susanoomon (M) #367
 
 Holydramon / Magnadramon (M) #369
+  Holydramon / Magnadramon (M) #369
 
 Milleniumon (M) #370
+  Milleniumon (M) #370
 
 Chronomon Holy Mode (M) #380
+  Chronomon Holy Mode (M) #380
 
 Valdurmon (M) #382
+  Valdurmon (M) #382
 
 ShineGreymon Burst Mode (M) #385
+  ShineGreymon Burst Mode (M) #385
 
 ShineGreymon Ruin Mode (M) #386
+  ShineGreymon Ruin Mode (M) #386
 
 MirageGaogamon Burst Mode (M) #387
+  MirageGaogamon Burst Mode (M) #387
 
 Ravemon Burst Mode (M) #388
+  Ravemon Burst Mode (M) #388
 
 Beelzemon Blast Mode (M) #392
+  Beelzemon Blast Mode (M) #392
 
 Rosemon Burst Mode (M) #393
+  Rosemon Burst Mode (M) #393
 
 Minervamon (M) #395
+  Minervamon (M) #395
 
 Duftmon (M) #396
+  Duftmon (M) #396
 
 Chaosmon (M) #397
+  Chaosmon (M) #397
